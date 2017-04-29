@@ -1,0 +1,102 @@
+# Erlang/Elixir Syntax: A Crash Course
+
+http://elixir-lang.org/crash-course.html
+
+## Running code
+
+### Erlang
+
+```erlang
+% module_name.erl
+-module(module_name).  % you may use some other name
+-compile(export_all).
+
+hello() ->
+  io:format("~s~n", ["Hello world!"]).
+```
+
+Run `erl` in the same directory
+
+```
+c(module_name).
+
+module_name:hello().
+```
+
+### Elixir
+
+In `module_name.ex`
+
+```elixir
+defmodule ModuleName do
+  def hello do
+    IO.puts "Hello World"
+  end
+end
+```
+
+Run `iex` in the same directory
+
+```iex
+c("module_name.ex")
+
+ModuleName.hello
+```
+
+[Link to module](elixir_crash_course/hello_module.ex)
+
+## Notable differences
+
+### Operator names
+
+### Delimiters
+
+### Variable names
+
+### Calling functions
+
+## Data types
+
+### Atoms
+
+### Tuples
+
+### Lists and binaries
+
+### Keyword list
+
+### Maps
+
+### Regular expressions
+
+## Modules
+
+## Function syntax
+
+### Pattern matching
+
+### Identifying functions
+
+### Default values
+
+### Anonymous functions
+
+### First-class functions
+
+### Partials and function captures in Elixir
+
+## Control flow
+
+### Case
+
+### If
+
+### Sending and receiving messages
+
+## Adding Elixir to existing Erlang programs
+
+### Rebar integration
+
+### Manual integration
+
+## Further reading
