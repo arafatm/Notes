@@ -203,7 +203,7 @@ iex> tuple
 {:ok, "hello"}
 ```
 
-:caution: the original tuple was not modified since data is **immutable**
+:boom: the original tuple was not modified since data is **immutable**
 
 `tuple = put_elem(...)` would assign a new tuple
 
