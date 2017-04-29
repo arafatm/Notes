@@ -133,7 +133,7 @@ iex(12)> a
 
 Basic lists and operators
 ```
-iex(13)> [1, 2, true, 3] 
+iex(13)> [1, 2, true, 3]
 [1, 2, true, 3]
 
 iex(14)> [1, 2, 3] ++ [4,5,6]
@@ -267,7 +267,7 @@ e.g. `byte_size`, `tuple_size` vs `length`, `String.length`
 
 We can compare and sort any data types e.g. `1 < :atom`
 
-Sort order is: `number < atom < reference < function < port < pid < tuple < map 
+Sort order is: `number < atom < reference < function < port < pid < tuple < map
 < list < bitstring`
 
 ## Pattern matching
@@ -374,6 +374,102 @@ iex(1)> 3= length([1, [2], 3])  3
 ```
 
 ## case, cond and if
+
+### case
+
+```elixir
+case {1, 2, 3} do
+  {4, 5, 6} ->
+    IO.puts "This clause won't match"
+  {1, x, 3} ->
+    IO.puts "This clause will match and bind x to 2 in this clause"
+    IO.puts x # 2
+  _ ->
+    IO.puts "This clause would match any value"
+end
+```
+
+If you don't want x reassigned, make sure to use `^x`
+
+Can also add a **guard** clause 
+```
+case {1, 2, 3} do
+	{1, x, 3} when x > 0 ->
+```
+
+### Expressions in guard clauses
+
+
+Elixir imports and allows the following expressions in guards by default:
+
+* comparison operators (`==`, `!=`, `===`, `!==`, `>`, `>=`, `<`, `<=`)
+* boolean operators (`and`, `or`, `not`)
+* arithmetic operations (`+`, `-`, `*`, `/`)
+* arithmetic unary operators (`+`, `-`)
+* the binary concatenation operator `<>`
+* the `in` operator as long as the right side is a range or a list
+* all the following type check functions:
+	* `is_atom/1`
+	* `is_binary/1`
+	* `is_bitstring/1`
+	* `is_boolean/1`
+	* `is_float/1`
+	* `is_function/1`
+	* `is_function/2`
+	* `is_integer/1`
+	* `is_list/1`
+	* `is_map/1`
+	* `is_nil/1`
+	* `is_number/1`
+	* `is_pid/1`
+	* `is_port/1`
+	* `is_reference/1`
+	* `is_tuple/1`
+* plus these functions:
+	* `abs(number)`
+	* `binary_part(binary, start, length)`
+	* `bit_size(bitstring)`
+	* `byte_size(bitstring)`
+	* `div(integer, integer)`
+	* `elem(tuple, n)`
+	* `hd(list)`
+	* `length(list)`
+	* `map_size(map)`
+	* `node()`
+	* `node(pid | ref | port)`
+	* `rem(integer, integer)`
+	* `round(number)`
+	* `self()`
+	* `tl(list)`
+	* `trunc(number)`
+	* `tuple_size(tuple)`
+
+:boom: bool operators `and, or, not` are allowed by `&&, ||, !` are **not**
+
+Can also have user defined guards. e.g. *Bitwise* module defines additional ones
+
+Anonymouse functions can ahve multiple clauses/guard as long as arity is the same
+
+```
+iex> f = fn
+...>   x, y when x > 0 -> x + y
+...>   x, y -> x * y
+...> end
+#Function<12.71889879/2 in :erl_eval.expr/5>
+
+iex> f.(1, 3)
+4
+
+iex> f.(-1, 3)
+-3
+```
+
+### cond
+
+
+
+### if and unless
+### do/end blocks
 
 ## Binaries, strings and char lists
 
