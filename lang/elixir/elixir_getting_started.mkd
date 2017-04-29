@@ -1,0 +1,279 @@
+# Elixir: Getting Started
+
+http://elixir-lang.org/getting-started/introduction.html
+
+
+## Introduction
+
+`iex` for repl 
+
+`$ elixir simple.exs` to run your code
+
+Inside the repl you can `c("module_name.ex")` to load the module
+
+## Basic types
+
+### Types
+
+Binary, Octal, Hex
+
+```iex
+iex> 0b1010 # binary 10
+
+iex> 0o777 # Octal 511
+
+iex> 0x1F # Hex 31
+```
+
+Floats in Elixir are 64 bit double precision `1.0` or `1.0e-10`
+
+`round(3.58)` for nearest int
+
+`trunc(3.58)` for the int part (3)
+
+Booleans
+
+```iex
+iex> is_boolean(true)
+true
+
+iex> is_boolean(1)
+false
+```
+
+Can also check for `is_integer/1`, `is_float/1` or `is_number/1`
+
+### Identifying functions
+
+Functions are idenfitied by name and *arity*. e.g. `round/1` take 1 arg and `round/2` takes 2
+
+### Atoms
+
+**Atoms** are constants whose value is the name `:hello`
+
+Note: true/false are also atoms `true == :true`
+
+### Strings
+
+```iex
+
+iex(1)> "hellö #{:world}"
+"hellö world"
+
+iex(2)> IO.puts "hello\nworld"
+hello
+world
+:ok
+
+iex(3)> is_binary("hellö")
+true
+
+iex(4)> byte_size("hellö")
+6
+
+iex(5)> String.length("hellö")
+5
+
+iex(6)> String.upcase("hellö")
+"HELLÖ"
+```
+
+### Anonymous Functions
+
+Called using `.` to distinguish between regular and anon functions
+
+```iex
+	iex> add = fn a, b -> a + b end
+  #Function<12.71889879/2 in :erl_eval.expr/5>
+
+	iex> add.(1, 2)
+	3
+
+	iex> is_function(add)
+	true
+
+	iex> is_function(add, 2) # check if add is a function that expects exactly 2 arguments
+	true
+
+	iex> is_function(add, 1) # check if add is a function that expects exactly 1 argument
+	false
+```
+
+Anon functions are **closures**
+
+```iex
+	iex(9)> a
+	2
+
+	iex(10)> double = fn a -> a = a * 2 end
+	#Function<6.118419387/1 in :erl_eval.expr/5>
+
+	iex(11)> double.(a)
+	4
+
+	iex(12)> a
+	2
+```
+
+### (Linked) Lists
+
+Basic lists and operators
+```
+iex(13)> [1, 2, true, 3] 
+[1, 2, true, 3]
+
+iex(14)> [1, 2, 3] ++ [4,5,6]
+[1, 2, 3, 4, 5, 6]
+
+iex(15)> [1,true,2,false,3,true] -- [true,false]
+[1, 2, 3, true]
+```
+
+Head/Tail
+```
+iex> list = [1, 2, 3]
+
+iex> hd(list)
+1
+
+iex> tl(list)
+[2, 3]
+```
+
+A list consisting of printable ASCII numbers get printed as a char list
+```
+iex> [11, 12, 13]
+'\v\f\r'
+
+iex> [104, 101, 108, 108, 111]
+'hello'
+```
+
+`i` to inspect
+```
+iex(16)> i 'hello'
+Term
+  'hello'
+Data type
+  List
+Description
+  This is a list of integers that is printed as a sequence of characters
+  delimited by single quotes because all the integers in it represent valid
+  ASCII characters. Conventionally, such lists of integers are referred to as
+  "charlists" (more precisely, a charlist is a list of Unicode codepoints,
+  and ASCII is a subset of Unicode).
+Raw representation
+  [104, 101, 108, 108, 111]
+Reference modules
+  List
+Implemented protocols
+  IEx.Info, List.Chars, Enumerable, String.Chars, Collectable, Inspect
+```
+
+`'` != `"`
+```
+iex> 'hello' == "hello"
+false
+```
+
+### Tuples
+
+Tuples are stored contiguously in memory => fast accessing by index or getting size
+
+```
+iex> tuple = {:ok, "hello"}
+{:ok, "hello"}
+
+iex> elem(tuple, 1)
+"hello"
+
+iex> tuple_size(tuple)
+2
+```
+
+`put_elem` to insert into a tuple
+```
+iex> tuple = {:ok, "hello"}
+{:ok, "hello"}
+
+iex> put_elem(tuple, 1, "world")
+{:ok, "world"}
+
+iex> tuple
+{:ok, "hello"}
+```
+
+:caution: the original tuple was not modified since data is **immutable**
+
+`tuple = put_elem(...)` would assign a new tuple
+
+### List vs Tuple
+
+| List | Tuple |
+| ---- | ----- |
+| stored as linked list | stored contiguously |
+| fast prepending | expensive to modify |
+| slower sizing | fast to get size |
+| slower read | fast read by index |
+
+Prepending to a list
+```
+iex> list = [1 | [2 | [3 | []]]]
+[1, 2, 3]
+
+iex> [0 | list]
+[0, 1, 2, 3]
+```
+
+Example of tuple usage in `File.read/1`
+```
+iex> File.read("path/to/existing/file")
+{:ok, "... contents ..."}
+
+iex> File.read("path/to/unknown/file")
+{:error, :enoent}
+```
+
+Elixir will generally guide you to the right thing.
+- `size` for constant time op vs `length` for liner (both start with l)
+
+## Basic operators
+
+## Pattern matching
+
+## case, cond and if
+
+## Binaries, strings and char lists
+
+## Keywords and maps
+
+## Modules and Functions
+
+## Recursion
+
+## Enumerables and streams
+
+## Processes
+
+## IO and the file system
+
+## alias, require and import
+
+## Module attributes
+
+## Structs
+
+## Protocols
+
+## Comprehensions
+
+## Sigils
+
+## try, catch and rescue
+
+## Typespecs and behaviours
+
+## Erlang libraries
+
+## Where to go next
+
