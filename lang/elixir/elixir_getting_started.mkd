@@ -237,6 +237,8 @@ iex> File.read("path/to/unknown/file")
 Elixir will generally guide you to the right thing.
 - `size` for constant time op vs `length` for liner (both start with l)
 
+e.g. `byte_size`, `tuple_size` vs `length`, `String.length`
+
 ## Basic operators
 
 ## Pattern matching
