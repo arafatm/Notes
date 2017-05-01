@@ -466,14 +466,232 @@ iex> f.(-1, 3)
 
 ### cond
 
+Equivalent to `else if`. More generic `case`
 
+```elixir
+iex> cond do
+...>   2 + 2 == 5 ->
+...>     "This is never true"
+...>   2 * 2 == 3 ->
+...>     "Nor this"
+...>   true ->
+...>     "This is always true (equivalent to else)"
+...> end
+```
+
+If no clause is true then a `CondClauseError` is thrown. Note the `true` clause 
+in the above example
 
 ### if and unless
+
+`if true do`
+
+`unless true do`
+
 ### do/end blocks
+
+`if true do ... end` is equivalent to `if true, do: ( ... )`
 
 ## Binaries, strings and char lists
 
+### UTF-8 and Unicode
+
+UTF8 support `str = "hełło"` 
+
+With UTF8, `byte_size(str)` != `String.length(str)`
+
+To get a char's **code point** `?a` (= 97) or `?ł` (= 322)
+
+`String.codepoints(str)` to split into individual characters
+
+*Note* Doesn't look like we can use `arr[0]` to access array elements. This 
+works though `Enum.at(String.codepoints(str), 0)` or 
+`Enum.fetch(String.codepoints(str), 0)` which returns a tuple with `:ok` or 
+`:error` if it's out of bounds 
+
+### Binaries (and bitstrings)
+
+`<<0, 1, 2, 3>>` to define a binary
+
+`<>` to concatenate
+
+:boom: trick to see inner binary repr. of a string is to concatenate null byte 
+`"hello" <> <<0>>`
+
+Binaries can be used to store larger than 255
+
+```
+iex> <<256 :: size(16)>> # use 16 bits (2 bytes) to store the number
+<<1, 0>>
+
+iex> <<256 :: utf8>> # the number is a code point
+"Ā"
+```
+
+`is_bitstring` to check
+
+`is_binary` requires that bits are divisible by 8
+
+```
+iex>  is_binary(<<1 :: size(16)>>)
+true
+iex>  is_binary(<<1 :: size(15)>>)
+false
+```
+
+We can pattern match on binary/bitstring
+```
+iex> <<0, 1, x>> = <<0, 1, 2>>
+<<0, 1, 2>>
+
+iex> x
+2
+
+iex> <<0, 1, x>> = <<0, 1, 2, 3>>
+** (MatchError) no match of right hand side value: <<0, 1, 2, 3>>
+```
+
+### Char lists
+
+char list == list of code points
+
+```
+iex> 'hełło'
+[104, 101, 322, 322, 111]
+
+iex> is_list 'hełło'
+true
+
+iex> 'hello'
+'hello'
+
+iex> List.first('hello')
+104
+```
+
+Mostly used to interface with older libraries in Erlang that do not accept 
+binaries as arguments.
+
+```
+iex> to_charlist "hełło"
+[104, 101, 322, 322, 111]
+
+iex> to_string 'hełło'
+"hełło"
+
+iex> to_string :hello
+"hello"
+
+iex> to_string 1
+"1"
+```
+
 ## Keywords and maps
+
+### Keyword lists
+
+**keyword list :=** a list of tuples where the first item of each tuple is an 
+atom
+
+`list = [{:a, 1}, {:b, 2}]`
+
+`list ++ [c: 3]` to concatenate
+
+
+3 characteristics of a keyword list
+- Keys must be **atoms**.
+- Keys are **ordered**, as specified by the developer.
+- Keys can be given **more than once**.
+
+3 examples that are equivalent
+```
+iex> if false, do: :this, else: :that
+:that
+
+iex> if(false, [do: :this, else: :that])
+:that
+
+iex> if(false, [{:do, :this}, {:else, :that}])
+:that
+```
+
+[Keyword module](https://hexdocs.pm/elixir/Keyword.html) for additional 
+functions for working with keyword lists
+
+:boom: Keyword lists are lists, therefore provide linear performance. 
+
+Use **maps** instead for better performance with guaranteed one-key associates
+
+### Maps
+
+```elixir
+iex> map = %{:a => 1, 2 => :b}
+%{2 => :b, :a => 1}
+
+iex> map[2]
+:b
+```
+
+Maps
+- allow any value as a key
+- not ordered
+
+When a map is used in a pattern, it will match on a subset of the given value
+
+```elixir
+iex> %{} = %{:a => 1, 2 => :b}
+%{2 => :b, :a => 1}
+
+iex> %{:a => a} = %{:a => 1, 2 => :b}
+%{2 => :b, :a => 1}
+
+iex> a
+1
+
+iex> %{:c => c} = %{:a => 1, 2 => :b}
+** (MatchError) no match of right hand side value: %{2 => :b, :a => 1}
+```
+
+Variables can be used when accessing, matching, adding map keys
+```elixir
+iex> n = 1
+1
+
+iex> map = %{n => :one}
+%{1 => :one}
+
+iex> map[n]
+:one
+
+iex> %{^n => :one} = %{1 => :one, 2 => :two, 3 => :three}
+%{1 => :one, 2 => :two, 3 => :three}iex>
+```
+
+[Map module for more functions](https://hexdocs.pm/elixir/Map.html)
+
+`Map.get`, `Map.put`, `Map.to_list`
+
+To update a key's value
+`%{map | 2 => "two"}`
+
+can also `map.a` to access an atom key
+
+### Nested data structures
+
+```elixir
+users = [
+  john: %{name: "John", age: 27, languages: ["Erlang", "Ruby", "Elixir"]},
+  mary: %{name: "Mary", age: 29, languages: ["Elixir", "F#", "Clojure"]}
+]
+
+users[:john].age
+
+users = put_in users[:john].age, 31
+
+users = update_in users[:mary].languages, fn languages ->
+  List.delete(languages, "Clojure")
+end
+```
 
 ## Modules and Functions
 
@@ -505,3 +723,5 @@ iex> f.(-1, 3)
 
 ## Where to go next
 
+Learn docker next 
+https://blog.codeship.com/running-rails-development-environment-docker/
