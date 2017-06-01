@@ -695,25 +695,383 @@ end
 
 ## Modules and Functions
 
+### defModule
+
+`defModule Math do`
+
+### Compilation
+
+Given `math.ex` with following content:
+```elixir
+defmodule Math do
+  def sum(a, b) do
+    a + b
+  end
+end
+```
+
+Compile with `elixirc math.ex` to generate `Elixir.Math.beam`
+
+Elixir project are organized in the following:
+- `ebin` - contains the compiled bytecode
+- `lib` - contains elixir code (usually .ex files)
+- `test` - contains tests (usually .exs files)
+
+### Scripted mode
+
+`.exs` == Elixir scripted files can be run with `elixir math.exs` without 
+compiling
+
+### Named functions
+
+`def` for public functions and `defp` for private functions
+
+functions also support guards and multiple clauses e.g.
+```elixir
+defmodule Math do
+  def zero?(0) do
+    true
+  end
+
+  def zero?(x) when is_integer(x) do
+    false
+  end
+end
+
+IO.puts Math.zero?(0)         #=> true
+IO.puts Math.zero?(1)         #=> false
+IO.puts Math.zero?([1, 2, 3]) #=> ** (FunctionClauseError)
+IO.puts Math.zero?(0.0)       #=> ** (FunctionClauseError)
+```
+
+### Function capturing
+
+Can capture function
+- `&fun = &Math.zero?/1` to capture function in module
+- `&is_function/1` to capture local or imported functions
+
+### Default arguments
+
+```elixir
+def join (a, b, sep \\ " ") do
+  a <> sep <> b
+end
+
+IO.puts Concat.join("Hello", "world")      #=> Hello world
+IO.puts Concat.join("Hello", "world", "_") #=> Hello_world
+```
+
 ## Recursion
+
+### Loops through recursion
+
+Elixir is **immutable** so loops work a little different. We have to rely on 
+recursion instead of the standard `for(i = 0; i < size(arr); i++)` in 
+imperative languages
+
+```elixir
+defmodule Recursion do
+
+  def print_multiple_times(msg, n) when n <= 1 do
+    IO.puts msg <> " final"
+  end
+
+  def print_multiple_times(msg, n) do
+    IO.puts msg
+    print_multiple_times(msg, n - 1)
+  end
+
+end
+
+Recursion.print_multiple_times("Hello!", 3)
+```
+
+### Reduce and map algorithms
+
+**Reduce** with **tail call**
+
+```elixir
+def sum_list([head | tail], accumulator) do
+  IO.puts "sum: [#{head}, #{Enum.join(tail, ", ")}] #{accumulator}"
+  sum_list(tail, head + accumulator)
+end
+
+def sum_list([], accumulator) do
+  IO.puts "accumulator: #{accumulator}"
+  accumulator
+end
+
+Math.sum_list([1, 2, 3], 4) #=> 6
+```
+
+**Map**
+
+```elixir
+def double_each([head | tail]) do
+  [head * 2 | double_each(tail)]
+end
+
+def double_each([]) do
+  []
+end
+
+Math.double_each([1, 2, 3]) #=> [2, 4, 6]
+```
+
+### Enum
+
+`Enum` module provides conveniences for lists
+
+```
+Enum.reduce([1, 2, 3], 0, fn(x, acc) -> x + acc end)  # 6
+                                                      # Same as
+Enum.reduce([1, 2, 3], 0, &+/2)                       # 6
+
+Enum.map([1, 2, 3], fn(x) -> x * 2 end)               # [2, 4, 6]
+                                                      # Same as
+Enum.map([1, 2, 3], &(&1 * 2))                        # [2, 4, 6]
+```
 
 ## Enumerables and streams
 
+### Enumerables
+
+Enum.map
+```
+Enum.map([1, 2, 3], fn x -> x * 2 end)                # [2, 4, 6]
+Enum.map(%{1 => 2, 3 => 4}, fn {k, v} -> k * v end)   # [2, 12]
+```
+
+Enum ranges
+```
+Enum.map(1..3, fn x -> x * 2 end)                     # [2, 4, 6]
+Enum.reduce(1..3, 0, &+/2)                            # 6
+```
+
+### Eager vs Lazy
+
+Enum functions are eager
+
+`1..100_000 |> Enum.map(&(&1 * 3)) |> Enum.filter(odd?) |> Enum.sum`
+
+Above does each operation before moving to the next one in the pipe
+
+### The pipe operator
+
+Pipe operator allows for cleaner syntax. Above code is equivalent to
+`Enum.sum(Enum.filter(Enum.map(1..100_000, &(&1 * 3)), odd?))`
+
+### Streams
+
+`Stream` module unlike Enum provides lazy operators
+
+`1..100_000 |> Stream.map(&(&1 * 3)) |> Stream.filter(odd?) |> Enum.sum`
+
+Strem builds a series of computations that are only invoked when passed to 
+Enum. Good for **large, possibly infinite** collections
+
+Interesting Stream functions
+- `Stream.cycle`
+- `Stream.unfold`
+- `File.stream!`
+
 ## Processes
+
+**Processes** are isolated from each other, run concurrent to one another and 
+communicate via message passing
+- extremely lightweight in terms of memory and CPU unlike threads 
+
+### spawn
+
+Spawn a new process. Once spawned it is killed
+
+```
+iex> pid = spawn fn -> 1 + 2 end    # PID<0.44.0>
+iex> Process.alive?(pid)            # false
+```
+
+### send and receive
+
+`send/2` message to a process and `receive/1`
+- message is stored in process mailbox
+- receive goes through mailbox and finds a match
+
+```elixir
+send self(), {:hello, "world"}            # {:hello, "world"}
+
+receive do
+  {:hello, msg} -> msg                    # "world"
+  {:world, msg} -> "won't match"
+end
+```
+
+Can set a timeout with `after`
+
+`flush/0` flushes and prints all messages in mailbox
+
+### Links
+
+`spawn_link/1` spawns linked processes
+
+If we spawn a process that raises an error, it doesn't shut down the parent.
+
+e.g. `spawn fn -> raise "oops" end`
+
+Instead we can link them
+
+`spawn_link fn -> raise "oops" end`
+
+**Failing fast** we are actually fine with letting processes fail because we 
+expect supervisors to properly restart our systems
+
+### Tasks
+
+`Task` module builds on spawn to provide beter error reports and introspection
+
+`Task.start fn -> raise "oops" end`
+
+### State
+
+We can create a process that loops infinitely, maintains state, and 
+sends/receives messages
+
+e.g. Create a key-value store
+
+```elixir
+defmodule KV do
+
+  def start_link do
+    Task.start_link(fn -> loop(%{}) end)
+  end
+
+  defp loop(map) do
+    receive do
+      {:get, key, caller} ->
+        send caller, Map.get(map, key)
+        loop(map)
+      {:put, key, value} ->
+        loop(Map.put(map, key, value))
+    end
+  end
+end
+```
+
+To test the module
+
+```
+{:ok, pid} = KV.start_link                # {:ok, #PID<0.62.0>}
+
+send pid, {:get, :hello, self()}          # {:get, :hello, #PID<0.41.0>}
+
+flush()                                   # nil
+```
+
+```
+send pid, {:put, :hello, :world}          # {:put, :hello, :world}
+send pid, {:get, :hello, self()}          # {:get, :hello, #PID<0.41.0>}
+flush()                                   # :world
+```
+
+We can also name the `pid`
+
+```
+Process.register(pid, :kv)                # true
+send :kv, {:get, :hello, self()}          # {:get, :hello, #PID<0.41.0>}
+flush()                                   # :world
+```
+
+### Agent
+
+`Agent` is a simple abstractions around state
+
+```
+{:ok, pid} = Agent.start_link(fn -> %{} end)              # {:ok, #PID<0.72.0>}
+iex> Agent.update(pid, fn map -> Map.put(map, :hello, :world) end)    # :ok
+iex> Agent.get(pid, fn map -> Map.get(map, :hello) end)               # :world
+```
 
 ## IO and the file system
 
+### The IO module
+
+`IO.puts "hello world"`
+
+`IO.gets "yes or no? "IO.gets "yes or no? "`
+
+`IO.puts :stderr, "hello world"`
+
+### The File module
+
+```
+{:ok, file} = File.open "hello", [:write] # {:ok, #PID<0.47.0>}
+IO.binwrite file, "world"                 # :ok
+File.close file                           # :ok
+File.read "hello"                         # {:ok, "world"}
+```
+
+Can handle different outcomes
+
+```
+case File.read(file) do
+  {:ok, body}      -> # do something with the `body`
+  {:error, reason} -> # handle the error caused by `reason`
+end
+```
+
+### The Path module
+
+```
+Path.join("foo", "bar")     # "foo/bar"
+Path.expand("~/hello")      # "/Users/jose/hello"
+```
+
 ## alias, require and import
 
-## Module attributes
+### alias
+
+`alias Foo.Bar, as: Bar` Alias the module so it can be called as Bar instead of 
+Foo.Bar
+
+### require
+
+`require Foo` Require the module in order to use its macros
+
+### import
+
+`import Foo` Import functions from Foo so they can be called without the `Foo.` 
+prefix
+
+### use
+
+`use Foo` Invokes the custom code defined in Foo as an extension point
 
 ## Structs
 
+### As annotations
+
+Moduels can have annotations:
+- `@vsn 2` used by VM to check if module has been updated
+- `@moduledoc` - provides documentation for the current module.
+- `@doc` - provides documentation for the function or macro
+- `@behaviour` - used for specifying an OTP or user-defined behaviour.
+- `@before_compile` - provides a hook that will be invoked before the module is 
+  compiled. This makes it possible to inject functions inside the module 
+  exactly before compilation.
+
+### As constants
+
+`@my_data 14` is stored at compile time. Can be reassigned
+
+### As temporary storage
+
 ## Protocols
 
-## Comprehensions
+### Defining structs
+### Accessing and updating structs
+### Structs are bare maps underneath
+### Default values and required keys
 
-## Sigils
+## Comprehensions
 
 ## try, catch and rescue
 
@@ -723,5 +1081,3 @@ end
 
 ## Where to go next
 
-Learn docker next 
-https://blog.codeship.com/running-rails-development-environment-docker/
