@@ -1116,7 +1116,7 @@ Car: [:make]                  #  expanding struct: Car.__struct__/1
 
 ## Protocols
 
-### Protocols and structs
+### Protocols
 
 Allows **polymorphism** for all Elixir data types e.g. `Atom`, `List`, etc
 
@@ -1147,12 +1147,157 @@ Can call `Size.size` on any implemented data types.
 Throws `Protocol.UndefinedError` on unsupported data type
 
 ### Implementing Any
+
 #### Deriving
+
+We can define a protocol on `Any` and `@derive` it
+
+```elixir
+defimpl Size, for: Any do
+  def size(_), do: 0
+end
+
+
+defmodule OtherUser do
+  @derive [Size]
+  defstruct [:name, :age]
+end
+```
+
 #### Fallback to Any
+
+If we `@fallback_to_any true` then a data type that hasn't implemented the 
+`defprotocol` won't throw the `Protocol.UndefinedError`
+
 ### Built-in protocols
-### Protocol consolidation
+
+Some common protocols:
+- `Enum.map`
+- `Enum.reduce`
+- `String.Chars` which is exposed via `to_string`
+- `inspect` function based on `Inspect` protocol
 
 ## Comprehensions
+
+### Intro
+
+**Comprehensions** == syntactic sugar for generators, filters, and collectables
+- group these tasks into `for`
+
+`for n <- [1, 2, 3, 4], do: n * n`
+
+### Generators and filters
+
+**Generator** == `n <- [1,2,3,4]` from example above. Can be any enumerable
+
+Also support pattern matching
+
+```elixir
+values = [good: 1, good: 2, bad: 3, good: 4]
+
+for {:good, n} <- values, do: n * n             # [1, 4, 16]
+```
+
+Some advanced usage
+
+Calculate file size in a dir
+```elixir
+dirs = ['/home/mikey', '/home/james']
+for dir  <- dirs,
+    file <- File.ls!(dir),
+    path = Path.join(dir, file),
+    File.regular?(path) do
+  File.stat!(path).size
+end
+```
+
+Cartesian product
+```elixir
+for i <- [:a, :b, :c], j <- [1, 2], do:  {i, j}
+```
+
+Pythagorean triplets
+```elixir
+defmodule Triple do
+  def pythagorean(n) when n > 0 do
+    for a <- 1..n-2,
+        b <- a+1..n-1,
+        c <- b+1..n,
+        a + b + c <= n,
+        a*a + b*b == c*c,
+        do: {a, b, c}
+  end
+end
+
+Triple.pythagorean(48)          # [{3, 4, 5}, {5, 12, 13}, {6, 8, 10},
+                                # {8, 15, 17}, {9, 12, 15}, {12, 16, 20}]
+```
+
+### The :into option
+
+comprehensions generally return lists, but can return other data structs with 
+`:into`
+
+```
+for {key, val} <- %{"a" => 1, "b" => 2}, into: %{}, do: {key, val * val}
+```
+
+## Sigils
+
+**Sigils** == provided for workign with textual representations
+
+### Regular expressions
+
+Most common sigil is `~r` for regex. Allows us to use 8 different delimiters
+
+e.g. `~r/hello/` == `~r(hello)` == `~r<hello>` etc
+
+### Strings, char lists, and word lists sigils
+
+`~s(this is a string with "double" quotes, not 'single' ones)`
+
+`~c(this is a char list containing 'single quotes')`
+
+`~w(foo bar bat)`
+
+### Interpolation and escaping in sigils
+
+lowercase sigils allow interpolation
+
+```elixir
+~s(String with escape codes \x26 #{"inter" <> "polation"})
+
+~S(String without escape codes \x26 without #{interpolation})
+```
+
+Also support heredocs
+
+```elixir
+@doc ~S"""
+## Examples
+    iex> convert("\"foo\"")
+    "'foo'"
+"""
+```
+
+### Custom sigils
+
+`~r/foo/i` == `sigil_r(<<"foo">>, 'i')`
+
+To see help `iex> h sigil_r`
+
+Customer sigil can be defined
+
+```elixir
+defmodule MySigils do
+  def sigil_i(string, []), do: String.to_integer(string)
+  def sigil_i(string, [?n]), do: -String.to_integer(string)
+end
+
+~i(13) # 13
+
+~i(42)n # -42
+```
 
 ## try, catch and rescue
 
