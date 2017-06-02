@@ -1117,6 +1117,35 @@ Car: [:make]                  #  expanding struct: Car.__struct__/1
 ## Protocols
 
 ### Protocols and structs
+
+Allows **polymorphism** for all Elixir data types e.g. `Atom`, `List`, etc
+
+`defprotocol` followed by `defimpl Class, for: myClass`
+
+```elixir
+defprotocol Size do
+
+  @doc "Calculates the size (and not the length!) of a data structure"
+  def size(data)
+end
+
+defimpl Size, for: BitString do
+  def size(string), do: byte_size(string)
+end
+
+defimpl Size, for: Map do
+  def size(map), do: map_size(map)
+end
+
+defimpl Size, for: Tuple do
+  def size(tuple), do: tuple_size(tuple)
+end
+```
+
+Can call `Size.size` on any implemented data types.
+
+Throws `Protocol.UndefinedError` on unsupported data type
+
 ### Implementing Any
 #### Deriving
 #### Fallback to Any
