@@ -1045,7 +1045,7 @@ prefix
 
 `use Foo` Invokes the custom code defined in Foo as an extension point
 
-## Structs
+## Module Attributes
 
 ### As annotations
 
@@ -1062,14 +1062,66 @@ Moduels can have annotations:
 
 `@my_data 14` is stored at compile time. Can be reassigned
 
-### As temporary storage
+## Structs
+
+### Defining structs
+
+**Structs** == extensions built on maps providing compile time checks and 
+default values
+
+`defstruct name: "John", age: 27`
+
+Structs limit only the fields defined and requires that they all be assigned 
+when created
+
+### Accessing and updating structs
+
+```
+john = %User{}                  # %User{age: 27, name: "John"}
+john.name                       # "John"
+meg = %{john | name: "Meg"}     # %User{age: 27, name: "Meg"}
+```
+
+### Structs are bare maps underneath
+
+```
+is_map(john)      # true
+john.__struct__   # User
+```
+
+Can use `Map` functions
+
+```
+kurt = Map.put(%User{}, :name, "Kurt")    # %User{age: 27, name: "Kurt"}
+Map.merge(kurt, %User{name: "Takashi"})   # %User{age: 27, name: "Takashi"}
+Map.keys(john)                            # [:__struct__, :age, :name]
+```
+
+### Default values and required keys
+
+`nil` is default value
+
+Can also enforce some keys are specified
+
+```elixir
+defmodule Car do
+  @enforce_keys [:make]
+  defstruct [:model, :make]
+end
+
+%Car{}                        # ** (ArgumentError) the following keys ...
+
+Car: [:make]                  #  expanding struct: Car.__struct__/1
+```
 
 ## Protocols
 
-### Defining structs
-### Accessing and updating structs
-### Structs are bare maps underneath
-### Default values and required keys
+### Protocols and structs
+### Implementing Any
+#### Deriving
+#### Fallback to Any
+### Built-in protocols
+### Protocol consolidation
 
 ## Comprehensions
 
