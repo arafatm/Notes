@@ -9,9 +9,7 @@ See also:
 
 ## Getting Started
 
-### Introduction
-
-https://elixir-lang.org/getting-started/introduction.html
+### [Introduction](https://elixir-lang.org/getting-started/introduction.html)
 
 #### repl
 
@@ -21,9 +19,7 @@ https://elixir-lang.org/getting-started/introduction.html
 
 Inside the repl you can `c("module_name.ex")` to load the module
 
-### Basic Types
-
-https://elixir-lang.org/getting-started/basic-types.html
+### [Basic Types](https://elixir-lang.org/getting-started/basic-types.html)
 
 #### Types
 
@@ -261,9 +257,7 @@ Elixir will generally guide you to the right thing.
 
 e.g. `byte_size`, `tuple_size` vs `length`, `String.length`
 
-### Basic operators
-
-https://elixir-lang.org/getting-started/basic-operators.html
+### [Basic operators](https://elixir-lang.org/getting-started/basic-operators.html)
 
 #### Operators
 
@@ -282,9 +276,7 @@ We can compare and sort any data types e.g. `1 < :atom`
 Sort order is: `number < atom < reference < function < port < pid < tuple < map
 < list < bitstring`
 
-### Pattern matching
-
-https://elixir-lang.org/getting-started/pattern-matching.html
+### [Pattern matching](https://elixir-lang.org/getting-started/pattern-matching.html)
 
 #### The match operator
 
@@ -387,9 +379,7 @@ iex(1)>  length([1, [2], 3]) = 3
 iex(1)> 3= length([1, [2], 3])  3
 ```
 
-### case, cond and if
-
-https://elixir-lang.org/getting-started/case-cond-and-if.html
+### [case, cond and if](https://elixir-lang.org/getting-started/case-cond-and-if.html)
 
 #### case
 
@@ -508,9 +498,7 @@ in the above example
 
 `if true do ... end` is equivalent to `if true, do: ( ... )`
 
-### Binaries, strings and char lists
-
-https://elixir-lang.org/getting-started/binaries-strings-and-char-lists.html
+### [Binaries, strings and char lists](https://elixir-lang.org/getting-started/binaries-strings-and-char-lists.html)
 
 #### UTF-8 and Unicode
 
@@ -604,9 +592,7 @@ iex> to_string 1
 "1"
 ```
 
-### Keywords and maps
-
-https://elixir-lang.org/getting-started/keywords-and-maps.html
+### [Keywords and maps](https://elixir-lang.org/getting-started/keywords-and-maps.html)
 
 #### Keyword lists
 
@@ -712,9 +698,7 @@ users = update_in users[:mary].languages, fn languages ->
 end
 ```
 
-### Modules and Functions
-
-https://elixir-lang.org/getting-started/modules-and-functions.html
+### [Modules and Functions](https://elixir-lang.org/getting-started/modules-and-functions.html)
 
 #### defModule
 
@@ -782,9 +766,7 @@ IO.puts Concat.join("Hello", "world")      #=> Hello world
 IO.puts Concat.join("Hello", "world", "_") #=> Hello_world
 ```
 
-### Recursion
-
-https://elixir-lang.org/getting-started/recursion.html
+### [Recursion](https://elixir-lang.org/getting-started/recursion.html)
 
 #### Loops through recursion
 
@@ -855,9 +837,7 @@ Enum.map([1, 2, 3], fn(x) -> x * 2 end)               # [2, 4, 6]
 Enum.map([1, 2, 3], &(&1 * 2))                        # [2, 4, 6]
 ```
 
-### Enumerables and streams
-
-https://elixir-lang.org/getting-started/enumerables-and-streams.html
+### [Enumerables and streams](https://elixir-lang.org/getting-started/enumerables-and-streams.html)
 
 #### Enumerables
 
@@ -900,9 +880,7 @@ Interesting Stream functions
 - `Stream.unfold`
 - `File.stream!`
 
-### Processes
-
-https://elixir-lang.org/getting-started/processes.html
+### [Processes](https://elixir-lang.org/getting-started/processes.html)
 
 **Processes** are isolated from each other, run concurrent to one another and 
 communicate via message passing
@@ -1017,9 +995,7 @@ iex> Agent.update(pid, fn map -> Map.put(map, :hello, :world) end)    # :ok
 iex> Agent.get(pid, fn map -> Map.get(map, :hello) end)               # :world
 ```
 
-### IO and the file system
-
-https://elixir-lang.org/getting-started/io-and-the-file-system.html
+### [IO and the file system](https://elixir-lang.org/getting-started/io-and-the-file-system.html)
 
 #### The IO module
 
@@ -1054,9 +1030,7 @@ Path.join("foo", "bar")     # "foo/bar"
 Path.expand("~/hello")      # "/Users/jose/hello"
 ```
 
-### alias, require and import
-
-https://elixir-lang.org/getting-started/alias-require-and-import.html
+### [alias, require and import](https://elixir-lang.org/getting-started/alias-require-and-import.html)
 
 #### alias
 
@@ -1076,9 +1050,7 @@ prefix
 
 `use Foo` Invokes the custom code defined in Foo as an extension point
 
-### Module Attributes
-
-https://elixir-lang.org/getting-started/module-attributes.html
+### [Module Attributes](https://elixir-lang.org/getting-started/module-attributes.html)
 
 #### As annotations
 
@@ -1095,9 +1067,7 @@ Moduels can have annotations:
 
 `@my_data 14` is stored at compile time. Can be reassigned
 
-### Structs
-
-https://elixir-lang.org/getting-started/structs.html
+### [Structs](https://elixir-lang.org/getting-started/structs.html)
 
 #### Defining structs
 
@@ -1149,9 +1119,7 @@ end
 Car: [:make]                  #  expanding struct: Car.__struct__/1
 ```
 
-### Protocols
-
-https://elixir-lang.org/getting-started/protocols.html
+### [Protocols](https://elixir-lang.org/getting-started/protocols.html)
 
 #### Protocols
 
@@ -1214,9 +1182,7 @@ Some common protocols:
 - `String.Chars` which is exposed via `to_string`
 - `inspect` function based on `Inspect` protocol
 
-### Comprehensions
-
-https://elixir-lang.org/getting-started/comprehensions.html
+### [Comprehensions](https://elixir-lang.org/getting-started/comprehensions.html)
 
 #### Intro
 
@@ -1281,9 +1247,7 @@ comprehensions generally return lists, but can return other data structs with
 for {key, val} <- %{"a" => 1, "b" => 2}, into: %{}, do: {key, val * val}
 ```
 
-### Sigils
-
-https://elixir-lang.org/getting-started/sigils.html
+### [Sigils](https://elixir-lang.org/getting-started/sigils.html)
 
 **Sigils** == provided for working with textual representations
 
@@ -1340,9 +1304,7 @@ end
 ~i(42)n # -42
 ```
 
-### try, catch and rescue
-
-https://elixir-lang.org/getting-started/try-catch-and-rescue.html
+### [try, catch and rescue](https://elixir-lang.org/getting-started/try-catch-and-rescue.html)
 
 #### Errors
 
@@ -1398,9 +1360,7 @@ end
 
 Variables are scoped within `try/catch/rescue/after`
 
-### Typespecs and behaviours
-
-https://elixir-lang.org/getting-started/typespecs-and-behaviours.html
+### [Typespecs and behaviours](https://elixir-lang.org/getting-started/typespecs-and-behaviours.html)
 
 #### Types and specs
 
@@ -1467,9 +1427,7 @@ end
 ##### Defining behaviours
 ##### Adopting behaviours
 
-### Erlang libraries
-
-https://elixir-lang.org/getting-started/erlang-libraries.html
+### [Erlang libraries](https://elixir-lang.org/getting-started/erlang-libraries.html)
 
 #### The binary module
 
@@ -1590,9 +1548,6 @@ iex> :rand.uniform(6)  # 6
 [Zlib module](http://erlang.org/doc/man/zlib.html) for read/write zlib like 
 `gzip`
 
-### Where to go next
-
-https://elixir-lang.org/getting-started/where-to-go-next.html
 
 
 ## [Mix and OTP](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)
