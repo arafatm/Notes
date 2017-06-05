@@ -1550,9 +1550,31 @@ iex> :rand.uniform(6)  # 6
 
 
 
-## [Mix and OTP](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)
+## Mix and OTP
 
 ### [Introduction to Mix](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html")
+
+#### Intro
+
+Build a complete Elixir application, with supervision tree, configuration, 
+tests and more.
+
+The application works as a distributed key-value store.
+- organize key-value pairs into buckets
+- distribute those buckets across multiple nodes.
+- We will also build a simple client that allows us to connect to any of those 
+  nodes and send requests
+
+Use 3 tools
+- OTP: build, fault-tolerant application
+- Mix: tasks for creating, compiling, testing, dependencies, etc
+- ExUnit: unit testing
+
+#### Our first project
+#### Project compilation
+#### Running tests
+#### Environments
+#### Exploring
 
 ### [Agent](https://elixir-lang.org/getting-started/mix-otp/agent.html")
 
@@ -1570,7 +1592,7 @@ iex> :rand.uniform(6)  # 6
 
 ### [Distributed tasks and configuration](https://elixir-lang.org/getting-started/mix-otp/distributed-tasks-and-configuration.html")
 
-## [Meta-programming](https://elixir-lang.org/getting-started/meta/quote-and-unquote.html)
+## Meta-programming
 
 ### [Quote and unquote](https://elixir-lang.org/getting-started/meta/quote-and-unquote.html")
 
