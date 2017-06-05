@@ -1,11 +1,19 @@
-# Elixir: Getting Started
+# Elixir
 
 http://elixir-lang.org/getting-started/introduction.html
 
+See also:
+- [Erlang/Elixir Syntax: A Crash 
+  Course](https://elixir-lang.org/crash-course.html)
+- [Learing Resources](https://elixir-lang.org/learning.html)
 
-## Introduction
+## Getting Started
 
-### repl
+### Introduction
+
+https://elixir-lang.org/getting-started/introduction.html
+
+#### repl
 
 `iex` for repl
 
@@ -13,30 +21,32 @@ http://elixir-lang.org/getting-started/introduction.html
 
 Inside the repl you can `c("module_name.ex")` to load the module
 
-## Basic Types
+### Basic Types
 
-### Types
+https://elixir-lang.org/getting-started/basic-types.html
+
+#### Types
 
 ```
-iex> 1          # integer
-iex> 0x1F       # integer
-iex> 1.0        # float
-iex> true       # boolean
-iex> :atom      # atom / symbol
-iex> "elixir"   # string
-iex> [1, 2, 3]  # list
-iex> {1, 2, 3}  # tuple
+1          # integer
+0x1F       # integer
+1.0        # float
+true       # boolean
+:atom      # atom / symbol
+"elixir"   # string
+[1, 2, 3]  # list
+{1, 2, 3}  # tuple
 ```
 
 
 Binary, Octal, Hex
 
 ```iex
-iex> 0b1010 # binary 10
+0b1010 # binary 10
 
-iex> 0o777 # Octal 511
+0o777 # Octal 511
 
-iex> 0x1F # Hex 31
+0x1F # Hex 31
 ```
 
 Floats in Elixir are 64 bit double precision `1.0` or `1.0e-10`
@@ -48,26 +58,24 @@ Floats in Elixir are 64 bit double precision `1.0` or `1.0e-10`
 Booleans
 
 ```iex
-iex> is_boolean(true)
-true
+is_boolean(true)  # true
 
-iex> is_boolean(1)
-false
+is_boolean(1)     # false
 ```
 
 Can also check for `is_integer/1`, `is_float/1` or `is_number/1`
 
-### Identifying functions
+#### Identifying functions
 
 Functions are idenfitied by name and *arity*. e.g. `round/1` take 1 arg and `round/2` takes 2
 
-### Atoms
+#### Atoms
 
 **Atoms** are constants whose value is the name `:hello`
 
 Note: true/false are also atoms `true == :true`
 
-### Strings
+#### Strings
 
 ```iex
 
@@ -92,13 +100,13 @@ iex(6)> String.upcase("hellö")
 "HELLÖ"
 ```
 
-### Anonymous Functions
+#### Anonymous Functions
 
 Called using `.` to distinguish between regular and anon functions
 
 ```iex
 iex> add = fn a, b -> a + b end
-#Function<12.71889879/2 in :erl_eval.expr/5>
+##Function<12.71889879/2 in :erl_eval.expr/5>
 
 iex> add.(1, 2)
 3
@@ -120,7 +128,7 @@ iex(9)> a
 2
 
 iex(10)> double = fn a -> a = a * 2 end
-#Function<6.118419387/1 in :erl_eval.expr/5>
+##Function<6.118419387/1 in :erl_eval.expr/5>
 
 iex(11)> double.(a)
 4
@@ -129,7 +137,7 @@ iex(12)> a
 2
 ```
 
-### (Linked) Lists
+#### (Linked) Lists
 
 Basic lists and operators
 ```
@@ -190,7 +198,7 @@ iex> 'hello' == "hello"
 false
 ```
 
-### Tuples
+#### Tuples
 
 Tuples are stored contiguously in memory => fast accessing by index or getting size
 
@@ -221,7 +229,7 @@ iex> tuple
 
 `tuple = put_elem(...)` would assign a new tuple
 
-### List vs Tuple
+#### List vs Tuple
 
 | List | Tuple |
 | ---- | ----- |
@@ -253,13 +261,17 @@ Elixir will generally guide you to the right thing.
 
 e.g. `byte_size`, `tuple_size` vs `length`, `String.length`
 
-## Basic operators
+### Basic operators
+
+https://elixir-lang.org/getting-started/basic-operators.html
+
+#### Operators
 
 `++` and `--` to manipulate lists
 
 `<>` string concat
 
-`or`, `and`, `not` expext **booleans**
+`or`, `and`, `not` expect a **boolean**
 
 `||`, `&&`, `!` accept any arg type
 
@@ -270,9 +282,11 @@ We can compare and sort any data types e.g. `1 < :atom`
 Sort order is: `number < atom < reference < function < port < pid < tuple < map
 < list < bitstring`
 
-## Pattern matching
+### Pattern matching
 
-### The match operator
+https://elixir-lang.org/getting-started/pattern-matching.html
+
+#### The match operator
 
 `=` is the **match operator**
 
@@ -292,7 +306,7 @@ iex> 1 = unknown
 ** (CompileError) iex:1: undefined function unknown/0
 ```
 
-### Pattern matching
+#### Pattern matching
 
 Can match on other types
 
@@ -329,7 +343,7 @@ iex> tail
 [2, 3]
 ```
 
-### The pin operator
+#### The pin operator
 
 Use `^` when you want to pattern match rather than reassign a var
 
@@ -373,9 +387,11 @@ iex(1)>  length([1, [2], 3]) = 3
 iex(1)> 3= length([1, [2], 3])  3
 ```
 
-## case, cond and if
+### case, cond and if
 
-### case
+https://elixir-lang.org/getting-started/case-cond-and-if.html
+
+#### case
 
 ```elixir
 case {1, 2, 3} do
@@ -389,7 +405,7 @@ case {1, 2, 3} do
 end
 ```
 
-If you don't want x reassigned, make sure to use `^x`
+If you don't want **x reassigned**, make sure to use `^x`
 
 Can also add a **guard** clause 
 ```
@@ -397,7 +413,7 @@ case {1, 2, 3} do
 	{1, x, 3} when x > 0 ->
 ```
 
-### Expressions in guard clauses
+#### Expressions in guard clauses
 
 
 Elixir imports and allows the following expressions in guards by default:
@@ -455,7 +471,7 @@ iex> f = fn
 ...>   x, y when x > 0 -> x + y
 ...>   x, y -> x * y
 ...> end
-#Function<12.71889879/2 in :erl_eval.expr/5>
+##Function<12.71889879/2 in :erl_eval.expr/5>
 
 iex> f.(1, 3)
 4
@@ -464,37 +480,39 @@ iex> f.(-1, 3)
 -3
 ```
 
-### cond
+#### cond
 
 Equivalent to `else if`. More generic `case`
 
 ```elixir
-iex> cond do
-...>   2 + 2 == 5 ->
-...>     "This is never true"
-...>   2 * 2 == 3 ->
-...>     "Nor this"
-...>   true ->
-...>     "This is always true (equivalent to else)"
-...> end
+cond do
+  2 + 2 == 5 ->
+    "This is never true"
+  2 * 2 == 3 ->
+    "Nor this"
+  true ->
+    "This is always true (equivalent to else)"
+end
 ```
 
 If no clause is true then a `CondClauseError` is thrown. Note the `true` clause 
 in the above example
 
-### if and unless
+#### if and unless
 
 `if true do`
 
 `unless true do`
 
-### do/end blocks
+#### do/end blocks
 
 `if true do ... end` is equivalent to `if true, do: ( ... )`
 
-## Binaries, strings and char lists
+### Binaries, strings and char lists
 
-### UTF-8 and Unicode
+https://elixir-lang.org/getting-started/binaries-strings-and-char-lists.html
+
+#### UTF-8 and Unicode
 
 UTF8 support `str = "hełło"` 
 
@@ -504,12 +522,12 @@ To get a char's **code point** `?a` (= 97) or `?ł` (= 322)
 
 `String.codepoints(str)` to split into individual characters
 
-*Note* Doesn't look like we can use `arr[0]` to access array elements. This 
+:caution: Doesn't look like we can use `arr[0]` to access array elements. This 
 works though `Enum.at(String.codepoints(str), 0)` or 
 `Enum.fetch(String.codepoints(str), 0)` which returns a tuple with `:ok` or 
 `:error` if it's out of bounds 
 
-### Binaries (and bitstrings)
+#### Binaries (and bitstrings)
 
 `<<0, 1, 2, 3>>` to define a binary
 
@@ -551,7 +569,7 @@ iex> <<0, 1, x>> = <<0, 1, 2, 3>>
 ** (MatchError) no match of right hand side value: <<0, 1, 2, 3>>
 ```
 
-### Char lists
+#### Char lists
 
 char list == list of code points
 
@@ -586,9 +604,11 @@ iex> to_string 1
 "1"
 ```
 
-## Keywords and maps
+### Keywords and maps
 
-### Keyword lists
+https://elixir-lang.org/getting-started/keywords-and-maps.html
+
+#### Keyword lists
 
 **keyword list :=** a list of tuples where the first item of each tuple is an 
 atom
@@ -605,14 +625,11 @@ atom
 
 3 examples that are equivalent
 ```
-iex> if false, do: :this, else: :that
-:that
+if false, do: :this, else: :that            # :that
 
-iex> if(false, [do: :this, else: :that])
-:that
+if(false, [do: :this, else: :that])         # :that
 
-iex> if(false, [{:do, :this}, {:else, :that}])
-:that
+if(false, [{:do, :this}, {:else, :that}])   # :that
 ```
 
 [Keyword module](https://hexdocs.pm/elixir/Keyword.html) for additional 
@@ -622,7 +639,7 @@ functions for working with keyword lists
 
 Use **maps** instead for better performance with guaranteed one-key associates
 
-### Maps
+#### Maps
 
 ```elixir
 iex> map = %{:a => 1, 2 => :b}
@@ -676,7 +693,9 @@ To update a key's value
 
 can also `map.a` to access an atom key
 
-### Nested data structures
+#### Nested data structures
+
+`put_in/2` and `update_in/2` are convenience functions for nested data
 
 ```elixir
 users = [
@@ -693,13 +712,15 @@ users = update_in users[:mary].languages, fn languages ->
 end
 ```
 
-## Modules and Functions
+### Modules and Functions
 
-### defModule
+https://elixir-lang.org/getting-started/modules-and-functions.html
+
+#### defModule
 
 `defModule Math do`
 
-### Compilation
+#### Compilation
 
 Given `math.ex` with following content:
 ```elixir
@@ -717,12 +738,12 @@ Elixir project are organized in the following:
 - `lib` - contains elixir code (usually .ex files)
 - `test` - contains tests (usually .exs files)
 
-### Scripted mode
+#### Scripted mode
 
 `.exs` == Elixir scripted files can be run with `elixir math.exs` without 
 compiling
 
-### Named functions
+#### Named functions
 
 `def` for public functions and `defp` for private functions
 
@@ -744,13 +765,13 @@ IO.puts Math.zero?([1, 2, 3]) #=> ** (FunctionClauseError)
 IO.puts Math.zero?(0.0)       #=> ** (FunctionClauseError)
 ```
 
-### Function capturing
+#### Function capturing
 
 Can capture function
 - `&fun = &Math.zero?/1` to capture function in module
 - `&is_function/1` to capture local or imported functions
 
-### Default arguments
+#### Default arguments
 
 ```elixir
 def join (a, b, sep \\ " ") do
@@ -761,9 +782,11 @@ IO.puts Concat.join("Hello", "world")      #=> Hello world
 IO.puts Concat.join("Hello", "world", "_") #=> Hello_world
 ```
 
-## Recursion
+### Recursion
 
-### Loops through recursion
+https://elixir-lang.org/getting-started/recursion.html
+
+#### Loops through recursion
 
 Elixir is **immutable** so loops work a little different. We have to rely on 
 recursion instead of the standard `for(i = 0; i < size(arr); i++)` in 
@@ -786,7 +809,7 @@ end
 Recursion.print_multiple_times("Hello!", 3)
 ```
 
-### Reduce and map algorithms
+#### Reduce and map algorithms
 
 **Reduce** with **tail call**
 
@@ -818,23 +841,25 @@ end
 Math.double_each([1, 2, 3]) #=> [2, 4, 6]
 ```
 
-### Enum
+#### Enum
 
 `Enum` module provides conveniences for lists
 
 ```
 Enum.reduce([1, 2, 3], 0, fn(x, acc) -> x + acc end)  # 6
-                                                      # Same as
+
 Enum.reduce([1, 2, 3], 0, &+/2)                       # 6
 
 Enum.map([1, 2, 3], fn(x) -> x * 2 end)               # [2, 4, 6]
-                                                      # Same as
+
 Enum.map([1, 2, 3], &(&1 * 2))                        # [2, 4, 6]
 ```
 
-## Enumerables and streams
+### Enumerables and streams
 
-### Enumerables
+https://elixir-lang.org/getting-started/enumerables-and-streams.html
+
+#### Enumerables
 
 Enum.map
 ```
@@ -848,26 +873,26 @@ Enum.map(1..3, fn x -> x * 2 end)                     # [2, 4, 6]
 Enum.reduce(1..3, 0, &+/2)                            # 6
 ```
 
-### Eager vs Lazy
+#### Eager vs Lazy
 
-Enum functions are eager
+Enum functions are **eager**
 
 `1..100_000 |> Enum.map(&(&1 * 3)) |> Enum.filter(odd?) |> Enum.sum`
 
 Above does each operation before moving to the next one in the pipe
 
-### The pipe operator
+#### The pipe operator
 
 Pipe operator allows for cleaner syntax. Above code is equivalent to
 `Enum.sum(Enum.filter(Enum.map(1..100_000, &(&1 * 3)), odd?))`
 
-### Streams
+#### Streams
 
-`Stream` module unlike Enum provides lazy operators
+`Stream` module unlike Enum provides **lazy** operators
 
 `1..100_000 |> Stream.map(&(&1 * 3)) |> Stream.filter(odd?) |> Enum.sum`
 
-Strem builds a series of computations that are only invoked when passed to 
+Stream builds a series of computations that are only invoked when passed to 
 Enum. Good for **large, possibly infinite** collections
 
 Interesting Stream functions
@@ -875,13 +900,15 @@ Interesting Stream functions
 - `Stream.unfold`
 - `File.stream!`
 
-## Processes
+### Processes
+
+https://elixir-lang.org/getting-started/processes.html
 
 **Processes** are isolated from each other, run concurrent to one another and 
 communicate via message passing
 - extremely lightweight in terms of memory and CPU unlike threads 
 
-### spawn
+#### spawn
 
 Spawn a new process. Once spawned it is killed
 
@@ -890,7 +917,7 @@ iex> pid = spawn fn -> 1 + 2 end    # PID<0.44.0>
 iex> Process.alive?(pid)            # false
 ```
 
-### send and receive
+#### send and receive
 
 `send/2` message to a process and `receive/1`
 - message is stored in process mailbox
@@ -909,7 +936,7 @@ Can set a timeout with `after`
 
 `flush/0` flushes and prints all messages in mailbox
 
-### Links
+#### Links
 
 `spawn_link/1` spawns linked processes
 
@@ -924,13 +951,13 @@ Instead we can link them
 **Failing fast** we are actually fine with letting processes fail because we 
 expect supervisors to properly restart our systems
 
-### Tasks
+#### Tasks
 
 `Task` module builds on spawn to provide beter error reports and introspection
 
 `Task.start fn -> raise "oops" end`
 
-### State
+#### State
 
 We can create a process that loops infinitely, maintains state, and 
 sends/receives messages
@@ -980,7 +1007,7 @@ send :kv, {:get, :hello, self()}          # {:get, :hello, #PID<0.41.0>}
 flush()                                   # :world
 ```
 
-### Agent
+#### Agent
 
 `Agent` is a simple abstractions around state
 
@@ -990,9 +1017,11 @@ iex> Agent.update(pid, fn map -> Map.put(map, :hello, :world) end)    # :ok
 iex> Agent.get(pid, fn map -> Map.get(map, :hello) end)               # :world
 ```
 
-## IO and the file system
+### IO and the file system
 
-### The IO module
+https://elixir-lang.org/getting-started/io-and-the-file-system.html
+
+#### The IO module
 
 `IO.puts "hello world"`
 
@@ -1000,7 +1029,7 @@ iex> Agent.get(pid, fn map -> Map.get(map, :hello) end)               # :world
 
 `IO.puts :stderr, "hello world"`
 
-### The File module
+#### The File module
 
 ```
 {:ok, file} = File.open "hello", [:write] # {:ok, #PID<0.47.0>}
@@ -1018,36 +1047,40 @@ case File.read(file) do
 end
 ```
 
-### The Path module
+#### The Path module
 
 ```
 Path.join("foo", "bar")     # "foo/bar"
 Path.expand("~/hello")      # "/Users/jose/hello"
 ```
 
-## alias, require and import
+### alias, require and import
 
-### alias
+https://elixir-lang.org/getting-started/alias-require-and-import.html
+
+#### alias
 
 `alias Foo.Bar, as: Bar` Alias the module so it can be called as Bar instead of 
 Foo.Bar
 
-### require
+#### require
 
 `require Foo` Require the module in order to use its macros
 
-### import
+#### import
 
 `import Foo` Import functions from Foo so they can be called without the `Foo.` 
 prefix
 
-### use
+#### use
 
 `use Foo` Invokes the custom code defined in Foo as an extension point
 
-## Module Attributes
+### Module Attributes
 
-### As annotations
+https://elixir-lang.org/getting-started/module-attributes.html
+
+#### As annotations
 
 Moduels can have annotations:
 - `@vsn 2` used by VM to check if module has been updated
@@ -1058,13 +1091,15 @@ Moduels can have annotations:
   compiled. This makes it possible to inject functions inside the module 
   exactly before compilation.
 
-### As constants
+#### As constants
 
 `@my_data 14` is stored at compile time. Can be reassigned
 
-## Structs
+### Structs
 
-### Defining structs
+https://elixir-lang.org/getting-started/structs.html
+
+#### Defining structs
 
 **Structs** == extensions built on maps providing compile time checks and 
 default values
@@ -1074,7 +1109,7 @@ default values
 Structs limit only the fields defined and requires that they all be assigned 
 when created
 
-### Accessing and updating structs
+#### Accessing and updating structs
 
 ```
 john = %User{}                  # %User{age: 27, name: "John"}
@@ -1082,7 +1117,7 @@ john.name                       # "John"
 meg = %{john | name: "Meg"}     # %User{age: 27, name: "Meg"}
 ```
 
-### Structs are bare maps underneath
+#### Structs are bare maps underneath
 
 ```
 is_map(john)      # true
@@ -1097,7 +1132,7 @@ Map.merge(kurt, %User{name: "Takashi"})   # %User{age: 27, name: "Takashi"}
 Map.keys(john)                            # [:__struct__, :age, :name]
 ```
 
-### Default values and required keys
+#### Default values and required keys
 
 `nil` is default value
 
@@ -1114,9 +1149,11 @@ end
 Car: [:make]                  #  expanding struct: Car.__struct__/1
 ```
 
-## Protocols
-
 ### Protocols
+
+https://elixir-lang.org/getting-started/protocols.html
+
+#### Protocols
 
 Allows **polymorphism** for all Elixir data types e.g. `Atom`, `List`, etc
 
@@ -1146,9 +1183,9 @@ Can call `Size.size` on any implemented data types.
 
 Throws `Protocol.UndefinedError` on unsupported data type
 
-### Implementing Any
+#### Implementing Any
 
-#### Deriving
+##### Deriving
 
 We can define a protocol on `Any` and `@derive` it
 
@@ -1164,12 +1201,12 @@ defmodule OtherUser do
 end
 ```
 
-#### Fallback to Any
+##### Fallback to Any
 
 If we `@fallback_to_any true` then a data type that hasn't implemented the 
 `defprotocol` won't throw the `Protocol.UndefinedError`
 
-### Built-in protocols
+#### Built-in protocols
 
 Some common protocols:
 - `Enum.map`
@@ -1177,16 +1214,18 @@ Some common protocols:
 - `String.Chars` which is exposed via `to_string`
 - `inspect` function based on `Inspect` protocol
 
-## Comprehensions
+### Comprehensions
 
-### Intro
+https://elixir-lang.org/getting-started/comprehensions.html
+
+#### Intro
 
 **Comprehensions** == syntactic sugar for generators, filters, and collectables
 - group these tasks into `for`
 
 `for n <- [1, 2, 3, 4], do: n * n`
 
-### Generators and filters
+#### Generators and filters
 
 **Generator** == `n <- [1,2,3,4]` from example above. Can be any enumerable
 
@@ -1233,7 +1272,7 @@ Triple.pythagorean(48)          # [{3, 4, 5}, {5, 12, 13}, {6, 8, 10},
                                 # {8, 15, 17}, {9, 12, 15}, {12, 16, 20}]
 ```
 
-### The :into option
+#### The :into option
 
 comprehensions generally return lists, but can return other data structs with 
 `:into`
@@ -1242,17 +1281,19 @@ comprehensions generally return lists, but can return other data structs with
 for {key, val} <- %{"a" => 1, "b" => 2}, into: %{}, do: {key, val * val}
 ```
 
-## Sigils
+### Sigils
 
-**Sigils** == provided for workign with textual representations
+https://elixir-lang.org/getting-started/sigils.html
 
-### Regular expressions
+**Sigils** == provided for working with textual representations
+
+#### Regular expressions
 
 Most common sigil is `~r` for regex. Allows us to use 8 different delimiters
 
 e.g. `~r/hello/` == `~r(hello)` == `~r<hello>` etc
 
-### Strings, char lists, and word lists sigils
+#### Strings, char lists, and word lists sigils
 
 `~s(this is a string with "double" quotes, not 'single' ones)`
 
@@ -1260,7 +1301,7 @@ e.g. `~r/hello/` == `~r(hello)` == `~r<hello>` etc
 
 `~w(foo bar bat)`
 
-### Interpolation and escaping in sigils
+#### Interpolation and escaping in sigils
 
 lowercase sigils allow interpolation
 
@@ -1274,19 +1315,19 @@ Also support heredocs
 
 ```elixir
 @doc ~S"""
-## Examples
+    ### Examples
     iex> convert("\"foo\"")
     "'foo'"
 """
 ```
 
-### Custom sigils
+#### Custom sigils
 
 `~r/foo/i` == `sigil_r(<<"foo">>, 'i')`
 
 To see help `iex> h sigil_r`
 
-Customer sigil can be defined
+Custom sigils can be defined
 
 ```elixir
 defmodule MySigils do
@@ -1299,11 +1340,290 @@ end
 ~i(42)n # -42
 ```
 
-## try, catch and rescue
+### try, catch and rescue
 
-## Typespecs and behaviours
+https://elixir-lang.org/getting-started/try-catch-and-rescue.html
 
-## Erlang libraries
+#### Errors
 
-## Where to go next
+`raise\1` to raise an error with "message"
+
+`raise\2` to raise an error with error name (e.g. `Argumenterror`) and 
+"message"
+
+To create custom error module
+
+```elixir
+defmodule MyError, do: defexception message: "default message"
+
+raise MyError                               # ** (MyError) default message
+raise MyError, message: "custom message"    # ** (MyError) custom message
+```
+
+you can `try/rescue` but rarely used e.g. to rescue error on opening file it's 
+better to parse the return tuple
+
+```elixir
+case File.read "hello" do
+  {:ok, body}      -> IO.puts "Success: #{body}"
+  {:error, reason} -> IO.puts "Error: #{reason}"
+end
+```
+
+`throw` and `catch`
+
+an `exit(1)` can also be caught
+
+```elixir
+try do
+  exit "I am exiting"
+catch
+  :exit, _ -> "not really
+end
+```
+
+`after` to do something an error is thrown
+
+In a function, we can skip `try`
+
+```elixir
+def some_error do
+  raise "oops"
+after
+  # so something
+end
+```
+
+`else` can be used to continue after a try does *not* throw an error
+
+Variables are scoped within `try/catch/rescue/after`
+
+### Typespecs and behaviours
+
+https://elixir-lang.org/getting-started/typespecs-and-behaviours.html
+
+#### Types and specs
+
+**typespecs** are notation for
+- declaring typed function signatures (specifications);
+- declaring custom data types.
+
+##### Defining custom types
+
+```elixir
+@spec add(number, number) :: {number, String.t}
+def add(x, y), do: {x + y, "You need a calculator to do that?!"}
+```
+
+:caution: not the `String.t` since it's a *remote* type. Same for `Map.t`, 
+`Enum.t`
+
+We can shortcut the `@type`
+
+```elixir
+@type num_str :: {number, String.t}
+
+@spec add(number, number) :: num_str
+```
+
+`@type` is public. Use `@typep` to make private
+
+##### Static code analysis
+
+Using typespecs we can perform static analysis e.g.  
+[Dialyzer](http://www.erlang.org/doc/man/dialyzer.html)
+
+#### Behaviours
+
+**Behaviours** provide a way to
+- define a set of functions that have to be implemented by a module;
+- ensure that a module implements all the functions in that set.
+
+```elixir
+defmodule Parser do
+  @callback parse(String.t) :: any
+  @callback extensions() :: [String.t]
+end
+```
+
+Modules adopting `Parser` have to implement parse and extensions
+
+```elixir
+defmodule JSONParser do
+  @behaviour Parser
+
+  def parse(str), do: # ... parse JSON
+  def extensions, do: ["json"]
+end
+
+defmodule YAMLParser do
+  @behaviour Parser
+
+  def parse(str), do: # ... parse YAML
+  def extensions, do: ["yml"]
+end
+```
+
+##### Defining behaviours
+##### Adopting behaviours
+
+### Erlang libraries
+
+https://elixir-lang.org/getting-started/erlang-libraries.html
+
+#### The binary module
+
+[Handle UTF-8](http://erlang.org/doc/man/binary.html)
+
+```elixir
+iex> String.to_charlist "Ø"   # [216]
+iex> :binary.bin_to_list "Ø"  # [195, 152]
+```
+
+#### Formatted text output
+
+`:io.format/2` and `:io_lib.format/2` are equivalent to printf in C
+
+```elixir
+iex> :io.format("Pi is approximately given by:~10.3f~n", [:math.pi])
+  Pi is approximately given by:     3.142
+  :ok
+
+iex> to_string :io_lib.format("Pi is approximately given by:~10.3f~n", [:math.pi])
+  "Pi is approximately given by:     3.142\n"
+```
+
+#### The crypto module
+
+[Crypto module](http://erlang.org/doc/man/crypto.html) contains hashing, 
+digital signatures, encryption, etc
+
+```elixir
+iex> Base.encode16(:crypto.hash(:sha256, "Elixir"))
+  "3315715A7A3AD57428298676C5AE465DADA38D951BDFAC9348A8A31E9C7401CB"
+```
+
+:caution: Crypto isn't part of stdlib. Must be added in `mix.exs`
+
+```elixir
+def application do
+  [extra_applications: [:crypto]]
+  end
+```
+
+#### The digraph module
+
+[Digraph module](http://erlang.org/doc/man/digraph.html) for dealing with 
+directed graphs built of vertices and edges
+
+```elixir
+iex> digraph = :digraph.new()
+iex> coords = [{0.0, 0.0}, {1.0, 0.0}, {1.0, 1.0}]
+iex> [v0, v1, v2] = (for c <- coords, do: :digraph.add_vertex(digraph, c))
+iex> :digraph.add_edge(digraph, v0, v1)
+iex> :digraph.add_edge(digraph, v1, v2)
+iex> :digraph.get_short_path(digraph, v0, v2)
+  [{0.0, 0.0}, {1.0, 0.0}, {1.0, 1.0}]
+```
+
+#### Erlang Term Storage
+
+[ets](http://erlang.org/doc/man/ets.html) and 
+[dets](http://erlang.org/doc/man/dets.html) handle storage of large data 
+structures in memory or on disk respectively.
+
+ETS
+- table containing tuples
+- protected tables ie only owner can write, but world readable
+- functions in ets modify state of table as side effect
+
+```elixir
+iex> table = :ets.new(:ets_test, []) # Store as tuples with {name, population}
+iex> :ets.insert(table, {"China", 1_374_000_000})
+iex> :ets.insert(table, {"India", 1_284_000_000})
+iex> :ets.insert(table, {"USA", 322_000_000})
+iex> :ets.i(table)
+  <1   > {<<"India">>,1284000000}
+  <2   > {<<"USA">>,322000000}
+  <3   > {<<"China">>,1374000000}
+```
+
+#### The math module
+
+[Math module](http://erlang.org/doc/man/math.html) includes e.g. `:math.pi()`, 
+`:math.sin()`, `:math.exp`, `:math.log`, etc
+
+#### The queue module
+
+[Queue module](http://erlang.org/doc/man/queue.html) implements FIFI queue
+
+```elixir
+iex> q = :queue.new
+iex> q = :queue.in("A", q)
+iex> q = :queue.in("B", q)
+iex> {value, q} = :queue.out(q)
+iex> value
+  {:value, "A"}
+iex> {value, q} = :queue.out(q)
+iex> value
+  {:value, "B"}
+iex> {value, q} = :queue.out(q)
+iex> value
+  :empty
+```
+
+#### The rand module
+
+[Rand module](http://erlang.org/doc/man/rand.html) for random values
+
+```elixir
+iex> :rand.uniform()   # 0.8175669086010815
+iex> _ = :rand.seed(:exs1024, {123, 123534, 345345})
+iex> :rand.uniform()   # 0.5820506340260994
+iex> :rand.uniform(6)  # 6
+```
+
+#### The zip and zlib modules
+
+[Zip module](http://erlang.org/doc/man/zip.html) for read/writing zip files
+
+[Zlib module](http://erlang.org/doc/man/zlib.html) for read/write zlib like 
+`gzip`
+
+### Where to go next
+
+https://elixir-lang.org/getting-started/where-to-go-next.html
+
+
+## Mix and OTP
+
+[Mix and OTP](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)
+
+
+### [Introduction to Mix](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html")
+
+### [Agent](https://elixir-lang.org/getting-started/mix-otp/agent.html")
+
+### [GenServer](https://elixir-lang.org/getting-started/mix-otp/genserver.html")
+
+### [Supervisor and Application](https://elixir-lang.org/getting-started/mix-otp/supervisor-and-application.html")
+
+### [ETS](https://elixir-lang.org/getting-started/mix-otp/ets.html")
+
+### [Dependencies and umbrella apps](https://elixir-lang.org/getting-started/mix-otp/dependencies-and-umbrella-apps.html")
+
+### [Task and gen-tcp](https://elixir-lang.org/getting-started/mix-otp/task-and-gen-tcp.html")
+
+### [Docs, tests and with](https://elixir-lang.org/getting-started/mix-otp/docs-tests-and-with.html")
+
+### [Distributed tasks and configuration](https://elixir-lang.org/getting-started/mix-otp/distributed-tasks-and-configuration.html")
+
+## [Meta-programming](https://elixir-lang.org/getting-started/meta/quote-and-unquote.html)
+
+### [Quote and unquote](https://elixir-lang.org/getting-started/meta/quote-and-unquote.html")
+
+### [Macros](https://elixir-lang.org/getting-started/meta/macros.html")
+
+### [Domain Specific Languages](https://elixir-lang.org/getting-started/meta/domain-specific-languages.html")
+
 
