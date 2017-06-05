@@ -1595,10 +1595,7 @@ iex> :rand.uniform(6)  # 6
 https://elixir-lang.org/getting-started/where-to-go-next.html
 
 
-## Mix and OTP
-
-[Mix and OTP](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)
-
+## [Mix and OTP](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)
 
 ### [Introduction to Mix](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html")
 
