@@ -1571,12 +1571,86 @@ Use 3 tools
 - ExUnit: unit testing
 
 #### Our first project
+
+`mix help`
+
+`mix new kv --module KV` creates a project
+- `test/kv_test.exs` is corresponding test for ^
+
+`mix.exs` configures the project. See `project` and `application`
+
 #### Project compilation
+
+`mix compile`
+- `lib/kv.ex` is minimum needed to compile project
+
+`iex -S mix` To run project in **iex**
+
 #### Running tests
+
+`mix test` to run tests
+- `test/kv_test.exs`note the `.exs` since it doesn't need to be compiled
+- `use ExUnit.Case` to inject testing API
+- `test/test_helper.exs` sets up test framework
+
+`mix test test/kv_test.exs:5` to run a specific line of a test file
+
 #### Environments
+- `:dev`
+- `:test`
+- `:prod`
+
+To select a specific environment, edit `mix.exs` and set `Mix.Env`
+
+Can also set `MIX_ENV=prod mix compile` as env var
+
 #### Exploring
 
+For a general mix overview https://hexdocs.pm/mix/Mix.html
+
 ### [Agent](https://elixir-lang.org/getting-started/mix-otp/agent.html)
+
+#### The trouble with state
+
+Elixir is **immutable** so we need to use either:
+- Processes
+- [ETS (Erlang Term Storage)](http://www.erlang.org/doc/man/ets.html)
+
+To use Processes, we will use the following available abstractions:
+- **Agent** Simple wrappers around state.
+- **GenServer** “Generic servers” (processes) that encapsulate state, provide 
+  sync and async calls, support code reloading, and more.
+- **GenEvent** “Generic event” managers that allow publishing events to 
+  multiple handlers.
+- **Task** Asynchronous units of computation that allow spawning a process and 
+  potentially retrieving its result at a later time.
+
+#### Agents
+
+Testing Agents
+
+`iex -S mix`
+
+```elixir
+iex> {:ok, agent} = Agent.start_link fn -> [] end
+{:ok, #PID<0.57.0>}
+
+iex> Agent.update(agent, fn list -> ["eggs" | list] end)
+:ok
+
+iex> Agent.update(agent, fn list -> ["ham" | list] end)
+:ok
+
+iex> Agent.get(agent, fn list -> list end)
+["ham", "eggs"]
+
+iex> Agent.stop(agent)
+:ok
+```
+
+#### Test setup with ExUnit callbacks
+#### Other agent actions
+#### Client/Server in agents
 
 ### [GenServer](https://elixir-lang.org/getting-started/mix-otp/genserver.html)
 
