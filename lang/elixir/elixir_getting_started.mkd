@@ -1682,6 +1682,22 @@ https://github.com/arafatm/notes/commit/779300e
 
 ### [GenServer](https://elixir-lang.org/getting-started/mix-otp/genserver.html)
 
+#### Problem with Process
+
+[Process](https://elixir-lang.org/getting-started/processes.html) names must be 
+atoms. This is not ideal because **atoms are not garbage collected**.
+
+#### Our first GenServer
+
+[GenServer (hexdoc)](https://hexdocs.pm/elixir/GenServer.html) provides 
+standard interface incl. tracing/reporting, and fits in supervision tree
+
+
+#### Testing a GenServer
+#### The need for monitoring
+#### call, cast or info?
+#### Monitors or links?
+
 ### [Supervisor and Application](https://elixir-lang.org/getting-started/mix-otp/supervisor-and-application.html)
 
 ### [ETS](https://elixir-lang.org/getting-started/mix-otp/ets.html)
