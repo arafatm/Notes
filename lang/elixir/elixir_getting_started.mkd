@@ -1657,7 +1657,7 @@ process and will be shut down automagically
 
 `async: true` makes tests run in parallel
 
-[lib/kv/bucket_test.exs](#19cdd40f7a3568283a48a92a3c39f190cc6ebbc2)
+[lib/kv/bucket_test.exs](19cdd40f7a3568283a48a92a3c39f190cc6ebbc2)
 
 #### Test setup with ExUnit callbacks
 
