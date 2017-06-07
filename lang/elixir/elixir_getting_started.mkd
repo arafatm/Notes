@@ -1650,7 +1650,7 @@ iex> Agent.stop(agent)
 
 #### Implement KV.Bucket
 
-[test/kv/bucket_test.exs](https://github.com/arafatm/notes/commit/7c7a6923f40fc998c98a37e90554c871d0a5d12d)
+[test/kv/bucket_test.exs](7c7a692)
 
 we don't need to explicitly stop the agent since it's linked to the test 
 process and will be shut down automagically
