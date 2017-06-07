@@ -1676,7 +1676,7 @@ Things to note:
 #### Other agent actions
 
 Implement `KV.Delete` using `Agent.get_and_update/2` 
-https://github.com/arafatm/notest/commit/779300e
+https://github.com/arafatm/notes/commit/779300e
 
 #### Client/Server in agents
 
