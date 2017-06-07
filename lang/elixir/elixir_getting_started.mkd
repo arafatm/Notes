@@ -1692,6 +1692,26 @@ atoms. This is not ideal because **atoms are not garbage collected**.
 [GenServer (hexdoc)](https://hexdocs.pm/elixir/GenServer.html) provides 
 standard interface incl. tracing/reporting, and fits in supervision tree
 
+Create [lib/kv/registry.ex](https://github.com/arafatm/notes/commit/dfa5ba6)
+
+GenServer accepts 2 types of requests
+- **calls** are sync and must get a response
+- **casts** are async w/ no response
+
+##### Client API
+
+`start_link` starts GenServer
+- `__MODULE` refers to this current module
+- [3rd param can pass options](https://hexdocs.pm/elixir/GenServer.html#start_link/3) e.g. `:name`, `:timeout`, etc
+
+`lookup` and `create` for sending requests to server
+
+##### Server API
+
+`init/1` callback receives the 2nd argument from `start_link/3` and returns 
+`{:ok, state}` where state is a map
+
+Also implemented `handle_call/3` and `handle_cast/3`
 
 #### Testing a GenServer
 #### The need for monitoring
