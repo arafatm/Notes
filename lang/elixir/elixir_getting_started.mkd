@@ -1663,11 +1663,15 @@ process and will be shut down automagically
 
 We can use `setup` *callback* in test https://github.com/arafatm/notes/commit/3722119
 
+:boom: there was a typo in code above. Fixe in 
+https://github.com/arafatm/notest/commit/e1acb90
+
 Things to note:
 - `setup` method is run on every test
 - callback returns `{:ok, bucket: bucket}` and the 2nd element `bucket` is 
   merged into the test context
 - passing `%{bucket: bucket}` to the test
+
 
 #### Other agent actions
 #### Client/Server in agents
