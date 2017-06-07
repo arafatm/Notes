@@ -1661,7 +1661,8 @@ process and will be shut down automagically
 
 #### Test setup with ExUnit callbacks
 
-
+We can use `setup` *callback* in test.  
+[Link](https://github.com/arafatm/notes/commit/3722119)
 
 #### Other agent actions
 #### Client/Server in agents
