@@ -6,7 +6,7 @@ defmodule KV.BucketTest do
     {:ok, bucket: bucket}
   end
 
-  test "stores values by key", ${bucket: bucket} do
+  test "stores values by key", %{bucket: bucket} do
 
     assert KV.Bucket.get(bucket, "milk") == nil
 
