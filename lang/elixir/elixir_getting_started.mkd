@@ -1703,6 +1703,7 @@ GenServer accepts 2 types of requests
 `start_link` starts GenServer
 - `__MODULE` refers to this current module
 - [3rd param can pass options](https://hexdocs.pm/elixir/GenServer.html#start_link/3) e.g. `:name`, `:timeout`, etc
+-  returns `{:ok, pid}`
 
 `lookup` and `create` for sending requests to server
 
@@ -1714,9 +1715,62 @@ GenServer accepts 2 types of requests
 Also implemented `handle_call/3` and `handle_cast/3`
 
 #### Testing a GenServer
+
+[test/kv/registry_test.exs](https://github.com/arafatm/notes/commit/5d86830)
+- checks if registry "shopping" exists
+- creates shopping registry
+- adds item to shopping
+
+We don't need to explicitly `:shutdown` the registry b'se tests will do so
+
+To explicitly shutdown
+
+```elixir
+def stop(server) do
+  GenServer.stop(server)
+end
+```
+
 #### The need for monitoring
+
+If a bucket stops/crashes it will remain in the registry. We can [verify this 
+behavior](085368d)
+
+The registry has to monitor every bucket it spawns
+
+To test out a process monitor `iex -S mix`
+```elixir
+iex> {:ok, pid} = KV.Bucket.start_link  # {:ok, #PID<0.66.0>}
+iex> Process.monitor(pid)               # Reference<0.0.0.551>
+iex> Agent.stop(pid)                    # :ok
+iex> flush()            # {:DOWN, #Reference<0.0.0.551>, :process, #PID<0.66.0>, :normal}
+```
+
+[KV.Registry changes](https://github.com/arafatm/notes/commit/ae84e99) to pass 
+the test above
+
 #### call, cast or info?
+
+`handle_call/3` for synchronous requests. Should be the default choice
+
+`handle_cast/2` for async reqs. Use sparingly b'se doesn't guarantee server has 
+received a message
+
+`handle_info/2` for all other messages. Use as a catch-all to avoid messages 
+leading to critical failure
+
+[See the GenServer Cheat 
+Sheet](https://raw.githubusercontent.com/benjamintanweihao/elixir-cheatsheets/master/GenServer_CheatSheet.pdf)
+
 #### Monitors or links?
+
+Links are bi-directional := if a proc crashes the linked proc will crash as 
+well
+
+Monitor is uni-directional.
+
+:boom: don't typically create new proc directly. Instead delegate to a 
+supervisor
 
 ### [Supervisor and Application](https://elixir-lang.org/getting-started/mix-otp/supervisor-and-application.html)
 
