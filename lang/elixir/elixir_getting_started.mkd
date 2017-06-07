@@ -1674,6 +1674,10 @@ Things to note:
 
 
 #### Other agent actions
+
+Implement `KV.Delete` using `Agent.get_and_update/2` 
+https://github.com/arafatm/notest/commit/e779300
+
 #### Client/Server in agents
 
 ### [GenServer](https://elixir-lang.org/getting-started/mix-otp/genserver.html)
