@@ -1,9 +1,10 @@
 defmodule KV.RegistryTest do
   use ExUnit.Case, async: true
 
-  setup do
+  setup context do
 
-    {:ok, registry} = KV.Registry.start_link
+    # context.test := shortcut to spawn registry with name of current test running
+    {:ok, registry} = KV.Registry.start_link(context.test)
     {:ok, registry: registry}
 
   end
