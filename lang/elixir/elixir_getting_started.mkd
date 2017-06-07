@@ -1734,7 +1734,7 @@ end
 #### The need for monitoring
 
 If a bucket stops/crashes it will remain in the registry. We can [verify this 
-behavior](https://github.com/arafatm/notes/commit/a085368d)
+behavior](https://github.com/arafatm/notes/commit/085368d)
 
 The registry has to monitor every bucket it spawns
 
