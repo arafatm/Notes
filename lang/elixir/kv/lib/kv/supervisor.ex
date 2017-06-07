@@ -7,7 +7,8 @@ defmodule KV.Supervisor do
 
   def init(:ok) do
     children = [
-      worker(KV.Registry, [KV.Registry]) # will start KV.Registry.start_link(KV.Registr)
+      worker(KV.Registry, [KV.Registry]), # will start KV.Registry.start_link(KV.Registr)
+      supervisor(KV.Bucket.Supervisor, [])
     ]
 
     # :one_for_one => only restart this child
