@@ -12,6 +12,6 @@ defmodule KV.Supervisor do
     ]
 
     # :one_for_one => only restart this child
-    supervise(children, strategy: :one_for_one)
+    supervise(children, strategy: :rest_for_one)
   end
 end
