@@ -1661,8 +1661,13 @@ process and will be shut down automagically
 
 #### Test setup with ExUnit callbacks
 
-We can use `setup` *callback* in test.  
-[Link](https://github.com/arafatm/notes/commit/3722119)
+We can use `setup` *callback* in test https://github.com/arafatm/notes/commit/3722119
+
+Things to note:
+- `setup` method is run on every test
+- callback returns `{:ok, bucket: bucket}` and the 2nd element `bucket` is 
+  merged into the test context
+- passing `%{bucket: bucket}` to the test
 
 #### Other agent actions
 #### Client/Server in agents
