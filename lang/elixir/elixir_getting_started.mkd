@@ -1845,6 +1845,38 @@ will see it in the Observer
 
 ### [ETS](https://elixir-lang.org/getting-started/mix-otp/ets.html)
 
+#### ETS as a cache
+
+When accessing buckets we need to message the registry *which becomes a 
+bottleneck*
+
+**ETS** can be used as a cache
+
+:boom: Do not prematurely optimize with ETS. Analyze app performance to 
+identify bottlenecks
+
+```elixir
+iex> table = :ets.new(:buckets_registry, [:set, :protected])      # 8207
+iex> :ets.insert(table, {"foo", self()})                          # true
+iex> :ets.lookup(table, "foo")                        # [{"foo", #PID<0.41.0>}]
+```
+
+- args: table name, options
+- `:set` => no dupe keys
+- `:protected` => only process that created table can writ it. All procs read
+- passing `[:named_table]` returns an atom ":bucket_registry" as name
+
+[Code changes to use ETS](https://github.com/arafatm/notes/commit/6a22505)
+
+:boom: tests still fail e.g. on `test "spawns buckets"`
+
+#### Race conditions?
+
+Failing tests are due to delay between operation and time to change in ETS
+- We are using `cast` instead of `call` so it's synchronous
+
+[Code changes to handle_call](https://github.com/arafatm/notes/commit/818d037)
+
 ### [Dependencies and umbrella apps](https://elixir-lang.org/getting-started/mix-otp/dependencies-and-umbrella-apps.html)
 
 ### [Task and gen-tcp](https://elixir-lang.org/getting-started/mix-otp/task-and-gen-tcp.html)
