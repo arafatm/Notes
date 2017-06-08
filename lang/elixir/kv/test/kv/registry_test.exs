@@ -4,8 +4,8 @@ defmodule KV.RegistryTest do
   setup context do
 
     # context.test := shortcut to spawn registry with name of current test running
-    {:ok, registry} = KV.Registry.start_link(context.test)
-    {:ok, registry: registry}
+    {:ok, _} = KV.Registry.start_link(context.test)
+    {:ok, registry: context.test}
 
   end
 
