@@ -1774,6 +1774,75 @@ supervisor
 
 ### [Supervisor and Application](https://elixir-lang.org/getting-started/mix-otp/supervisor-and-application.html)
 
+#### Our first supervisor
+
+[Create and use a supervisor](https://github.com/arafatm/notes/commit/714ebd3)
+
+Create `KV.Supervisor`
+
+Update `KV.Registry` to use name
+
+Update `KV.RegistryTest` with new `start_link/1` update
+
+Experiment with `iex -S mix`
+
+```elixir
+iex> KV.Supervisor.start_link                       # {:ok, #PID<0.66.0>}
+iex> KV.Registry.create(KV.Registry, "shopping")    # :ok
+iex> KV.Registry.lookup(KV.Registry, "shopping")    # {:ok, #PID<0.70.0>}
+```
+
+#### Understanding applications
+
+`iex -S mix` == `iex -S mix start`
+- `iex -S mix run --no-start` => we have to `Application.start(:kv)` to use it
+
+[Application.start callback](https://github.com/arafatm/notes/commit/4b65901) 
+defines how to start the application. With this change, 
+`KV.Supervisor.start_link` is automatically called when started with `iex -S 
+mix`
+
+#### Supervisor restarting Buckets
+
+[Test to see what happens when bucket 
+crashes](https://github.com/arafatm/notes/commit/892081f)
+
+Running this test results in
+
+```
+test removes bucket on crash (KV.RegistryTest)
+test/kv/registry_test.exs:52
+** (EXIT from #PID<0.94.0>) shutdown
+```
+
+To resolve we define a supervisor that will spawn and supervise all buckets.  
+The strategy used `:simple_one_for_one` specified a worker template and 
+supervises many children
+
+#### Supervision trees
+
+[Create a bucket supervisor](https://github.com/arafatm/notes/commit/3c62fc5)
+
+[Make KV.Bucket.Supervisor a child of 
+KV.Supervisor](https://github.com/arafatm/notes/95e502e)
+
+Strategies
+- `:one_for_one`
+- `:one_for_all` supervisor will kill and restart all children procs
+- `:rest_for_one` supervisor will only kill and restart child procs started 
+  after the crashed child
+
+[Use :rest_for_one strategy](https://github.com/arafatm/notes/a7adef2)
+
+#### Observer
+
+In `iex -S mix` we can run a gui observer with `iex> :observer.start`
+
+If we create a new proc e.g. `KV.Registry.create KV.Registry, "shopping"` we 
+will see it in the Observer
+
+#### Shared state in tests
+
 ### [ETS](https://elixir-lang.org/getting-started/mix-otp/ets.html)
 
 ### [Dependencies and umbrella apps](https://elixir-lang.org/getting-started/mix-otp/dependencies-and-umbrella-apps.html)
