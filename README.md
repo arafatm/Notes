@@ -1,2 +1,0 @@
-Various notes
-# edu_coursera_machine_learning_1_foundations
