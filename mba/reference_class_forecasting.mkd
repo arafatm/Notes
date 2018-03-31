@@ -74,14 +74,13 @@ competition's, that gain approval and funding.
 Explanations of inaccuracy in terms of optimism bias have been developed by
 Kahneman and Tversky (1979a) and Lovallo and Kahneman (2003).
 
-Explanations in terms of
-strategic misrepresentation have been set forth by Wachs (1989,1990) and Flyvbjerg,
-Holm, and Buhl (2002, 2005).
+Explanations in terms of strategic misrepresentation have been set forth by
+Wachs (1989,1990) and Flyvbjerg, Holm, and Buhl (2002, 2005).
 
 In experimental research carried out by Daniel Kahneman and others, this
-[Reference Class Forecasting] method has been demonstrated to be more accurate
-than conventional forecasting methods (Kahneman and Tversky 1979a, 1979 b;
-Kahneman 1994; Lovallo and Kahneman 2003).
+**Reference Class Forecasting** method has been demonstrated to be more
+accurate than conventional forecasting methods (Kahneman and Tversky 1979a,
+1979 b; Kahneman 1994; Lovallo and Kahneman 2003).
 
 ## The Planning Fallacy and Reference Class Forecasting
 
