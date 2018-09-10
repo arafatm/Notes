@@ -793,5 +793,5 @@ Five categories:
   
 ![Figure A.1: Overall Research Program](media/accelerate.png)
 
-![High-Performance Team, Management, and Leadership Behaviors and Practices](media/accelerate_pracices.png)
+![High-Performance Team, Management, and Leadership Behaviors and Practices](media/accelerate_practices.png)
 
