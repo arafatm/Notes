@@ -748,43 +748,43 @@ Five categories:
 
 ### ARCHITECTURE CAPABILITIES
 
-- loosely coupled architecture.
+- **loosely coupled architecture**.
   - allows your teams to work independently, 
   - without relying on other teams for support and services,
-- Architect for empowered teams.
-- Team chooses which tools to use
+- Architect for **empowered teams**.
+- **Team chooses which tools** to use
 
 ### PRODUCT AND PROCESS CAPABILITIES
 
-- Gather and implement customer feedback.
+- Gather and implement **customer feedback**.
   - actively and regularly seek customer feedback and incorporate this feedback
-- Make the flow of work visible through the value stream.
+- Make the **flow of work visible** through the value stream.
   - Teams should have a good understanding of and visibility into the flow of work from the business all the way through to customers, including the status of products and features.
-- Work in small batches.
+- Work in **small batches**.
   - slice work into small pieces that can be completed in a week or less.
   - enables short lead times and faster feedback loops.
-- Foster and enable team experimentation.
+- Foster and enable **team experimentation**.
 
 ### LEAN MANAGEMENT AND MONITORING CAPABILITIES
 
-- lightweight change approval processes based on peer review
-- Monitor across application and infrastructure to inform business decisions.
+- **lightweight change approval processes** based on peer review
+- **Monitor across application and infrastructure** to inform business decisions.
   - goes beyond paging people when things go wrong.
-- Check system health proactively.
+- **Check system health proactively**.
   - Monitor system health, using threshold and rate-of-change warnings, to enable teams to preemptively detect and mitigate problems.
-- Improve processes and manage work with work-in-process (WIP) limits.
-- Visualize work to monitor quality and communicate throughout the team.
+- Improve processes and manage work with work-in-process **(WIP) limits**.
+- **Visualize work** to monitor quality and communicate throughout the team.
 
 ### CULTURAL CAPABILITIES
 
-- Support a generative culture (as outlined by Westrum).
+- Support a **generative culture** (as outlined by Westrum).
   - measure include good information flow, high cooperation and trust, bridging between teams, and conscious inquiry.
-- Encourage and support learning.
-- Support and facilitate collaboration among teams.
+- Encourage and support **learning**.
+- Support and facilitate **collaboration among teams**.
   - reflects how well teams, which have traditionally been siloed, interact in development, operations, and information security.
-- Provide resources and tools that make work meaningful.
+- Provide resources and tools that **make work meaningful**.
   - work that is challenging and meaningful, and being empowered to exercise your skills and judgment.
-- Support or embody transformational leadership. Five factors: 
+- Support or embody **transformational leadership**. Five factors: 
   - vision
   - intellectual stimulation
   - inspirational communication
