@@ -6,15 +6,24 @@
     then I will never truly know reality. And, if I’m not genuinely curious and
     only show up when there’s a failure, then I am failing
 
+## QUICK REFERENCE
 
-## QUICK REFERENCE: CAPABILITIES TO DRIVE IMPROVEMENT
+MEASURES OF DELIVERY PERFORMANCE
+- **delivery lead time**
+- **deployment frequency**
+- **time to restore service**
+- **change fail rate**
 
-Five categories: 
+CAPABILITIES TO DRIVE IMPROVEMENT
 - Continuous delivery 
 - Architecture 
 - Product and Process 
 - Lean Management and Monitoring 
 - Cultural
+
+![Figure A.1: Overall Research Program](media/accelerate.png)
+
+![High-Performance Team, Management, and Leadership Behaviors and Practices](media/accelerate_practices.png)
 
 ### CONTINUOUS DELIVERY CAPABILITIES 
 - Version control: Chapter 4 
@@ -790,8 +799,5 @@ Five categories:
   - inspirational communication
   - supportive leadership
   - and personal recognition.
-  
-![Figure A.1: Overall Research Program](media/accelerate.png)
-
-![High-Performance Team, Management, and Leadership Behaviors and Practices](media/accelerate_practices.png)
+ 
 
