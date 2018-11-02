@@ -211,8 +211,6 @@ amount of information that's most relevant and important to us.
 
 ## Actionable advice from the book:
 
-Visualization
-
 **Visualization** involves imagining yourself physically performing an activity,
 successfully. This exercise can be done at home, at work or even in public, and
 it requires you to create a vivid mental image of a triumphant experience in
