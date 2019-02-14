@@ -7,6 +7,7 @@ from datetime import datetime
 import os
 import tomd
 import urllib3
+import re
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15'}
 http = urllib3.PoolManager(10, headers = headers)
@@ -31,8 +32,11 @@ article = get_element_from_request(f'https://www.blinkist.com{cta}', 'article', 
 # Convert to markdown, add source and dump to a file
 output = f'![{title}]({img_url})\n# {title}\n*{author}*\n\n>{description}\n\n{tomd.convert(str(article).strip())}\n\nSource: [{title} by {author}](https://www.blinkist.com{cta})'
 
+title = re.sub('[ ,.]', '_', title)
+author = re.sub('[ ,.]', '_', author)
 date = datetime.now().strftime('%Y%m%d')
-with open(f'./blinks_daily/{date}-{title}-{author}.md', "w", encoding="utf8") as text_file:
+
+with open(f'./blinks_daily/{date}_{title}_by_{author}.md', "w", encoding="utf8") as text_file:
     text_file.write(output)
 
 os.system(f'git add "./blinks_daily/{date}-{title}-{author}.md"')
