@@ -1,2 +1,3 @@
-* * * * * cd $HOME/code/arafatm/notes && /Users/amohamed/homebrew/bin/python3 /Users/amohamed/code/arafatm/notes/blinkist_daily_scraper.py >> /Users/amohamed/tmp/cron.log 2>&1
+MAILTO=""
+* */6 * * * cd $HOME/code/arafatm/notes && /Users/amohamed/homebrew/bin/python3 /Users/amohamed/code/arafatm/notes/blinkist_daily_scraper.py >> /Users/amohamed/tmp/cron.log 2>&1
 
