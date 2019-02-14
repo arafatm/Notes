@@ -36,9 +36,12 @@ title = re.sub('[ ,.]', '_', title)
 author = re.sub('[ ,.]', '_', author)
 date = datetime.now().strftime('%Y%m%d')
 
+blink = f'./blinks_daily/{date}_{title}_by_{author}.md'
+print(f'{datetime.now()} {blink}\n\n')
+
 with open(f'./blinks_daily/{date}_{title}_by_{author}.md', "w", encoding="utf8") as text_file:
     text_file.write(output)
 
-os.system(f'git add "./blinks_daily/{date}-{title}-{author}.md"')
+os.system(f'git add "./blinks_daily/*"')
 os.system(f'git commit -m "{title} by {author}"')
 os.system(f'git push')
