@@ -1,5 +1,7 @@
 # Lifting Log
 
+test
+
 ## 2029.03.01 GPP
 
 15 mins amrap, with empty bar
