@@ -1,8 +1,14 @@
 # Lifting Log
 
-test
+## 2019.03.04 Upper speed
 
-## 2029.03.01 GPP
+6x6 195 bench
+
+6x10 90 lat pulldown
+
+6x15 20 DB tricep extension
+
+## 2019.03.01 GPP
 
 15 mins amrap, with empty bar
 - 25 OHP
