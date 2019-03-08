@@ -1,5 +1,17 @@
 # Lifting Log
 
+## 2019.03.07 lower heavy
+
+squat
+- MISS 1x 430
+- 1x 410
+
+Leg press
+- 30x 315
+- 30x 405
+- 4x 30x 495
+- 20x 315
+
 ## 2019.03.04 Upper speed
 
 6x6 195 bench
