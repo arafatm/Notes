@@ -1,6 +1,6 @@
 # Lifting Log
 
-## 2029.05.06 lower heavy
+## 2019.05.06 lower heavy
 
 1x415 squat
 
