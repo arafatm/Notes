@@ -8,10 +8,11 @@ from https://samhobbs.co.uk/2017/08/kodi-server-part-1-installation-and-configur
 sudo usermod -aG audio,video kodi
 
 sudo apt-get update
+sudo apt-get install software-properties-common
 
 sudo add-apt-repository ppa:team-xbmc/ppa
 sudo apt-get update
-sudo apt-get install kodi
+sudo apt-get install kodi xorg xserver-xorg-legacy dbus-x11 alsa-utils
 ```
 
 ## Starting Kodi automatically
