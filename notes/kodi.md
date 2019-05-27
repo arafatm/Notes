@@ -2,6 +2,26 @@
 
 from https://forum.odroid.com/viewtopic.php?t=22386
 
+## swap caps:esc
+
+In /etc/default/keyboard set `XKBOPTIONS="caps:escape"` and then do:
+
+`sudo setupcon`
+
+## Edit console resolution (resolution on tv is too high)
+
+In `/etc/default/grub` set
+
+```
+GRUB_CMDLINE_LINUX_DEFAULT="nomodeset"
+GRUB_GFXPAYLOAD_LINUX=1024x768
+```
+
+```
+sudo update-grub
+sudo reboot
+```
+
 ## Install Kodi
 
 ```
