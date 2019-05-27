@@ -5,8 +5,10 @@ from https://samhobbs.co.uk/2017/08/kodi-server-part-1-installation-and-configur
 ## Install Kodi
 
 ```
+sudo usermod -aG audio,video kodi
+
 sudo apt-get update
-sudo apt-get install software-properties-common xorg xserver-xorg-legacy dbus-x11 alsa-utils
+
 sudo add-apt-repository ppa:team-xbmc/ppa
 sudo apt-get update
 sudo apt-get install kodi
