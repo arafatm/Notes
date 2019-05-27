@@ -51,6 +51,8 @@ ResultInactive=no
 ResultActive=yes
 ```
 
+`sudo service polkitd reload`
+
 ## Allowing auto updates to Kodi
 
 ```
