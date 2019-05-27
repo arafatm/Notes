@@ -1,11 +1,11 @@
 # Installing Kodi
 
-from https://samhobbs.co.uk/2017/08/kodi-server-part-1-installation-and-configuration
+from https://forum.odroid.com/viewtopic.php?t=22386
 
 ## Install Kodi
 
 ```
-sudo usermod -aG audio,video kodi
+sudo usermod -a -G cdrom,audio,video,plugdev,users,dialout,dip,input kodi
 
 sudo apt-get update
 sudo apt-get install software-properties-common
@@ -13,10 +13,17 @@ sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:team-xbmc/ppa
 sudo apt-get update
 sudo apt-get install kodi xorg xserver-xorg-legacy dbus-x11 alsa-utils
+
+sudo dpkg-reconfigure xserver-xorg-legacy # select anybody
 ```
 
-## Starting Kodi automatically
+add `needs_root_rights=yes` to `etc/X11/Xwrapper.config`
 
+## Disable starting display manager at boot
+
+`sudo systemctl disable display-manager.service`
+
+## Starting Kodi automatically
 
 `sudo vi /etc/systemd/system/kodi.service`
 
@@ -24,13 +31,18 @@ sudo apt-get install kodi xorg xserver-xorg-legacy dbus-x11 alsa-utils
 [Unit]
 Description = Kodi Media Center
 
-After = systemd-user-sessions.service sound.target
+# if you don't need the MySQL DB backend, this should be sufficient
+After = systemd-user-sessions.service network.target sound.target
+
+# if you need the MySQL DB backend, use this block instead of the previous
+# After = systemd-user-sessions.service network.target sound.target mysql.service
+# Wants = mysql.service
 
 [Service]
 User = kodi
 Group = kodi
 Type = simple
-PAMName = login
+#PAMName = login # you might want to try this one, did not work on all systems
 ExecStart = /usr/bin/xinit /usr/bin/dbus-launch --exit-with-session /usr/bin/kodi-standalone -- :0 -nolisten tcp vt7
 Restart = on-abort
 RestartSec = 5
@@ -40,6 +52,8 @@ WantedBy = multi-user.target
 ```
 
 `sudo systemctl enable kodi`
+
+Reboot
 
 ## Allow shutdown/reboot
 
