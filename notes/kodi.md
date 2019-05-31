@@ -136,6 +136,27 @@ Unattended-Upgrade::Allowed-Origins {
 sudo apt-get install fail2ban sendmail
 
  # allow ssh nzbget radarr sonarr
-sudo ufw allow 22 6789 7878 8989
+sudo ufw allow 22 
+sudo ufw allow 6789 
+sudo ufw allow 7878 
+sudo ufw allow 8989
 sudo ufw enable
+```
+
+## Disable SSH with password
+
+Edit `/etc/ssh/sshd_config` and change the following lines
+
+```
+ChallengeResponseAuthentication no
+
+PasswordAuthentication no
+
+UsePAM no
+
+PermitRootLogin no
+```
+
+```
+sudo systemctl reload ssh
 ```
