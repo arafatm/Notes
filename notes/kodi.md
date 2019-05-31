@@ -129,3 +129,13 @@ Unattended-Upgrade::Allowed-Origins {
         "LP-PPA-team-xbmc:${distro_codename}";
 };
 ```
+
+## Fail2Ban and firewall
+
+```
+sudo apt-get install fail2ban sendmail
+
+ # allow ssh nzbget radarr sonarr
+sudo ufw allow 22 6789 7878 8989
+sudo ufw enable
+```
