@@ -129,3 +129,34 @@ Unattended-Upgrade::Allowed-Origins {
         "LP-PPA-team-xbmc:${distro_codename}";
 };
 ```
+
+## Fail2Ban and firewall
+
+```
+sudo apt-get install fail2ban sendmail
+
+ # allow ssh nzbget radarr sonarr
+sudo ufw allow 22 
+sudo ufw allow 6789 
+sudo ufw allow 7878 
+sudo ufw allow 8989
+sudo ufw enable
+```
+
+## Disable SSH with password
+
+Edit `/etc/ssh/sshd_config` and change the following lines
+
+```
+ChallengeResponseAuthentication no
+
+PasswordAuthentication no
+
+UsePAM no
+
+PermitRootLogin no
+```
+
+```
+sudo systemctl reload ssh
+```
