@@ -1,4 +1,4 @@
 Random note 
 ```
-find . -type f |grep -v .git |gshuf -n 1
+find . -type f |grep -v .git | shuf -n 1
 ```
