@@ -1,4 +1,5 @@
-#  Storyworthy by Matthew Dicks 
+#  Storyworthy 
+*Matthew Dicks*
 
 Storyworthy (2018) explains how to craft a story for maximum impact. From
 intriguing beginnings to satisfying endings and everything in between, these
