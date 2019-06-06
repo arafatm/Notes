@@ -1,21 +1,23 @@
-    There have been losers with Globalism. But it's also about culture and nationality
+>There have been losers with Globalism. But it's also about culture and
+>nationality
 
-    Even in China protests are rising caused by economic, environmental and
-    political concerns driven by globalization
+>Even in China protests are rising caused by economic, environmental and
+>political concerns driven by globalization
 
-    States with higher inequality were more likely to have higher levels of hate crime.
+>States with higher inequality were more likely to have higher levels of hate
+>crime.
 
-    Industrial jobs are getting automated with no funds for reeducation for displaced workers
+>Industrial jobs are getting automated with no funds for reeducation for
+>displaced workers
 
-    In the US, for example, visa programs already allow rich foreigners easier
-    access to green cards if they invest in real estate.
+>In the US, for example, visa programs already allow rich foreigners easier
+>access to green cards if they invest in real estate.
 
-    It’s not hard to dislike populists like Trump. But he didn’t create the us
-    vs. them world that made his election possible. Many people in America,
-    Europe and the developing world want change. And they feel that political
-    and economic elites do not understand the real impacts of globalism. If we
-    don’t take these people seriously, there are major problems ahead for
-    society and for politics.
+>It’s not hard to dislike populists like Trump. But he didn’t create the us vs.
+>them world that made his election possible. Many people in America, Europe and
+>the developing world want change. And they feel that political and economic
+>elites do not understand the real impacts of globalism. If we don’t take these
+>people seriously, there are major problems ahead for society and for politics.
 
 ![Us vs. Them](https://images.blinkist.com/images/books/5b671934b238e100078c2ed4/1_1/470.jpg)
 
