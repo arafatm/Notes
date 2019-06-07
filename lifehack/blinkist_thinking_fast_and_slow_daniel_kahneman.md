@@ -2,6 +2,49 @@
 
 By Daniel Kahneman
 
+> Automatic vs Considered Minds
+
+> The mind is lazy
+
+> Priming
+
+> Halo Effect and Confirmation Bias 
+
+> Heuristics
+
+> Base Rate Neglect & Reverting To The Mean
+
+> Memory Selves: Experiencing vs Remembering
+
+> Cognitive Ease vs Cognitive Strain 
+
+> Risk and Figures of Speech
+
+> Utility Theory 
+
+> Reference Class Forecasting
+
+## Final Summary 
+
+**Repeat the message**!
+
+Messages are more persuasive when we’re repeatedly exposed to them. This is
+probably because we evolved in a way that made repeated exposure to things that
+had no bad consequences are deemed inherently good.
+
+**Don’t be influenced by rare statistical events that are over-reported in
+newspapers**.
+
+Disasters and other events are an important part of our history, but we often
+overestimate their statistical probability because of the vivid images we
+associate with them from the media.
+
+**You’re more creative and intuitive when you’re in a better mood**.
+
+When you’re in a better mood, the part of the mind that is alert and analytical
+tends to relax. That cedes control of your mind to the more intuitive and
+quicker thinking system, which also makes you more creative.
+
 ## Summary
 
 Thinking, Fast and Slow shows us that our minds contain two systems. The first
@@ -9,7 +52,7 @@ acts instinctively and requires little effort; the second is more deliberate
 and requires much more of our attention. Our thoughts and actions vary
 depending on which of the two systems is in control of our brain at the time.
 
-## Of Two Minds: Automatic vs Considered
+## Automatic vs Considered Minds
 
 There is a compelling drama going on in our minds, a filmlike plot between two
 main characters with twists, dramas and tensions. These two characters are the
@@ -41,7 +84,7 @@ distractions, and you barely notice other people in the crowd. If you maintain
 this focused attention, you might spot her within a matter of minutes, whereas
 if you’re distracted and lose focus, you’ll have trouble finding her.
 
-## The Lazy Mind 
+## The mind is lazy 
 
 To see how the two systems work, try solving this famous bat-and-ball problem:
 A bat and ball cost $1.10. The bat costs one dollar more than the ball. How
@@ -363,7 +406,7 @@ monetary value of both losses being equal. Similarly in our example, the
 perceived value lost when going from $1,500 to $1,000 is greater than when
 going from $2,000 to $1,500.
 
-## 
+## Reference Class Forecasting 
 
 In order to understand situations, our minds naturally use **cognitive
 coherence**; we construct complete mental pictures to explain ideas and
@@ -399,23 +442,3 @@ preparation and protection, you can rely on evidence instead of general mental
 pictures and make more accurate forecasts. In the case of our weather example,
 this could mean bringing along a sweater just to be safe.
 
-## Actionable advice
-
-**Repeat the message**!
-
-Messages are more persuasive when we’re repeatedly exposed to them. This is
-probably because we evolved in a way that made repeated exposure to things that
-had no bad consequences are deemed inherently good.
-
-**Don’t be influenced by rare statistical events that are over-reported in
-newspapers**.
-
-Disasters and other events are an important part of our history, but we often
-overestimate their statistical probability because of the vivid images we
-associate with them from the media.
-
-**You’re more creative and intuitive when you’re in a better mood**.
-
-When you’re in a better mood, the part of the mind that is alert and analytical
-tends to relax. That cedes control of your mind to the more intuitive and
-quicker thinking system, which also makes you more creative.
