@@ -1,4 +1,9 @@
-Random note 
+Read a random note
 ```
-find . -type f |grep -v .git | shuf -n 1
+find . -type d \( -name .git -o -name blinks_daily \) -prune -o \( -name "*.mkd" -o -name "*.md" \) |shuf -n 1
+```
+
+Read a random downloaded daily blink
+```
+find blinks_daily -type f | shuf -n 1
 ```
