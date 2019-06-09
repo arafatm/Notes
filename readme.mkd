@@ -7,3 +7,8 @@ Read a random downloaded daily blink
 ```
 find blinks_daily -type f | shuf -n 1
 ```
+
+Grab quotes from a book and add to quotes.md
+```
+grep -E "\`.*\`" BOOK |sed "s/$/ -- BOOK /" |sed "s/\`//g" |sed "s/^/> /" >> quotes.mkd
+```
