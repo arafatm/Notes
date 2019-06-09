@@ -56,7 +56,7 @@ The more intergenerational relationships older people form, the higher the
 brain benefit turns out to be, especially when seniors interact with
 elementary-age children.
 
-**The lonelier you are, the lonelier you become**.
+> The lonelier you are, the lonelier you become
 
 In a six-month **dance class, one hour per week**: hand-motor coordination,
 fluid intelligence, short-term memory, and impulse control increased by 13
