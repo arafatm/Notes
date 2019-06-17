@@ -23,7 +23,7 @@
 > Happiness is simply the absence of desire. -- Atomic Habits
 > Suffering is the space between craving a change in state and getting it. -- Atomic Habits
 > We can only be rational and logical after we have been emotional. -- Atomic Habits
-> Mindfulness (meditation) improves our brains`. -- Brain Rules 
+> Mindfulness (meditation) improves our brains. -- Brain Rules 
 > Be very social.  -- Brain Rules
 > Read 3+ hours per day.  -- Brain Rules
 > Intensely learn something new, especially a new language.  -- Brain Rules
@@ -36,3 +36,30 @@
 > "All beings own their own karma. Their happiness is dependent  on their actions not my wishes for them" -- Sharon Salzburg
 > "You do not have to be the best at anything to be uniquely qualified for something" -- Sam Harris
 > "There is no elevator to success. You have to take the stairs" -- Julie Rice
+../quotes.mkd
+> Spend enough time in a state of frenetic shallowness and you permanently reduce your capacity to perform deep work. -- Deep Work
+> “A succession of mediocre singers does not add up to a single outstanding performance.”  -- Deep Work
+> Deliberate practice requires: Attention and Feedback -- Deep Work
+> Eudaimonia (a state in which you’re achieving your full human potential) -- Deep Work
+> Minimize the amount of willpower necessary to maintain unbroken concentration. -- Deep Work
+> Donald Knuth: “I have been a happy man ever since January 1, 1990, when I no longer had an email address. Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things. What I do takes long hours of studying and uninterruptible concentration.” -- Deep Work
+> Neal Stephenson: “All of my time and attention are spoken for - several times over. Please do not ask for them.” -- Deep Work
+> Waiting for inspiration to strike is a terrible, terrible plan. -- Deep Work
+> Schedule every minute of your day. -- Deep Work
+> Two things determine how your life turns out: the quality of your decisions, and luck. Recognize the difference between the two. -- Thinking In Bets
+> Hindsight bias is the tendency, after an outcome is known, to see the outcome as having been inevitable. -- Thinking In Bets
+> Life is more like poker. You could make the smartest, most careful decision and still have it blow up in your face. -- Thinking In Bets
+> Saying “I don’t know” is a necessary step toward enlightenment. -- Thinking In Bets
+> A great decision is the result of a good process - not that it has a great outcome. -- Thinking In Bets
+> Blind-spot bias is worse the smarter you are. -- Thinking In Bets
+> Experience can be an effective teacher, but only some students listen to their teachers. -- Thinking In Bets
+> Experience is not what happens to a man; it is what a man does with what happens to him. -- Thinking In Bets
+> To change a habit, you must keep the old cue, and deliver the old reward, but insert a new routine. -- Thinking In Bets
+> It’s easy to win a bet against someone who takes extreme positions. -- Thinking In Bets
+> Agree to be open-minded to those who disagree eith you, give credit where it’s due, and take responsibility where it’s appropriate, -- Thinking In Bets
+> “There’s not much purpose in a poker story if the point is about something you had no control over, like bad luck.” -- Thinking In Bets
+> People are more willing to offer their opinion when the goal is to win a bet rather than get along with people in a room. -- Thinking In Bets
+> Telling someone how a story ends encourages them to be resulters, to interpret the details to fit that outcome. -- Thinking In Bets
+> Skepticism is about approaching the world by asking why things might not be true rather than why they are true. -- Thinking In Bets
+> Imagine yourself looking back from the destination and figure how you got there.  Remembering the future is a better way to plan for it. -- Thinking In Bets
+> Negative visualization makes you more likely to achieve your goals. -- Thinking In Bets
