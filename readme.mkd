@@ -1,3 +1,6 @@
+Currently reading
+https://github.com/arafatm/book_functional_web_development_with_elixir_otp_and_phoenix
+
 Read a random note
 ```
 find . -type d \( -name .git -o -name blinks_daily \) -prune -o \( -name "*.mkd" -o -name "*.md" \) |shuf -n 1
