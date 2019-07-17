@@ -7,7 +7,6 @@ from datetime import datetime
 import os
 import tomd
 import urllib3
-import re
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15'}
 http = urllib3.PoolManager(10, headers = headers)
@@ -19,12 +18,12 @@ def get_element_from_request(url, element, class_):
     return soup.find(element, class_ = class_)
 
 # Get meta data
-container = get_element_from_request('https://www.blinkist.com/nc/daily', 'div', "dailyV2__free-book")
+container = get_element_from_request('https://www.blinkist.com/nc/daily', 'div', "daily-book__grid")
 
-title = container.find('div', 'dailyV2__free-book__title').string.strip()
-author = container.find('div', 'dailyV2__free-book__author').string.strip()
-description = container.find('div', 'dailyV2__free-book__description').string.strip()
-cta = container.find('div', 'dailyV2__free-book__cta').a['href']
+title = container.find('h3', 'daily-book__headline').string.strip()
+author = container.find('div', 'daily-book__author').string.strip()[3:]
+description = container.find('div', 'book-tabs__content-inner').p.contents[1]
+cta = container.find('a', 'cta')['href']
 img_url = container.find('img')['src']
 # Get actual content
 article = get_element_from_request(f'https://www.blinkist.com{cta}', 'article', 'shared__reader__blink reader__container__content')
@@ -32,16 +31,13 @@ article = get_element_from_request(f'https://www.blinkist.com{cta}', 'article', 
 # Convert to markdown, add source and dump to a file
 output = f'![{title}]({img_url})\n# {title}\n*{author}*\n\n>{description}\n\n{tomd.convert(str(article).strip())}\n\nSource: [{title} by {author}](https://www.blinkist.com{cta})'
 
-title = re.sub('[ ,.]', '_', title)
-author = re.sub('[ ,.]', '_', author)
 date = datetime.now().strftime('%Y%m%d')
+commitMessage = f'{title} by {author}'
+fileName = os.path.join('blinks', f'{date[:4]}', f'{date}-{title}-{author}.md')
 
-blink = f'./blinks_daily/{date}_{title}_by_{author}.md'
-print(f'{datetime.now()} {blink}\n\n')
-
-with open(f'./blinks_daily/{date}_{title}_by_{author}.md', "w", encoding="utf8") as text_file:
+with open(fileName, "w", encoding="utf8") as text_file:
     text_file.write(output)
 
-os.system(f'git add "./blinks_daily/*"')
-os.system(f'git commit -m "{title} by {author}"')
+os.system(f'git add "{fileName}"')
+os.system(f'git commit -m "{commitMessage}"')
 os.system(f'git push')
