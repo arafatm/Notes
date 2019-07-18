@@ -1511,7 +1511,7 @@ truth, you’ll feel a bit like him!
 6. **DO NOT use any form of substitute.** 
 7. **DO NOT carry or keep any smoking materials**. 
 8. **DO NOT avoid other smokers**. 
-9. DO NOT change your lifestyle in any way** purely because you’ve stopped
+9. **DO NOT change your lifestyle in any way** purely because you’ve stopped
    smoking. If you follow the above instructions, you will soon experience the
    moment of revelation. But: 
 10. **Don’t wait for that moment to come**. Just get on with your life. Enjoy
