@@ -2,7 +2,34 @@
 
 Allen Carr and Damian O'Hara
 
-The nicotine trap is the most subtle, sinister trap that man and nature have combined to devise.
+**The Checklist** If you follow these simple instructions, you cannot fail. 
+1. **Make a solemn vow** that you will never, ever, smoke, chew, suck or
+   otherwise consume anything that contains nicotine, and stick to that vow. 
+2. Get this clear in your mind: **there is absolutely nothing to give up.** By
+   that I don’t mean that you will be better off as a non-smoker (you’ve known
+   that your entire smoking life); nor do I mean that the pleasure or benefit
+   from smoking is not worth the expense and risk. What I mean is that there is
+   absolutely no benefit to smoking whatsoever. It is like banging your head
+   against a wall because it feels a bit better when you stop. 
+3. There is **no such thing as a confirmed smoker**. You are just one of the
+   millions who fell for this subtle trap. Like millions of ex-smokers who once
+   thought they couldn’t escape, you have escaped. 
+4. If you were to weigh up the pros and cons of smoking, the conclusion would
+   always be the same—to **be a non-smoker and happy about it**. Having made
+   what you know to be the correct decision, don’t ever make yourself miserable
+   by doubting it. 
+5. **Don’t try not to think about smoking** or worry that you are thinking
+   about it too much. But whenever you do think about it—whether it’s today,
+   tomorrow or the rest of your life—think, ‘YIPPEE! I’M A NON-SMOKER!’ 
+6. **DO NOT use any form of substitute.** 
+7. **DO NOT carry or keep any smoking materials**. 
+8. **DO NOT avoid other smokers**. 
+9. **DO NOT change your lifestyle in any way** purely because you’ve stopped
+   smoking. If you follow the above instructions, you will soon experience the
+   moment of revelation. But: 
+10. **Don’t wait for that moment to come**. Just get on with your life. Enjoy
+   the highs and cope with the lows. The moment will come, and when it does,
+   it’s a moment of pure joy.
 
 ## CHAPTER 1 THE WORST NICOTINE ADDICT I EVER MET
 
