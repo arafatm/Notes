@@ -1070,6 +1070,7 @@ When I finally broke free I went from a hundred cigarettes a day to zero
 without a single bad moment or pang of regret. I even enjoyed the withdrawal
 period because I saw it for what it really was—a barely noticeable feeling in
 the pit of my stomach, which was a signal that the ‘little monster’ was dying.
+
 The truth of the matter is that stopping smoking is the most wonderful thing
 that has happened in my life.
 
@@ -1225,10 +1226,10 @@ point in smoking apart from to get the nicotine, and that there was no pleasure
 in the physical act of smoking for its own sake.
 
 Instead of feeling fearful and anxious about pangs, embrace them. Say to
-yourself: ‘I know what this is—it’s the ‘little monster’ dying.
+yourself: "**I know what this is—it’s the ‘little monster’ dying**".
 
-Don’t focus on the pang, but on what it represents—the death not of a friend,
-but of a terrible enemy.
+Don’t focus on the pang, but on what it represents — **the death not of a
+friend, but of a terrible enemy**.
 
 One that enslaved you for years and stole your health, your money, your
 self-respect, your courage and confidence, all the time trying to kill you.
