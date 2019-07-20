@@ -37,7 +37,7 @@ output = f'![{title}]({img_url})\n# {title}\n*{author}*\n\n>{description}\n\n{to
 
 date = datetime.now().strftime('%Y%m%d')
 commitMessage = f'{title} by {author}'
-fileName = os.path.join('blinks', f'{date[:4]}', f'{date}-{title}-{author}.md')
+fileName = os.path.join('blinkist', f'{date[:4]}', f'{date}-{title}-{author}.md')
 
 print("write file")
 with open(fileName, "w", encoding="utf8") as text_file:
