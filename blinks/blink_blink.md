@@ -2,9 +2,7 @@
 
 ## The key message of this book:
 
-The human brain can make snap judgments in the blink of an eye. **In certain
-situations, these snap judgments are far superior to conscious analysis**,
-whereas **sometimes they can lead to bad choices and unfair appraisals of others**.
+>The human brain can make snap judgments in the blink of an eye. **In certain situations, these snap judgments are far superior to conscious analysis**, whereas **sometimes they can lead to bad choices and unfair appraisals of others**.
 
 ## Actionable advice:
 
