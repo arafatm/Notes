@@ -1,14 +1,14 @@
 > If you don't deal with your demons they'll move into the cellar and lift weights
-> You are what you pretend to be -- Kurt Vonnegut
-> The standard pace is for chumps -- Derek Sivers
-> Don't be a donkey (from the fable that can't decide between the water and hay) -- Derek Sivers
-> Authenticity is overrated. I want a professional to show up -- Seth Godin
-> We wouldn't accept our boss talking to us like we talk to ourselves -- Seth Godin
-> Keep doing the work with generosity until the lizard brain stops censoring you -- Seth Godin
-> No one gets plumber's block. They just do plumbing -- Tim Ferris
+> You are what you pretend to be. -- Kurt Vonnegut
+> The standard pace is for chumps. -- Derek Sivers
+> Don't be a donkey (from the fable that can't decide between the water and hay). -- Derek Sivers
+> Authenticity is overrated. I want a professional to show up. -- Seth Godin
+> We wouldn't accept our boss talking to us like we talk to ourselves. -- Seth Godin
+> Keep doing the work with generosity until the lizard brain stops censoring you. -- Seth Godin
+> No one gets plumber's block. They just do plumbing. -- Tim Ferris
 > Always do the simplest thing first
-> Ask yourself first if you have a right to have an opinion -- Ray Dali
-> Get 1 percent better each day -- Atomic Habits
+> Ask yourself first if you have a right to have an opinion. -- Ray Dali
+> Get 1 percent better each day. -- Atomic Habits
 > A systems-first mentality beats a goal-oriented mind-set. -- Atomic Habits
 > The purpose of setting goals is to win the game. The purpose of building systems is to continue playing the game. -- Atomic Habits
 > It’s easy not to practice the guitar when it’s tucked away in the closet. -- Atomic Habits
@@ -21,21 +21,21 @@
 > Happiness is simply the absence of desire. -- Atomic Habits
 > Suffering is the space between craving a change in state and getting it. -- Atomic Habits
 > Mindfulness (meditation) improves our brains. -- Brain Rules 
-> Be very social.  -- Brain Rules
-> Read 3+ hours per day.  -- Brain Rules
-> Intensely learn something new, especially a new language.  -- Brain Rules
-> Take dance lessons.  -- Brain Rules
-> Practice gratitude and mindfulness.  -- Brain Rules
-> Flood your mind with nostalgic memories.   -- Brain Rules
+> Be very social. -- Brain Rules
+> Read 3+ hours per day. -- Brain Rules
+> Intensely learn something new, especially a new language. -- Brain Rules
+> Take dance lessons. -- Brain Rules
+> Practice gratitude and mindfulness. -- Brain Rules
+> Flood your mind with nostalgic memories. . -- Brain Rules
 > Remember the human
-> What am I not saying that needs to be said? What am I saying that’s not being heard? What’s being said that I’m not hearing? -- Jerry Colonna
-> All beings own their own karma. Their happiness is dependent  on their actions not my wishes for them -- Sharon Salzburg
-> There is no elevator to success. You have to take the stairs -- Julie Rice
+> What am I not saying that needs to be said? What am I saying that’s not being heard? What’s being said that I’m not hearing?. -- Jerry Colonna
+> All beings own their own karma. Their happiness is dependent on their actions not my wishes for them. -- Sharon Salzburg
+> There is no elevator to success. You have to take the stairs. -- Julie Rice
 ../quotes.mkd
 > Spend enough time in a state of frenetic shallowness and you permanently reduce your capacity to perform deep work. -- Deep Work
-> A succession of mediocre singers does not add up to a single outstanding performance.  -- Deep Work
-> Deliberate practice requires: Attention and Feedback -- Deep Work
-> Eudaimonia (a state in which you’re achieving your full human potential) -- Deep Work
+> A succession of mediocre singers does not add up to a single outstanding performance. -- Deep Work
+> Deliberate practice requires: Attention and Feedback. -- Deep Work
+> Eudaimonia (a state in which you’re achieving your full human potential). -- Deep Work
 > Minimize the amount of willpower necessary to maintain unbroken concentration. -- Deep Work
 > Donald Knuth: I have been a happy man ever since January 1, 1990, when I no longer had an email address. Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things. What I do takes long hours of studying and uninterruptible concentration. -- Deep Work
 > Neal Stephenson: All of my time and attention are spoken for - several times over. Please do not ask for them. -- Deep Work
@@ -47,21 +47,21 @@
 > Saying I don’t know is a necessary step toward enlightenment. -- Thinking In Bets
 > Blind-spot bias is worse the smarter you are. -- Thinking In Bets
 > Experience can be an effective teacher, but only some students listen to their teachers. -- Thinking In Bets
-> Agree to be open-minded to those who disagree eith you, give credit where it’s due, and take responsibility where it’s appropriate, -- Thinking In Bets
+> Agree to be open-minded to those who disagree eith you, give credit where it’s due, and take responsibility where it’s appropriate,. -- Thinking In Bets
 > There’s not much purpose in a poker story if the point is about something you had no control over, like bad luck. -- Thinking In Bets
 > People are more willing to offer their opinion when the goal is to win a bet rather than get along with people in a room. -- Thinking In Bets
 > Telling someone how a story ends encourages them to be resulters, to interpret the details to fit that outcome. -- Thinking In Bets
 > Skepticism is about approaching the world by asking why things might not be true rather than why they are true. -- Thinking In Bets
-> Imagine yourself looking back from the destination and figure how you got there.  Remembering the future is a better way to plan for it. -- Thinking In Bets
+> Imagine yourself looking back from the destination and figure how you got there. Remembering the future is a better way to plan for it. -- Thinking In Bets
 > Negative visualization makes you more likely to achieve your goals. -- Thinking In Bets
-> Radical Candor or Ruinous Empathy or Obnoxious Aggression or Manipulative Incenserity?
+> Radical Candor, or Ruinous Empathy, or Obnoxious Aggression, or Manipulative Incenserity?
 > Be a kind human
 > The ability to to become self reflective, to pause, quiet the mind a bit, and turn attention back on itself — Jim dethmer
 > Ask yourself after a conversation: was there anywhere I was more interested in control, approval, and survival, than I was in learning? Jim dethmer
 > During a conversation just pause for a breath and ask yourself: in this moment am I genuinely interested in generating a win for all outcome. Or have I constricted such that the most important thing is protecting my ego Jim dethmer
 > The antidote to fear is not courage. It’s acceptance. Jim dethmer
 > Almost all life is lived from the triangle of victim villain hero — Jim dethmer 
-> Unless people are equally valuing  EQ (with IQ) the best decisions are being made. Jim dethmer
+> Unless people are equally valuing EQ (with IQ) the best decisions are being made. Jim dethmer
 > Unless you’re aligned on your agreements you’ll circle around drama. Jim dethmer
 > Don’t be a victim of people, circumstances and conditions. Jim dethmer
 > It takes an unbielevable amount of energy to resist reality. Jim dethmer 
@@ -74,29 +74,29 @@
 > Don’t say I hate. Say It’s not for me
 > Almost everything will work again if you unplug it for a few minutes, including you. — Anne Lamott
 > When we come down to the root of the matter, we see that [geniuses] differ from ordinary men less in the character of their attention than in the nature of the objects upon which it is successively bestowed. -- William James
-> Never expect you'll get a No. Always put your name in -- Kevin Systrom
-> Do the thing. Don't just write articles about starting -- Kevin Systrom
+> Never expect you'll get a No. Always put your name in. -- Kevin Systrom
+> Do the thing. Don't just write articles about starting. -- Kevin Systrom
 > At the end of your life when you look back at this, who do you want to have been? How do you want people to have thought of you?
-> To have a conversation you to have to first learn to listen -- Julie Rice
-> It's easy to hide behind a grandiose idea. It's hard to hide when you have a small plan -- Seth Godin
+> To have a conversation you to have to first learn to listen. -- Julie Rice
+> It's easy to hide behind a grandiose idea. It's hard to hide when you have a small plan. -- Seth Godin
 > Ask 3 times: Is there more?
-> There is no elevator to success. You have to take the stairs -- Julie Rice
-> You can fail at what you don't love, so you might as well do what you do love -- Jim Carrey
-> Life doesn't happen to you, it happens for you. How do I know this? Because I'm making sound -- Jim Carrey
+> There is no elevator to success. You have to take the stairs. -- Julie Rice
+> You can fail at what you don't love, so you might as well do what you do love. -- Jim Carrey
+> Life doesn't happen to you, it happens for you. How do I know this? Because I'm making sound. -- Jim Carrey
 > Systems with slack are more resilient. The few extra minutes of time aren’t wasted, the same way that a bike helmet isn’t wasted if you don’t have a crash today. That buffer will save the day, sooner or later. -- Seth Godin
 > What do you despise? By this are you truly known. -- Frank Herbert,
 > I will have to remember ‘I am here today to cross the swamp, not to fight all the alligators.’ — From The Art of Possibility 
-> To begin you must study the end -- Jose Raul Capablanca
-> What goals can I achieve by making marginal adjustments -- Stephen Duneier https://www.youtube.com/watch?v=TQMbvJNRpLE
-> We have to enforce without force -- https://www.ted.com/talks/ian_dunbar_on_dog_friendly_dog_training
-> Jiu Jitsu Perspective -- https://www.youtube.com/watch?v=STAqTwaojOM
+> To begin you must study the end. -- Jose Raul Capablanca
+> What goals can I achieve by making marginal adjustments. -- Stephen Duneier https://www.youtube.com/watch?v=TQMbvJNRpLE
+> We have to enforce without force. -- https://www.ted.com/talks/ian_dunbar_on_dog_friendly_dog_training
+> Jiu Jitsu Perspective. -- https://www.youtube.com/watch?v=STAqTwaojOM
 > it’s always in your favor to introduce yourself. -- The Fine Art of Small Talk
-> FORM: family, occupation, recreation and miscellaneous -- asking open ended questions from The Fine Art of Small Talk
+> FORM: family, occupation, recreation and miscellaneous. -- asking open ended questions from The Fine Art of Small Talk
 .
 > Getting angry is not a strategy. It’s a distraction. -- https://gen.medium.com/if-youre-angry-you-re-part-of-the-problem-not-the-solution-d50a74b119cb
 > Luck is what happens when preparation meets opportunity
 > Whatever you fear most has no power – it is your fear that has the power.
-> You will continue to suffer if you have an emotional reaction to everything that is said to you. True power is sitting back and observing things with logic. True power is restraint. If words control you that means everyone else can control you. Breathe and allow things to pass -- Warren Buffett
+> You will continue to suffer if you have an emotional reaction to everything that is said to you. True power is sitting back and observing things with logic. True power is restraint. If words control you that means everyone else can control you. Breathe and allow things to pass. -- Warren Buffett
 > Act that you use humanity, whether in your own person or in the person of any other, always at the same time as an end, never merely as a means. -- Immanuel Kant
 > It is not the critic who counts. Not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood. Who strives valiantly. Who errs, who comes short again and again, because there is no effort without error and shortcoming. But who does actually strive to do the deeds. Who knows great enthusiasms, the great devotions. Who spends himself in a worthy cause. Who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat. -- Theodore Roosevelt
-> Girls place more emphasis on the feedback they receive from their teachers than boys do -- Under Pressure by Lisa Damour
+> Girls place more emphasis on the feedback they receive from their teachers than boys do. -- Under Pressure by Lisa Damour
