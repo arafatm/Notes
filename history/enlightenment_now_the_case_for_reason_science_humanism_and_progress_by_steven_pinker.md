@@ -1521,12 +1521,63 @@ The European elections and self-destructive flailing of the Trump administration
 
 Remember your math: an anecdote is not a trend. Remember your history: the fact that something is bad today doesn’t mean it was better in the past. Remember your philosophy: one cannot reason that there’s no such thing as reason, or that something is true or good because God said it is. And remember your psychology: much of what we know isn’t so, especially when our comrades know it too.
 
-Keep some perspective. Not every problem is a Crisis, Plague, Epidemic, or Existential Threat, and not every change is the End of This, the Death of That, or the Dawn of a Post-Something Era. Don’t confuse pessimism with profundity: problems are inevitable, but problems are solvable, and diagnosing every setback as a symptom of a sick society is a cheap grab for gravitas.
+Keep some perspective. Not every problem is a Crisis, Plague,
+Epidemic, or Existential Threat, and not every change is the End of
+This, the Death of That, or the Dawn of a Post-Something Era. Don’t
+confuse pessimism with profundity: problems are inevitable, but
+problems are solvable, and diagnosing every setback as a symptom of a
+sick society is a cheap grab for gravitas.
 
 Finally, drop the Nietzsche. His ideas may seem edgy, authentic, baaad, while humanism seems sappy, unhip, uncool. But what’s so funny about peace, love, and understanding?
 
-The story of human progress is truly heroic. It is glorious. It is uplifting. It is even…
-                Some highlights have been hidden or truncated due to export limits.
-We are born into a pitiless universe, facing steep odds against life-enabling order and in constant jeopardy of falling apart. We were shaped by a force that is ruthlessly competitive. We are made from crooked timber, vulnerable to illusions, self-centeredness, and at times astounding stupidity. Yet human nature has also been blessed with resources that open a space for a kind of redemption. We are endowed with the power to combine ideas recursively, to have thoughts about our thoughts. We have an instinct for language, allowing us to share the fruits of our experience and ingenuity. We are deepened with the capacity for sympathy—for pity, imagination, compassion, commiseration. These endowments have found ways to magnify their own power. The scope of language has been augmented by the written, printed, and electronic word. Our circle of sympathy has been expanded by history, journalism, and the narrative arts. And our puny rational faculties have been multiplied by the norms and institutions of reason: intellectual curiosity, open debate, skepticism of authority and dogma, and the burden of proof to verify ideas by confronting them against reality. As the spiral of recursive improvement gathers momentum, we eke out victories against the forces that grind us down, not least the darker parts of our own nature. We penetrate the mysteries of the cosmos, including life and mind. We live longer, suffer less, learn more, get smarter, and enjoy more small pleasures and rich experiences. Fewer of us are killed, assaulted, enslaved, oppressed, or exploited by the others. From a few oases, the territories with peace and prosperity are growing, and could someday encompass the globe. Much suffering remains, and tremendous peril. But ideas on how to reduce them have been voiced, and an infinite number of others are yet to be conceived. We will never have a perfect world, and it would be dangerous to seek one. But there is no limit to the betterments we can attain if we continue to apply knowledge to enhance human flourishing. This heroic story is not just another myth. Myths are fictions, but this one is true—true to the best of our knowledge, which is the only truth we can have. We believe it because we have reasons to…
+The story of human progress is truly heroic. It is glorious. It is
+uplifting. It is even, I daresay, spiritual
 
+We are born into a pitiless universe, facing steep odds against
+life-enabling order and in constant jeopardy of falling apart. We were
+shaped by a force that is ruthlessly competitive. We are made from crooked
+timber, vulnerable to illusions, self-centeredness, and at times astounding
+stupidity. 
+
+Yet human nature has also been blessed with resources that open a space for
+a kind of redemption. We are endowed with the power to combine ideas
+recursively, to have thoughts about our thoughts. We have an instinct for
+language, allowing us to share the fruits of our experience and ingenuity.
+We are deepened with the capacity for sympathy—for pity, imagination,
+compassion, commiseration. 
+
+These endowments have found ways to magnify their own power. The scope of
+language has been augmented by the written, printed, and electronic word.
+Our circle of sympathy has been expanded by history, journalism, and the
+narrative arts. And our puny rational faculties have been multiplied by the
+norms and institutions of reason: intellectual curiosity, open debate,
+skepticism of authority and dogma, and the burden of proof to verify ideas
+by confronting them against reality. 
+
+As the spiral of recursive improvement gathers momentum, we eke out
+victories against the forces that grind us down, not least the darker parts
+of our own nature. We penetrate the mysteries of the cosmos, including life
+and mind. We live longer, suffer less, learn more, get smarter, and enjoy
+more small pleasures and rich experiences. Fewer of us are killed,
+assaulted, enslaved, oppressed, or exploited by the others. From a few
+oases, the territories with peace and prosperity are growing, and could
+someday encompass the globe. Much suffering remains, and tremendous peril.
+But ideas on how to reduce them have been voiced, and an infinite number of
+others are yet to be conceived. 
+
+We will never have a perfect world, and it would be dangerous to seek one.
+But there is no limit to the betterments we can attain if we continue to
+apply knowledge to enhance human flourishing. This heroic story is not just
+another myth. Myths are fictions, but this one is true—true to the best of
+our knowledge, which is the only truth we can have. We believe it because
+we have reasons to believe it. As we learn more, we can show which parts of
+the story continue to be true, and which ones false - as any one of them
+might be, and any could become.
+
+And the story belongs not to any tribe but to all of humanity - to any
+sentient creature with the power of reason and the urge to persists in its
+being. For it requires only the convictions that life is better than death,
+health is better than sickness, abundance is better than want, freedome is
+better than coercion, happiness is better than suffering, and knowledge is
+better than superstition and ignorance.
 
