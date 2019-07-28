@@ -70,7 +70,7 @@ content = str(book.find("article", {
 content = tomd.convert(content)
 content = re.sub('#', '##', content)
 
-output = "# " + title + "\n\nby " + author + "\n\n![" + title + "](" + img + ")\n\n" + content
+output = "# " + title + "\n\n" + author + "\n\n![" + title + "](" + img + ")\n\n" + content
 fileName = re.sub(" ", "-", title.lower())
 fileName = fileName + ".md"
 fileName = os.path.join("blinks", fileName)
