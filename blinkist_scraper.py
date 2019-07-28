@@ -10,14 +10,14 @@ import re
 import argparse
 
 # Parse Args
-#parser = argparse.ArgumentParser()
-#parser.add_argument("username", help="Blinkist username")
-#parser.add_argument("password", help="Blinkist password")
+parser = argparse.ArgumentParser()
+parser.add_argument("username", help="Blinkist username")
+parser.add_argument("password", help="Blinkist password")
 #parser.add_argument("book", help="Book url")
 #parser.add_argument("books", help="Comma delimited list of Blinkist book URLs", type=lambda s: [str(item) for item in s.split(',')])
 
 # extract args
-#args = parser.parse_args()
+args = parser.parse_args()
 
 # Read username & password
 username = args.username
