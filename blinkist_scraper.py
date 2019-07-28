@@ -70,7 +70,7 @@ for bookname in books:
 
     print("\ttitle: {0} {1}".format(title, author))
 
-    bookfile = bookfile + "-" + re.sub(" ", "-", author.lower())
+    bookfile = bookfile + "-" + re.sub(" ", "-", author.lower()) + ".md"
     if pathlib.Path(bookfile).exists():
         print("\tfile exists: " + bookfile)
         continue
