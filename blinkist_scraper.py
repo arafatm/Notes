@@ -68,7 +68,7 @@ for bookname in books:
     author = book.find("div", {"class": "book__header__author"}).string.strip()
     img = book.find("img")["src"]
 
-    print("\ttitle: {0} by {1}".format(title, author))
+    print("\ttitle: {0} {1}".format(title, author))
 
     bookfile = bookfile + "-" + re.sub(" ", "-", author.lower())
     if pathlib.Path(bookfile).exists():
