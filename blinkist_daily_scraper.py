@@ -8,6 +8,7 @@ import os
 import tomd
 import urllib3
 import re
+import pathlib
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15'}
 http = urllib3.PoolManager(10, headers = headers)
@@ -28,7 +29,7 @@ description = container.find('div', 'book-tabs__content-inner').p.contents[1]
 cta = container.find('a', 'cta')['href']
 img_url = container.find('img')['src']
 
-bookfile = "blink_daily/" + re.sub(" ", "-", title.lower()) + "-by-" + re.sub(" ", "-", author.lower())
+bookfile = "blink_daily/" + re.sub(" ", "-", title.lower()) + "-by-" + re.sub(" ", "-", author.lower()) + ".md"
 
 if pathlib.Path(bookfile).exists():
     print(bookfile + " exists")
