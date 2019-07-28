@@ -5,6 +5,7 @@ import urllib3
 from html import unescape
 import tomd
 import os
+import pathlib
 import re
 import argparse
 
@@ -12,8 +13,8 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("username", help="Blinkist username")
 parser.add_argument("password", help="Blinkist password")
-parser.add_argument("book", help="Book url")
-#parser.add_argument("urls", help="Comma delimited list of Blinkist book URLs", type=lambda s: [str(item) for item in s.split(',')])
+#parser.add_argument("book", help="Book url")
+parser.add_argument("books", help="Comma delimited list of Blinkist book URLs", type=lambda s: [str(item) for item in s.split(',')])
 
 # extract args
 args = parser.parse_args()
@@ -21,9 +22,10 @@ args = parser.parse_args()
 # Read username & password
 username = args.username
 password = args.password
-book_url = args.book
+books = [re.sub("https://www.blinkist.com/en/nc/reader/", "", elem) for elem in args.books]
 
-print("{0} : {1} : {2}".format(username, password, book_url))
+#print("{0} : {1} : {2}".format(username, password, book_url))
+print("scraping: "+ str(books))
 
 # Session and headers
 session = requests.session()
@@ -41,6 +43,7 @@ soup = BeautifulSoup(response.content.decode('utf-8'), "html5lib")
 csrf_token = soup.find("meta", {"name": "csrf-token"}).attrs["content"]
 print("csrf_token: " + csrf_token)
 
+# Login
 resp = session.post(url=login_url, data={
     "login[email]": username,
     "login[password]": password,
@@ -49,33 +52,39 @@ resp = session.post(url=login_url, data={
     "authenticity_token": csrf_token
 }, allow_redirects=True)
 
-read_url="https://www.blinkist.com/books/"+book_url
-print("read_url: "+read_url)
-book = session.get(url=read_url)
-book = BeautifulSoup(book.content.decode('utf-8'), "html5lib")
-book = book.find("div", {"class": "book__header-container"})
-title = book.find("h1", {"class": "book__header__title"}).string.strip()
-author = book.find("div", {"class": "book__header__author"}).string.strip()
-img = book.find("img")["src"]
+# Scrape books
+for bookname in books:
+    bookfile = re.sub(" ", "", bookname.lower())
+    bookfile = re.sub("-en", "", bookname)
+    bookfile = "blinks_new/" + bookfile
 
-print("title: "+title)
-print("author: "+author)
-print("img: "+img)
+    bookurl="https://www.blinkist.com/books/"+bookname
+    print("\n----- " + bookurl)
 
-read_url="https://www.blinkist.com/en/nc/reader/"+book_url
-book = session.get(url=read_url)
-book = BeautifulSoup(book.content.decode('utf-8'), "html5lib")
-content = str(book.find("article", {
-              "class": "shared__reader__blink reader__container__content"}).contents).strip()
-content = tomd.convert(content)
-content = re.sub('#', '##', content)
+    book = session.get(url=bookurl)
+    book = BeautifulSoup(book.content.decode('utf-8'), "html5lib")
+    book = book.find("div", {"class": "book__header-container"})
+    title = book.find("h1", {"class": "book__header__title"}).string.strip()
+    author = book.find("div", {"class": "book__header__author"}).string.strip()
+    img = book.find("img")["src"]
 
-output = "# " + title + "\n\n" + author + "\n\n![" + title + "](" + img + ")\n\n" + content
-fileName = re.sub(" ", "-", title.lower())
-fileName = fileName + ".md"
-fileName = os.path.join("blinks", fileName)
+    print("\ttitle: {0} by {1}".format(title, author))
 
-with open(fileName, "w", encoding="utf8") as text_file:
-    text_file.write(output)
+    bookfile = bookfile + "-" + re.sub(" ", "-", author.lower())
+    if pathlib.Path(bookfile).exists():
+        print("\tfile exists: " + bookfile)
+        continue
+    else:
+        bookurl="https://www.blinkist.com/en/nc/reader/"+bookname
+        book = session.get(url=bookurl)
+        book = BeautifulSoup(book.content.decode('utf-8'), "html5lib")
+        content = str(book.find("article", {
+                    "class": "shared__reader__blink reader__container__content"}).contents).strip()
+        content = tomd.convert(content)
+        content = re.sub('#', '##', content)
+        booktext = "![" + title + "](" + img + ")\n\n# " + title + "\n" + content
+        with open(bookfile, "w", encoding="utf8") as text_file:
+            text_file.write(booktext)
+        print("\tadded " + bookfile)
 
 # print(book)
