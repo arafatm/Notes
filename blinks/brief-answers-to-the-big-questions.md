@@ -1,6 +1,9 @@
+# Brief Answers to the Big Questions
+
+by By Stephen Hawking
+
 ![Brief Answers to the Big Questions](https://images.blinkist.com/images/books/5bd5ff9a6cee07000787a03b/3_4/470.jpg)
 
-# Brief Answers to the Big Questions
 
 ## What’s in it for me? Find answers to our world’s most ambitious questions.
 
