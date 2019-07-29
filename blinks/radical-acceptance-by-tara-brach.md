@@ -16,10 +16,14 @@ Actionable advice:
 **Don’t keep busy to mask feelings of inadequacy.**
 
 Many of us spend our lives in a rush, but staying busy is often nothing more
-than a way of distancing ourselves from pain. For example, when you hear
-someone talk about the recent loss of a loved one, they often remark that
-they’re “managing to keep busy.” If you’re suffering from emotional pain, you
-might worry that, if you stop being busy, you’ll be plunged into despair.
+than a way of distancing ourselves from pain. 
+
+For example, when you hear someone talk about the recent loss of a loved one,
+they often remark that they’re “managing to keep busy.” 
+
+If you’re suffering from emotional pain, you might worry that, if you stop
+being busy, you’ll be plunged into despair.
+
 Nonetheless, it’s healthier to accept this pain than occupy yourself with
 mindless small talk or meaningless tasks.
 
