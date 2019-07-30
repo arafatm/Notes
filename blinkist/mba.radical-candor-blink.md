@@ -1,6 +1,21 @@
 # Radical Candor
 
->By using radical candor, you can become the best possible boss. Radical candor helps you listen and express genuine care for your employees. It also allows you to directly challenge your staff members in a constructive way to which they’ll be receptive. This makes leadership a collaborative and personal process that brings out the best in everyone.
+> By using radical candor, you can become the best possible boss. Radical
+> candor helps you listen and express genuine care for your employees. It also
+> allows you to directly challenge your staff members in a constructive way to
+> which they’ll be receptive. This makes leadership a collaborative and
+> personal process that brings out the best in everyone.
+
+## Final summary
+
+Actionable advice: **Have a growth plan for your employees**.
+
+Don’t just think of your staff as people who are only there to do what you
+assign them to do. Think of them as individuals on a career path and work with
+them to develop a plan that keeps that career on track.
+
+[Blinkist Source](https://www.blinkist.com/books/radical-acceptance-en?r=1&st=radical%20)
+![radical candor](https://images.blinkist.com/images/books/5aa7cc0cb238e100071c837b/3_4/470.jpg)
 
 ## What’s in it for me? Be the kind of leader who cuts through the bullshit.
 
@@ -183,32 +198,14 @@ future, and you identify everything that can be done to keep them on the right
 track.
 
 
+## Suggested further reading: How to Be a Positive Leader by Jane E. Dutton and Gretchen M. Spreitzer
 
-    What’s in it for me? Be the kind of leader who cuts through the bullshit.
-    Radical candor develops strong and beneficial relationships between managers and employees.
-    Radical candor is a delicate balance between being direct and honest while not offending.
-    Radical candor avoids the pitfalls of overly aggressive, lazy and fearful management.
-    Bosses shouldn’t manufacture a false meaning for a job; they should provide professional development.
-    Firing someone is a troubling experience, so be sure to take every consideration before it happens.
-    Managers shouldn’t tell people what to do; instead, they should practice collaborative leadership.
-    Depending on your personality, you can listen quietly or loudly.
-    To support your employees, have honest discussions that reveal their true motivations.
-    Final summary
-
-## Final summary
-
-Actionable advice:
-
-Have a growth plan for your employees.
-
-Don’t just think of your staff as people who are only there to do what you
-assign them to do. Think of them as individuals on a career path and work with
-them to develop a plan that keeps that career on track.
+How to Be a Positive Leader examines cutting-edge research from the field of
+positive organizational behavior, in which companies aim to foster both a
+positive attitude to work and high performance among employees. The research is
+complemented with vivid examples from real organizations.
 
 Got feedback?
 
 We’d sure love to hear what you think about our content! Just drop an email to remember@blinkist.com with the title of this book as the subject line and share your thoughts!
 
-Suggested further reading: How to Be a Positive Leader by Jane E. Dutton and Gretchen M. Spreitzer
-
-How to Be a Positive Leader examines cutting-edge research from the field of positive organizational behavior, in which companies aim to foster both a positive attitude to work and high performance among employees. The research is complemented with vivid examples from real organizations.

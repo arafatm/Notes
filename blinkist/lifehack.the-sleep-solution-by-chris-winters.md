@@ -1,8 +1,26 @@
 # Blinkist: The Sleep Solution by Chris Winters
 
-https://www.blinkist.com/en/nc/reader/the-sleep-solution-en
+## Final summary
+
+The key message in this book: **It’s a myth that some people can function at
+their best without proper sleep.  However, if you struggle to get good-quality
+sleep, there are steps you can take to improve it. Make sure your circadian
+rhythm is working properly, practice good sleep hygiene and stick to a
+consistent sleep schedule, and you’ll soon see a difference in your sleep, and
+your life as a whole**.
+
+**Actionable advice**
+- Nap if you need to.
+- When it comes to napping, everyone is different, but a few rules do apply
+  across the board. 
+- Napping should compliment a good night’s sleep, not replace it. 
+- It’s also best to nap early in the day for a maximum of 30 minutes.
+- Finally, it’s best to nap at the same time every day in order to benefit from
+  the rest it gives your body.
 
 ## What’s in it for me? Get your beauty rest.
+
+[Blinkist Source](https://www.blinkist.com/en/nc/reader/the-sleep-solution-en)
 
 Do you struggle with getting enough sleep, to the point that that general
 feeling of exhaustion has become a mild background buzz that you’ve accepted as
@@ -311,27 +329,7 @@ It may prove difficult to have a consistent sleep schedule, but it’s one of th
 greatest ways to improve the quality of your sleep – and your quality of life
 in general.
 
-## Final summary
-
-The key message in this book:
-
-**It’s a myth that some people can function at their best without proper sleep.
-However, if you struggle to get good-quality sleep, there are steps you can
-take to improve it. Make sure your circadian rhythm is working properly,
-practice good sleep hygiene and stick to a consistent sleep schedule, and
-you’ll soon see a difference in your sleep, and your life as a whole**.
-
-Actionable advice
-- Nap if you need to.
-- When it comes to napping, everyone is different, but a few rules do apply
-  across the board. 
-- Napping should compliment a good night’s sleep, not replace
-  it. 
-- It’s also best to nap early in the day for a maximum of 30 minutes.
-- Finally, it’s best to nap at the same time every day in order to benefit from
-  the rest it gives your body.
-
-Suggested further reading: End the Insomnia Struggle by Colleen Ehrnstrom, Alisha L. Brosse
+## Suggested further reading: End the Insomnia Struggle by Colleen Ehrnstrom, Alisha L. Brosse
 
 End the Insomnia Struggle (2016) is a guide to getting a good night’s sleep.
 These blinks are full of practical advice on how to handle sleeplessness. They
