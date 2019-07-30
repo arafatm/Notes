@@ -91,6 +91,7 @@ for bookname in books:
         print("- file exists in blinks: " + bookfile)
         continue
 
+    booksource = bookfile
     bookfile = "blinks_new/" + bookfile
     bookurl="https://www.blinkist.com/en/nc/reader/"+bookname
     book = session.get(url=bookurl)
@@ -99,7 +100,7 @@ for bookname in books:
                 "class": "shared__reader__blink reader__container__content"}).contents).strip()
     content = tomd.convert(content)
     content = re.sub('#', '##', content)
-    booktext = "![" + title + "](" + img + ")\n\n# " + title + "\n" + content
+    booktext = "# " + title + "\n\n" + content + "\n\n![" + title + "](" + img + ")\n\nSource: " + booksource
     with open(bookfile, "w", encoding="utf8") as text_file:
         text_file.write(booktext)
     print("- added " + bookfile)
