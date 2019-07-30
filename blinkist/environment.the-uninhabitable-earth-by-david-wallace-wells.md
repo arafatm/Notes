@@ -1,38 +1,25 @@
+# The Uninhabitable Earth *David Wallace-Wells*
+
+## Final summary
+
+The key message in these blinks: **The situation is much worse than we think. Many different climate-related
+disasters threaten the wellbeing of humanity, some of which act like mutually
+reinforcing cascades, causing further warming and human misery. Even our best
+hope of averting disaster, negative emissions technologies, is a pipe dream at
+the moment. Time has run out, but we still have a choice over how severe the
+consequences of climate change will be.**
+
+Actionable advice: **Put pressure on politicians to act.**
+
+Changing your consumption habits is an admirable goal, but arguably more
+important is applying pressure on the political elite. If you want to halt
+climate change, you need to act today to force through change at the top. Get
+in contact with your political representatives, join public demonstrations or
+become an active member of pressure groups to ensure your views are heard.
+
+Source: [The Uninhabitable Earth by David Wallace-Wells](https://www.blinkist.com/en/nc/daily/reader/the-uninhabitable-earth-en)
+
 ![The Uninhabitable Earth](https://images.blinkist.com/images/books/5c90fb776cee070007feb895/1_1/470.jpg)
-
-
-> What’s in it for me? Learn the chilling future of a warming Earth.
-
-> The Paris climate agreement’s goals are hopelessly optimistic.
-
-> The destructive effects of climate change act as chain reactions, triggering
-> further warming.
-
-> Severe weather conditions are becoming the new normal.
-
-> Rising sea levels will flood entire cities and countries.
-
-> Runaway warming will cause mass hunger and malnourishment.
-
-> The warmer it gets, the more disease there will be.
-
-> Plummeting air quality is suffocating us.
-
-> Freshwater is becoming an ever-more scarce resource.
-
-> Human conflict increases on a hotter, dirtier globe.
-
-> New technologies give us ways of softening these disasters, but they are
-> currently impractical.
-
-> Changing your consumption habits is an admirable goal, but arguably more
-> important is applying pressure on the political elite. If you want to halt
-> climate change, you need to act today to force through change at the top. Get
-> in contact with your political representatives, join public demonstrations or
-> become an active member of pressure groups to ensure your views are heard.
-
-# The Uninhabitable Earth
-*David Wallace-Wells*
 
 >The Uninhabitable Earth (2019) is a terrifying rundown of the horrors which
 >await in an ever-warming world. With poetic brilliance, Wallace-Wells draws
@@ -542,34 +529,8 @@ Both of these options are likely to fall in price and rise in efficiency, but
 we’re running out of time. How much longer can we wait? Each day that ticks by
 brings us the promise of more misery.
 
-## Final summary
 
-The key message in these blinks:
-
-**The situation is much worse than we think. Many different climate-related
-disasters threaten the wellbeing of humanity, some of which act like mutually
-reinforcing cascades, causing further warming and human misery. Even our best
-hope of averting disaster, negative emissions technologies, is a pipe dream at
-the moment. Time has run out, but we still have a choice over how severe the
-consequences of climate change will be. **
-
-Actionable advice:
-
-**Put pressure on politicians to act.**
-
-Changing your consumption habits is an admirable goal, but arguably more
-important is applying pressure on the political elite. If you want to halt
-climate change, you need to act today to force through change at the top. Get
-in contact with your political representatives, join public demonstrations or
-become an active member of pressure groups to ensure your views are heard.
-
-**Got feedback?**
-
-We’d sure love to hear what you think about our content! Just drop an email to
-remember@blinkist.com with the title of this book as the subject line and share
-your thoughts!
-
-**What to read next: ******This Changes Everything******, by Naomi Klein**
+## **What to read next: ******This Changes Everything******, by Naomi Klein**
 
 If these terrible scenarios have merely piqued your interest, there’s plenty
 more to read on the topic.
@@ -583,6 +544,8 @@ Now that you’re aware of the coming storm, we recommend the blinks to **This
 Changes Everything **to explore some of the political dimensions of climate
 change.
 
+**Got feedback?**
 
-Source: [The Uninhabitable Earth by David
-Wallace-Wells](https://www.blinkist.com/en/nc/daily/reader/the-uninhabitable-earth-en)
+We’d sure love to hear what you think about our content! Just drop an email to
+remember@blinkist.com with the title of this book as the subject line and share
+your thoughts!

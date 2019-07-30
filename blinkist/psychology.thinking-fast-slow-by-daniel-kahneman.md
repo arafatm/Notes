@@ -1,28 +1,4 @@
-# Thinking, Fast and Slow 
-
-By Daniel Kahneman
-
-> Automatic vs Considered Minds
-
-> The mind is lazy
-
-> Priming
-
-> Halo Effect and Confirmation Bias 
-
-> Heuristics
-
-> Base Rate Neglect & Reverting To The Mean
-
-> Memory Selves: Experiencing vs Remembering
-
-> Cognitive Ease vs Cognitive Strain 
-
-> Risk and Figures of Speech
-
-> Utility Theory 
-
-> Reference Class Forecasting
+# Thinking, Fast and Slow By Daniel Kahneman
 
 ## Final Summary 
 
@@ -45,12 +21,18 @@ When you’re in a better mood, the part of the mind that is alert and analytica
 tends to relax. That cedes control of your mind to the more intuitive and
 quicker thinking system, which also makes you more creative.
 
+Use **Reference Class Forecasting**
+
 ## Summary
 
 Thinking, Fast and Slow shows us that our minds contain two systems. The first
 acts instinctively and requires little effort; the second is more deliberate
 and requires much more of our attention. Our thoughts and actions vary
 depending on which of the two systems is in control of our brain at the time.
+
+[Blinkist Source](https://www.blinkist.com/books/thinking-fast-and-slow-en?r=1&st=thinking%20fast)
+
+![Thinking fast slow](https://images.blinkist.com/images/books/512750e7e4b0714805cbbe9d/3_4/470.jpg)
 
 ## Automatic vs Considered Minds
 
