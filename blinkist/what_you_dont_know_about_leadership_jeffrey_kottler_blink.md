@@ -1,5 +1,4 @@
-# What You Don't Know about Leadership, But Probably Should
-*Jeffrey A. Kottler*
+# What You Don't Know about Leadership, But Probably Should by Jeffrey A. Kottler
 
 >What You Don’t Know about Leadership, But Probably Should (2018) takes the
 >latest research and psychological theories from the field of leadership
@@ -8,42 +7,15 @@
 >any leader can more effectively manage a team during times of conflict and
 >stress.
 
-> Participatory leadership
-
-> Good leaders understand their own ignorance and respect their subordinates’ expertise.
-
-> Good leaders understand the power of meaningful communication, so ban mobile phones from the meeting room.
-
-> Great leaders share three attributes
->   self-confidence
->   proactive spirit
->   relational capacity
-
-> but poor leaders tend to have one thing in common.
->   Hubris
-
-> Terrible leadership at work has terrible implications at home.
->    kick the dog
-
-> The best leaders promote trust and make sure staff feel cared for and valued.
->   the creation of trusting, reciprocal relationships
-> A great way to do this is to reduce inequality between different wage groups.
-
-> Effective, stress-free leaders stay calm and confident under pressure and don’t worry about what they can’t control.
-
 ## Final summary
 
-The key message in this book:
+The key message in this book: **Great leaders take charge of their own life,
+habits and behavior. The keys to effective and successful leadership include
+being honest about your limitations, exhibiting self-confidence and creating
+strong bonds of trust.  With these attributes in mind, today’s leaders can take
+their team to new levels of success.**
 
-**Great leaders take charge of their own life, habits and behavior. The keys to
-effective and successful leadership include being honest about your
-limitations, exhibiting self-confidence and creating strong bonds of trust.
-With these attributes in mind, today’s leaders can take their team to new
-levels of success.**
-
-Actionable advice:
-
-**Process failure constructively.**
+Actionable advice: **Process failure constructively.**
 
 Research has shown that the key to successful leadership is not to avoid making
 mistakes, but to instead learn from mistakes and understand what it is that
@@ -53,6 +25,8 @@ you’ve made. You can also turn to trusted colleagues and ask them the same
 question to see if they noticed any warning signs. Then, compare your
 perceptions with those of your colleagues to make sure you don’t end up
 repeating the same mistakes.
+
+Source: [What You Don't Know about Leadership, But Probably Should by Jeffrey A.  Kottler](https://www.blinkist.com/en/nc/daily/reader/what-you-dont-know-about-leadership-but-probably-should-en/)
 
 ## What’s in it for me? Learn the traits that have distinguished the great leaders throughout time.
 
@@ -350,7 +324,3 @@ Marc Hurwitz and Samantha Hurwitz**
 *Leadership is Half the Story* (2015) presents leadership as a fluid state that
 people can and should move in and out of as circumstances change. By adopting
 such an approach, you can increase collaboration and boost success.
-
-Source: [What You Don't Know about Leadership, But Probably Should by Jeffrey
-A.
-Kottler](https://www.blinkist.com/en/nc/daily/reader/what-you-dont-know-about-leadership-but-probably-should-en/)
