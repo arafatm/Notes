@@ -45,7 +45,7 @@ article = get_element_from_request(f'https://www.blinkist.com{cta}', 'article', 
 print("convert markdown")
 output = f'![{title}]({img_url})\n# {title}\n*{author}*\n\n>{description}\n\n{tomd.convert(str(article).strip())}\n\nSource: [{title} by {author}](https://www.blinkist.com{cta})'
 
-commitMessage = f'{title} by {author}'
+commitMessage = f'b: {title}'
 
 print("writing " + bookfile)
 with open(bookfile, "w", encoding="utf8") as text_file:
