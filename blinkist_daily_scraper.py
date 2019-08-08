@@ -29,7 +29,9 @@ description = container.find('div', 'book-tabs__content-inner').p.contents[1]
 cta = container.find('a', 'cta')['href']
 img_url = container.find('img')['src']
 
-bookfile = "blink_daily/" + re.sub(" ", "-", title.lower()) + "-by-" + re.sub(" ", "-", author.lower()) + ".md"
+date = datetime.now().strftime('%Y%m%d')
+
+bookfile = "blinkist-daily/" + date + "-" + re.sub(" ", "-", title.lower()) + "-by-" + re.sub(" ", "-", author.lower()) + ".md"
 
 if pathlib.Path(bookfile).exists():
     print(bookfile + " exists")
@@ -43,7 +45,6 @@ article = get_element_from_request(f'https://www.blinkist.com{cta}', 'article', 
 print("convert markdown")
 output = f'![{title}]({img_url})\n# {title}\n*{author}*\n\n>{description}\n\n{tomd.convert(str(article).strip())}\n\nSource: [{title} by {author}](https://www.blinkist.com{cta})'
 
-#date = datetime.now().strftime('%Y%m%d')
 commitMessage = f'{title} by {author}'
 
 print("writing " + bookfile)
