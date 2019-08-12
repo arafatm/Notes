@@ -83,7 +83,7 @@ for bookname in books:
     #print("\ttitle: {0} by {1}".format(title, author))
 
     bookfile = bookfile + "-" + re.sub(" ", "-", author.lower()) + ".md"
-    if pathlib.Path("blinks_new/" + bookfile).exists():
+    if pathlib.Path("blinkist-new/" + bookfile).exists():
         print("- file exists in blinks_new: " + bookfile)
         continue
 
@@ -92,7 +92,7 @@ for bookname in books:
         continue
 
     booksource = bookfile
-    bookfile = "blinks_new/" + bookfile
+    bookfile = "blinkist-new/" + bookfile
     bookurl="https://www.blinkist.com/en/nc/reader/"+bookname
     book = session.get(url=bookurl)
     book = BeautifulSoup(book.content.decode('utf-8'), "html5lib")
