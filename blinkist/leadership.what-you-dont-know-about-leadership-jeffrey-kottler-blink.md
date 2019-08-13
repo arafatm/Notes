@@ -1,5 +1,7 @@
 # What You Don't Know about Leadership, But Probably Should by Jeffrey A. Kottler
 
+Source: [What You Don't Know about Leadership, But Probably Should by Jeffrey A.  Kottler](https://www.blinkist.com/en/nc/daily/reader/what-you-dont-know-about-leadership-but-probably-should-en/)
+
 >What You Don’t Know about Leadership, But Probably Should (2018) takes the
 >latest research and psychological theories from the field of leadership
 >science and explains how individuals can apply them to their daily work life.
@@ -25,8 +27,6 @@ you’ve made. You can also turn to trusted colleagues and ask them the same
 question to see if they noticed any warning signs. Then, compare your
 perceptions with those of your colleagues to make sure you don’t end up
 repeating the same mistakes.
-
-Source: [What You Don't Know about Leadership, But Probably Should by Jeffrey A.  Kottler](https://www.blinkist.com/en/nc/daily/reader/what-you-dont-know-about-leadership-but-probably-should-en/)
 
 ## What’s in it for me? Learn the traits that have distinguished the great leaders throughout time.
 
@@ -291,35 +291,22 @@ about things that you simply can’t alter.
 
 ## Final summary
 
-The key message in this book:
+The key message in this book: **Great leaders take charge of their own life,
+habits and behavior. The keys to effective and successful leadership include
+being honest about your limitations, exhibiting self-confidence and creating
+strong bonds of trust.  With these attributes in mind, today’s leaders can take
+their team to new levels of success.**
 
-**Great leaders take charge of their own life, habits and behavior. The keys to
-effective and successful leadership include being honest about your
-limitations, exhibiting self-confidence and creating strong bonds of trust.
-With these attributes in mind, today’s leaders can take their team to new
-levels of success.**
+Actionable advice: **Process failure constructively.** Research has shown that
+the key to successful leadership is not to avoid making mistakes, but to
+instead learn from mistakes and understand what it is that should be avoided in
+the future.  In order to turn your mistakes into valuable lessons, ask yourself
+whether there were warning signs prior to the mistakes you’ve made. You can
+also turn to trusted colleagues and ask them the same question to see if they
+noticed any warning signs. Then, compare your perceptions with those of your
+colleagues to make sure you don’t end up repeating the same mistakes.
 
-Actionable advice:
-
-**Process failure constructively.**
-
-Research has shown that the key to successful leadership is not to avoid making
-mistakes, but to instead learn from mistakes and understand what it is that
-should be avoided in the future. In order to turn your mistakes into valuable
-lessons, ask yourself whether there were warning signs prior to the mistakes
-you’ve made. You can also turn to trusted colleagues and ask them the same
-question to see if they noticed any warning signs. Then, compare your
-perceptions with those of your colleagues to make sure you don’t end up
-repeating the same mistakes.
-
-## **Got feedback?**
-
-We’d sure love to hear what you think about our content! Just drop an email to
-remember@blinkist.com with the title of this book as the subject line and share
-your thoughts!
-
-**Suggested** **further** **reading:*****Leadership is Half the Story *****by
-Marc Hurwitz and Samantha Hurwitz**
+## Suggested further reading: Leadership is Half the Story by Marc Hurwitz and Samantha Hurwitz
 
 *Leadership is Half the Story* (2015) presents leadership as a fluid state that
 people can and should move in and out of as circumstances change. By adopting
