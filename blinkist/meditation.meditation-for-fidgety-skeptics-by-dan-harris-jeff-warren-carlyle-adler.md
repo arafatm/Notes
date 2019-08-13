@@ -1,30 +1,26 @@
-    first step is always the same: getting yourself comfortable
-    - start off easy, with a five to ten minute meditation
-    - It will be difficult at first to sit quietly and peacefully. DON'T GIVE UP
-    - Simply pay attention to your breath
+first step is always the same: getting yourself comfortable
+- start off easy, with a five to ten minute meditation
+- It will be difficult at first to sit quietly and peacefully. DON'T GIVE UP
+- Simply pay attention to your breath
 
-    1 minute meditation is good enough to start
-    - Easy 1-min meditation: count ten breaths
+1 minute meditation is good enough to start
+- Easy 1-min meditation: count ten breaths
 
-    Try 2 Hour Meditation
-    - lie on your back
-    - focus on breath
-    - clear away worries and stress
+Try 2 Hour Meditation
+- lie on your back
+- focus on breath
+- clear away worries and stress
 
-    R.A.I.N
-    - Recognize: become familiar with the emotion that just popped up
-    - Accept: don't deny the emotion. Accept it
-    - Investigate: What is the origin?
-    - Non-Identification: remember your identity is not determined by your emotion
+R.A.I.N
+- Recognize: become familiar with the emotion that just popped up
+- Accept: don't deny the emotion. Accept it
+- Investigate: What is the origin?
+- Non-Identification: remember your identity is not determined by your emotion
 
-    And remember: there is no right or wrong in meditation. Just relax, and enjoy
-
-
-![Meditation for Fidgety Skeptics](https://images.blinkist.com/images/books/5ade2852b238e10007596e7e/1_1/470.jpg)
+And remember: there is no right or wrong in meditation. Just relax, and enjoy
 
 
-# Meditation for Fidgety Skeptics
-*Dan Harris, Jeff Warren and Carlye Adler*
+# Meditation for Fidgety Skeptics by *Dan Harris, Jeff Warren and Carlye Adler*
 
 >Meditation for Fidgety Skeptics (2017) is a down-to-earth beginner’s guide to
 >meditation – especially for those skeptics among us who think that meditation
@@ -32,6 +28,7 @@
 >account of how even people with restless minds and no time to spare can start
 >experiencing the scientifically proven benefits of meditation.
 
+![Meditation for Fidgety Skeptics](https://images.blinkist.com/images/books/5ade2852b238e10007596e7e/1_1/470.jpg)
 
 # What’s in it for me? Learn from a skeptic that there are some very real benefits to meditation.
 
@@ -101,27 +98,28 @@ like self-awareness, endurance and compassion.
 
 # Meditation is about finding inner peace by focusing on a sensation that works for you.
 
-No matter what kind of meditation you’re doing, the **first step is always the same: getting yourself comfortable**.
+No matter what kind of meditation you’re doing, the **first step is always the
+same: getting yourself comfortable**.
 
     first step is always the same: getting yourself comfortable
 
 So take a moment to get yourself situated in your favorite chair and take a few
 deep breaths as you straighten out your spine and your posture.
 
-It’s good to **start off easy, with a five to ten minute meditation**. Remember,
-this practice is about finding peace of mind – so the most important thing to
-have, especially when you’re starting out, is a positive, easy-going attitude.
-That means leaving behind any competitive feelings or preconceived notions of
-right or wrong.
+It’s good to **start off easy, with a five to ten minute meditation**.
+Remember, this practice is about finding peace of mind – so the most important
+thing to have, especially when you’re starting out, is a positive, easy-going
+attitude.  That means leaving behind any competitive feelings or preconceived
+notions of right or wrong.
 
     start off easy, with a five to ten minute meditation
 
-**As a beginner, you might find it difficult to sit quietly and peacefully**. You
-might get annoyed by some noisy neighbors or easily distracted by negative
-thoughts. **If this happens, don’t give up**. Remember, there’s no right or wrong
-experience, and if you’re fidgety, as Harris was at first, it doesn’t mean
-meditation isn’t for you. So forget your expectations of what meditation is
-supposed to be and just try to stay calm and open.
+**As a beginner, you might find it difficult to sit quietly and peacefully**.
+You might get annoyed by some noisy neighbors or easily distracted by negative
+thoughts. **If this happens, don’t give up**. Remember, there’s no right or
+wrong experience, and if you’re fidgety, as Harris was at first, it doesn’t
+mean meditation isn’t for you. So forget your expectations of what meditation
+is supposed to be and just try to stay calm and open.
 
     It will be difficult at first to sit quietly and peacefully. DON'T GIVE UP
 
@@ -163,10 +161,10 @@ seconds can be enough to get your practice started**.
 
     1 minute meditation is good enough to start
 
-One of the most difficult things about meditation is **making it a daily habit**,
-which is extremely important if you want to experience the full benefits. So,
-if all you have is one minute today, then use that minute and be proud you
-accomplished it.
+One of the most difficult things about meditation is **making it a daily
+habit**, which is extremely important if you want to experience the full
+benefits. So, if all you have is one minute today, then use that minute and be
+proud you accomplished it.
 
 If you really think about it, you should be able to find moments in your day
 where you can allow yourself a meditation minute. How about the moment after
@@ -247,10 +245,10 @@ practices.
 
 # Meditation is a great way to let yourself be lazy and connect with a companion.
 
-    Try 2 Hour Meditation
-    - lie on your back
-    - focus on breath
-    - clear away worries and stress
+Try 2 Hour Meditation
+- lie on your back
+- focus on breath
+- clear away worries and stress
 
 If someone recommended a **two-hour meditation**, your first thought might be to
 politely say, thanks, but no thanks. But, as the saying goes, “don’t knock it
@@ -479,10 +477,8 @@ This is a Blinkist staff pick
 
 *“These days, we are so busy at work and in our private lives that it becomes
 more and more difficult to truly relax. These blinks explain why meditation is
-the best medicine to fully recharge your batteries.”*
-
-– Robyn, German Production Manager at Blinkist
-
+the best medicine to fully recharge your batteries.”* – Robyn, German
+Production Manager at Blinkist
 
 Source: [Meditation for Fidgety Skeptics by Dan Harris, Jeff Warren and Carlye
 Adler](https://www.blinkist.com/en/nc/daily/reader/meditation-for-fidgety-skeptics-en/)
