@@ -1,18 +1,35 @@
 # The Charisma Myth: How Anyone Can Master the Art and Science of Personal Magnetism Paperback – by Olivia Fox Cabane (Author) 
 
-## summary
+## Final Summary
 
 Everyone can be charismatic; we just need to get into a suitable mindset so we
 display the right body language, and practice this until it becomes
 instinctive. 
 
-There are various charisma styles to choose from, so make sure you
-select the style that best suits your personality and the situation. 
+There are various charisma styles to choose from, so make sure you select the
+style that best suits your personality and the situation. 
 
 Also, don’t worry if you experience mental and physical obstacles while
 developing charisma; even successful people experience these things. Simply
-apply the three steps to overcoming these obstacles: **dedramatize, destigmatize
-and neutralize**.
+apply the three steps to overcoming these obstacles: **dedramatize,
+destigmatize and neutralize**.
+
+## Actionable advice from the book:
+
+**Visualization** involves imagining yourself physically performing an
+activity, successfully. This exercise can be done at home, at work or even in
+public, and it requires you to create a vivid mental image of a triumphant
+experience in order to experience your feelings at that time; e.g., a ski team
+could visualize themselves careening through the entire course, feeling their
+muscles tensing, and experiencing each bump and turn. 
+
+**Rewriting reality**. When experiencing anxiety, try using the “rewriting
+reality” technique. For example, if you have an important presentation tomorrow
+and you’re anxious about the outcome, take a moment to imagine and list a few
+alternative outcomes, ranging from the presentation going smoothly to it
+failing completely. Describe your way of speaking, what the audience looked
+like, their reaction to you, and so on. As the list grows, your anxiety should
+subside.
 
 ## Charisma & Success
 
@@ -107,10 +124,14 @@ was the cleverest person in England.”
 ## Charisma Styles
 
 There are four distinct charisma styles:
-- **Focus** charisma lets people know you're fully present – a good example is Bill Clinton.
-- **Visionary** charisma inspires people or gets them to believe in something, much like Steve Jobs did.
-- **Kindness** charisma makes others feel seen and accepted – just look at the Dalai Lama.
-- **Authority** charisma makes others believe you have the power to change their lives, much like Bill Gates does.
+- **Focus** charisma lets people know you're fully present – a good example is
+  Bill Clinton.
+- **Visionary** charisma inspires people or gets them to believe in something,
+  much like Steve Jobs did.
+- **Kindness** charisma makes others feel seen and accepted – just look at the
+  Dalai Lama.
+- **Authority** charisma makes others believe you have the power to change
+  their lives, much like Bill Gates does.
 
 When choosing a style, don’t go against your natural personality, as this can
 be counterproductive. 
@@ -147,8 +168,8 @@ conscientiousness).
 So, begin that first meeting by complimenting the other person or asking
 open-ended questions, and stick to positive subjects. 
 
-Don't underestimate the handshake – it requires trust, so it's an
-important step in intimacy. 
+Don't underestimate the handshake – it requires trust, so it's an important
+step in intimacy. 
 
 ## Overcoming Mental and Physical Discomfort.
 
@@ -209,19 +230,3 @@ minds perceive reality accurately. But in fact our minds do not give us a
 complete and accurate image of reality; instead, we perceive only the small
 amount of information that's most relevant and important to us.
 
-## Actionable advice from the book:
-
-**Visualization** involves imagining yourself physically performing an activity,
-successfully. This exercise can be done at home, at work or even in public, and
-it requires you to create a vivid mental image of a triumphant experience in
-order to experience your feelings at that time; e.g., a ski team could
-visualize themselves careening through the entire course, feeling their muscles
-tensing, and experiencing each bump and turn. 
-
-**Rewriting reality**. When experiencing anxiety, try using the “rewriting
-reality” technique. For example, if you have an important presentation tomorrow
-and you’re anxious about the outcome, take a moment to imagine and list a few
-alternative outcomes, ranging from the presentation going smoothly to it
-failing completely. Describe your way of speaking, what the audience looked
-like, their reaction to you, and so on. As the list grows, your anxiety should
-subside.
