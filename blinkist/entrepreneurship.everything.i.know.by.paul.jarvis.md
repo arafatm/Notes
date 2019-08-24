@@ -1,5 +1,29 @@
-# Everything I Know 
-by Paul Jarvis
+# Everything I Know by Paul Jarvis
+
+Source: [Blinkist: Everything I Know](https://www.blinkist.com/books/everything-i-know-en?r=1&st=everything%20i%20know)
+![img](https://images.blinkist.com/images/books/53329b073337630007b70000/3_4/470.jpg)
+
+## Final Summary
+
+The key message in these blinks:
+
+There’s nothing like doing your own unique work that reflects your values.
+Exciting, innovative work comes from people who break free from bland corporate
+thinking and do their own thing. Everyone, even successful people, has fears
+about exposing themselves to criticism and failure, but these fears can be
+overcome. Failure and criticism are not the end – in fact, they can be helpful
+in providing ways to learn, pivot and continue creating even better work.
+
+## Actionable advice:
+
+Rather than wanting more money, want enough money.
+
+Once Jarvis makes enough money to cover his expenses for the year and put some
+money into savings, he stops taking on clients for the remainder of the year.
+This way, he might work for six months and then spend the next six months
+traveling, writing, making music, working on side projects and exploring his
+hobbies – some of which do end up earning him some extra cash. This is just one
+of the benefits of being your own boss.
 
 ## What’s in it for me? Learn some hard-earned wisdom on how to be self-employed and satisfied.
 
@@ -61,14 +85,15 @@ gold was, but that gold will be gone by the time you get there. So why settle
 for the leftover scraps that come with copying someone else when you can do
 your own thing and uncover your very own treasure?
 
-**The universe rewards those who do their own thing in an authentic way while
-managing to help others**. It’s true that corporations and schools often tell
-people to fall in line and be like everyone else, rather than promoting
-individualism and uniqueness. But the fact is that we’re all unique and, as
-we’ll see in the next blink, it pays to embrace our weirdness. 
+> The universe rewards those who do their own thing in an authentic way while
+managing to help others. 
 
-    “My best advice? Fuck advice and listen to yourself. Trust in your journey
-    and learn as much as possible through first-hand experiments.”
+It’s true that corporations and schools often tell people to fall in line and
+be like everyone else, rather than promoting individualism and uniqueness. But
+the fact is that we’re all unique and, as we’ll see in the next blink, it pays
+to embrace our weirdness. 
+
+> My best advice? Fuck advice and listen to yourself. Trust in your journey and learn as much as possible through first-hand experiments.
 
 ## Embrace your weirdness and stick to your values.
 
@@ -319,27 +344,9 @@ Jarvis is against goals, since they tend to lock you into a certain track that
 can keep you from experimenting and seeking out alternatives. Instead, Jarvis
 uses his values to guide him. Since his primary values are to “do great work”
 and “help people,” he’s free to explore every possible way of making this
-happen.  Everything I Know 9 11 0:00 2:35
+happen.  
 
-
-
-    What’s in it for me? Learn some hard-earned wisdom on how to be
-    self-employed and satisfied.  It is scary but rewarding to choose your own
-    adventure.  Embrace your weirdness and stick to your values.  Learn by
-    doing and take a step back if things get off to a bad start.  To get
-    started, avoid concerns about being perfect or what other people will
-    think.  Everyone has fears, and being courageous is about pushing past
-    those fears and embracing failure.  Intentions and a strong rallying flag
-    can help get your work to resonate with others.  Find your intersection,
-    beware of distractions and focus on your values rather than goals.  Theft
-    and copying can help you get started, but avoid mimicry and comparing your
-    work to others.  Don’t be afraid to say no, take advantage of slow times
-    and don’t give up.  Final Summary
-
-“I don’t believe in ‘following your passion.’ I hate advice, and this is
-horrible advice. Passion is good, but it needs frequent examination.”
-Everything I Know 10 11 0:00 2:35
-
+> I don’t believe in ‘following your passion.’ I hate advice, and this is horrible advice. Passion is good, but it needs frequent examination.
 
 ## Theft and copying can help you get started, but avoid mimicry and comparing your work to others.
 
@@ -424,35 +431,7 @@ bright side, you should know that it often feels darkest right before the dawn.
 So keep learning from your failures, making those adjustments and trying again.
 What do you have to lose?  12 Everything I Know 12 11 0:00 2:14
 
-## Final Summary
-
-The key message in these blinks:
-
-There’s nothing like doing your own unique work that reflects your values.
-Exciting, innovative work comes from people who break free from bland corporate
-thinking and do their own thing. Everyone, even successful people, has fears
-about exposing themselves to criticism and failure, but these fears can be
-overcome. Failure and criticism are not the end – in fact, they can be helpful
-in providing ways to learn, pivot and continue creating even better work.
-
-Actionable advice:
-
-Rather than wanting more money, want enough money.
-
-Once Jarvis makes enough money to cover his expenses for the year and put some
-money into savings, he stops taking on clients for the remainder of the year.
-This way, he might work for six months and then spend the next six months
-traveling, writing, making music, working on side projects and exploring his
-hobbies – some of which do end up earning him some extra cash. This is just one
-of the benefits of being your own boss.
-
-Got feedback?
-
-We’d sure love to hear what you think about our content! Just drop an email to
-remember@blinkist.com with the title of this book as the subject line and share
-your thoughts!
-
-What to read next: Change by Design, by Tim Brown
+## What to read next: Change by Design, by Tim Brown
 
 You’ve just learned that to do truly meaningful work you need to break free
 from dogmatic thinking and follow your own passions and values, even if it’s
@@ -467,5 +446,3 @@ company, pushes for an approach to solving problems based on design methods,
 whether you’re an employee or have your own business. So if you want to learn
 more about how to attack any problem with a design mind-set, head over to the
 blinks to Change by Design.  Everything I Know 13 11 0:00 1:18
-
-
