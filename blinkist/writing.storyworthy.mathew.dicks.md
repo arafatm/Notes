@@ -1,11 +1,35 @@
-#  Storyworthy 
-*Matthew Dicks*
+#  Storyworthy by Matthew Dicks
+
+Source: [Blinkist: Storyworthy](https://www.blinkist.com/books/storyworthy-en?r=1&st=storyworth)
+![img](https://images.blinkist.com/images/books/5c3c586a6cee0700074bfc11/3_4/470.jpg)
 
 Storyworthy (2018) explains how to craft a story for maximum impact. From
 intriguing beginnings to satisfying endings and everything in between, these
 blinks provide simple and effective tips and techniques for engaging your
 audience and bringing entertainment, authenticity and immediacy to your
 storytelling. 
+
+## Final summary
+
+You can master storytelling by learning the right techniques. To tell a great
+story, include a meaningful element of change somewhere in the narrative, steer
+clear of vulgarity and unnecessary flourishes, and transport your audience by
+using the present tense.
+
+## Actionable advice
+
+Avoid celebrity references in your stories.
+
+While telling a story, the author once described his ex-girlfriend as being
+similar to the actress, Zooey Deschanel. He then watched as half his audience
+nodded along, and the other half looked confused. Since then, he has avoided
+these sorts of celebrity references, and you should too. Not only do you risk
+alienating those audience members who have no idea who you’re talking about,
+but it's also lazy. Instead of accurately describing the character in your
+story, you’re just relying on short-hand to bring them to life. Very little is
+revealed about that person, and your audience hasn’t gained enough information
+about them. So ask yourself: What is this character really like, beyond shallow
+celebrity similarities? 
 
 ## What’s in it for me? Make your story worth hearing.
 
@@ -26,7 +50,6 @@ what to include and what to leave out if you’re going to achieve maximum
 audience impact.
 
 Read on to discover
-
 - why every good story revolves around a five-second moment;
 - which simple test every story needs to pass; and
 - how to begin your story the right way, every time.
@@ -36,8 +59,8 @@ Read on to discover
 The author teaches people from all walks of life how to tell stories about
 themselves and their experiences. 
 
-Importantly, there are some **non-negotiable rules** to follow if you want to be an
-engaging storyteller.
+Importantly, there are some **non-negotiable rules** to follow if you want to
+be an engaging storyteller.
 
 Firstly, **your story shouldn’t just consist of a succession of extraordinary
 events** – it should **reflect some type of change** happening to someone or
@@ -57,9 +80,9 @@ can’t expect your listeners to feel any sort of deeper connection with you
 after you’ve finished, or to change their opinions about something important on
 the basis of what you’ve told them.
 
-You should also **ensure that the stories you tell cast you as the protagonist**.
-Your audience wants to hear about something that happened to you, rather than
-to your best friend.
+You should also **ensure that the stories you tell cast you as the
+protagonist**.  Your audience wants to hear about something that happened to
+you, rather than to your best friend.
 
 Why?
 
@@ -86,9 +109,9 @@ your story measures up, ask yourself: “Is this the kind of story I would
 recount to a friend over dinner?” If it isn’t, then it probably isn’t a very
 good story.
 
-When you’re planning how to tell a story, remember that **the way you “perform”**
-it in front of a wider audience – whether to work colleagues or at church –
-shouldn’t differ from the **way you would tell it to a friend**.
+When you’re planning how to tell a story, remember that **the way you
+“perform”** it in front of a wider audience – whether to work colleagues or at
+church – shouldn’t differ from the **way you would tell it to a friend**.
 
 Just consider the way some storytellers, when in front of an audience, build in
 strange gestures to emphasize their narrative, like making fluttering hand
@@ -115,19 +138,19 @@ launching into dialogue, first introduce your story and its characters.
 Importantly, most of these issues arise because storytellers make one crucial
 mistake. They think their audience wants them to perform their story rather
 than just tell it. This could not be further from the truth. Though your
-audience will likely know that some planning has gone into your story, **they’ll
-want to feel that your story is off-the-cuff and unpractised**. In other words,
-they want to feel that you’re speaking from the heart. Unfortunately, if you
-insert any of these ready-made theatrical or poetical flourishes, this illusion
-will be shattered; and the connection between you and your audience will be
-lost.
+audience will likely know that some planning has gone into your story,
+**they’ll want to feel that your story is off-the-cuff and unpractised**. In
+other words, they want to feel that you’re speaking from the heart.
+Unfortunately, if you insert any of these ready-made theatrical or poetical
+flourishes, this illusion will be shattered; and the connection between you and
+your audience will be lost.
 
 ## At its heart, every good story is about a five-second moment.
 
 When it comes to storytelling, there is one surprising, yet essential truth you
 need to know. What is this great secret? It’s that **every good story, at its
-heart, is about a five-second moment in someone’s life**. Furthermore, the whole
-point of your story is to illuminate this instant with as much clarity as
+heart, is about a five-second moment in someone’s life**. Furthermore, the
+whole point of your story is to illuminate this instant with as much clarity as
 possible.
 
 What sort of five-second moment are we talking about?
@@ -169,8 +192,7 @@ connect with in the author’s story. In fact, when people talk about this story
 afterward, they rarely even mention the car crash – all they remember is that
 sudden change from feeling alone to feeling loved.
 
-    “Don’t get hung up on the big moments, the unbelievable circumstances, or
-    the hilarious details. Seek out the moments when you felt your heart move.”
+> Don’t get hung up on the big moments, the unbelievable circumstances, or the hilarious details. Seek out the moments when you felt your heart move.
 
 ## Find the beginning of your story by examining how it ends.
 
@@ -193,10 +215,10 @@ How can you make the right choice?
 First, you must remind yourself how your story ends. In other words, what
 happens in your five-second moment? Then ask yourself: What is the very
 opposite of this moment of revelation, realization or transformation? Quite
-simply, your **story’s beginning needs to be the complete opposite of its end**.
-This opposition is vital because it helps to construct a satisfying arc within
-your narrative, and this arc is how your story will demonstrate change over
-time.
+simply, your **story’s beginning needs to be the complete opposite of its
+end**.  This opposition is vital because it helps to construct a satisfying arc
+within your narrative, and this arc is how your story will demonstrate change
+over time.
 
 For instance, consider a romantic comedy whose opening scenes show a young
 woman being fired from her job in a bank and her banker boyfriend running off
@@ -208,10 +230,10 @@ will make a new best friend, but one very different from the one who betrayed
 her, such as an open-hearted gay man.
 
 In other words, **if you want to know how a movie will end, simply work out
-what’s the opposite of the first quarter of an hour**, and you’ll probably have a
-pretty accurate answer. Your story should be no different.  
+what’s the opposite of the first quarter of an hour**, and you’ll probably have
+a pretty accurate answer. Your story should be no different.  
 
-    “An airplane takes off, flies through the sky, and lands in a new place. Your story must do the same.”
+> An airplane takes off, flies through the sky, and lands in a new place. Your story must do the same.
 
 ## There are some crucial do’s and don’ts for immersing your audience in a story.
 
@@ -230,8 +252,8 @@ tense. Don’t start with, “I was on a train last year . . .” but with somet
 like “I am on a train, and my whole body is shuddering from its forward
 momentum.”
 
-Using the present tense in storytelling creates a feeling of immediacy for your
-audience. They are also transported onto that train, looking at you in
+**Using the present tense in storytelling creates a feeling of immediacy for
+your audience**. They are also transported onto that train, looking at you in
 real-time. The present tense sucks the reader into the period the storyteller
 wants them to occupy and brings them much closer to the key moments.
 
@@ -296,27 +318,3 @@ When selecting the words to tell your story, make sure that what seems
 authentic and honest to you does not come over as profane to your audience.
 Remember, a little restraint can go a long way in helping your storytelling
 career.
-
-## Final summary
-
-The key message in these blinks:
-
-You can master storytelling by learning the right techniques. To tell a great
-story, include a meaningful element of change somewhere in the narrative, steer
-clear of vulgarity and unnecessary flourishes, and transport your audience by
-using the present tense.
-
-Actionable advice:
-
-Avoid celebrity references in your stories.
-
-While telling a story, the author once described his ex-girlfriend as being
-similar to the actress, Zooey Deschanel. He then watched as half his audience
-nodded along, and the other half looked confused. Since then, he has avoided
-these sorts of celebrity references, and you should too. Not only do you risk
-alienating those audience members who have no idea who you’re talking about,
-but it's also lazy. Instead of accurately describing the character in your
-story, you’re just relying on short-hand to bring them to life. Very little is
-revealed about that person, and your audience hasn’t gained enough information
-about them. So ask yourself: What is this character really like, beyond shallow
-celebrity similarities? 
