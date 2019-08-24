@@ -1,16 +1,35 @@
-![We Are
-Displaced](https://images.blinkist.com/images/books/5c5060e06cee070007d816be/1_1/470.jpg)
+# We Are Displaced by Malala Yousafzai
 
-# We Are Displaced 
-*Malala Yousafzai*
+In We Are Displaced (2018), international activist Malala Yousafzai shares her
+story of becoming displaced from her homeland of Pakistan. She also shares the
+stories of some of the women and girls she has met while visiting refugee camps
+across the globe. With over 68.5 million people currently displaced from their
+homes worldwide, these stories are a vivid and important reminder of the
+individuality and humanity of each and every displaced person.
 
->In We Are Displaced (2018), international activist Malala Yousafzai shares her
->story of becoming displaced from her homeland of Pakistan. She also shares the
->stories of some of the women and girls she has met while visiting refugee
->camps across the globe. With over 68.5 million people currently displaced from
->their homes worldwide, these stories are a vivid and important reminder of the
->individuality and humanity of each and every displaced person.
+![We Are Displaced by Malala Yousafzai](https://www.blinkist.com/en/nc/daily/reader/we-are-displaced-en/)
 
+[We Are Displaced](https://images.blinkist.com/images/books/5c5060e06cee070007d816be/1_1/470.jpg)
+
+## Final summary
+
+The key message in these blinks:
+
+The refugee crisis impacts lives across the globe, but no group has been hit
+harder than women and girls. Displaced by violence and war and often denied an
+education, some women and girls have not only survived but incredibly, a few
+have even achieved their dreams. What’s more, some have found ways, even in the
+most horrific of circumstances, to extend a helping hand to others.
+
+## Actionable advice:
+
+**Help displaced people by educating yourself.**
+
+Most people are aware that there is currently a refugee crisis, but it’s hard
+to know what to do about it. Educating yourself is a great first step – quality
+online news sources and the UNHCR website, unhcr.org, can be a big help. Once
+you understand the facts and some context, you’ll be ready to take action by
+donating money, starting a campaign or volunteering.
 
 # What’s in it for me? Hear stories of survival, resilience, and hope.
 
@@ -29,7 +48,6 @@ are stories of perseverance through horrific circumstances, and of people
 building new lives for themselves as they dream of a brighter future.
 
 **In the following blinks, you’ll learn**
-
 - how good and bad luck can shape the life paths of displaced people;
 - how one girl helped other girls by convincing them to choose school over
   marriage; and
@@ -388,33 +406,7 @@ means living with emotions that are far from easy to reconcile. These aren’t
 just stories of survivors who finally reach a better place; they’re also
 accounts of what is lost and what can never be returned to.
 
-# Final summary
-
-The key message in these blinks:
-
-**The refugee crisis impacts lives across the globe, but no group has been hit
-harder than women and girls. Displaced by violence and war and often denied an
-education, some women and girls have not only survived but incredibly, a few
-have even achieved their dreams. What’s more, some have found ways, even in the
-most horrific of circumstances, to extend a helping hand to others. **
-
-Actionable advice:
-
-**Help displaced people by educating yourself.**
-
-Most people are aware that there is currently a refugee crisis, but it’s hard
-to know what to do about it. Educating yourself is a great first step – quality
-online news sources and the UNHCR website, unhcr.org, can be a big help. Once
-you understand the facts and some context, you’ll be ready to take action by
-donating money, starting a campaign or volunteering.
-
-**Got feedback?**
-
-We’d sure love to hear what you think about our content! Just drop an email to
-remember@blinkist.com with the title of this book as the subject line and share
-your thoughts!
-
-**What to read next: ******Crisis Caravan******, by Linda Polman**
+## What to read next: Crisis Caravan, by Linda Polman
 
 As you learned in these blinks, aid can have a big impact, but it doesn’t solve
 every issue facing refugees. So the question is: Why can’t humanitarian aid do
@@ -426,5 +418,3 @@ where it’s needed the most. Like the blinks for **We Are Displaced**, they
 explain how complicated political, social and economic conditions can make life
 more difficult for refugees. They even show ways that aid can end up doing more
 harm than good, and what can be done to improve the situation.
-
-Source: [We Are Displaced by Malala Yousafzai](https://www.blinkist.com/en/nc/daily/reader/we-are-displaced-en/)

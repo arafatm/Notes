@@ -1,5 +1,30 @@
 # The Subtle Art of Not Giving a Fuck
 
+## Final summary
+
+We try to do too much in life and this leads to stress and unhappiness. Each of
+us needs to learn to stop “giving a fuck” about the things that are causing us
+pain. Choose what it is you really want to care about, and develop a more
+constructive approach to work, love and life itself.
+
+## Actionable advice: Forget FOMO and learn to say no.
+
+If you want to focus only on the things that really matter to you, it is
+vitally important to say “no!” to everything else. FOMO – the fear of missing
+out – keeps us stressed, but the truth is, we’ll miss out on things no matter
+what. You can’t have the perfect career, lots of family time and countless
+hours to spend surfing waves on a sunny beach. It’s more important to miss out
+on the right things.
+
+So pick what’s important to you, and ignore the rest. Be totally ruthless with
+this. For example, follow the path set by CEO multimillionaire Mohamed
+El-Erian, who resigned from his lucrative job so that he could spend more time
+with his young daughter.
+
+Source: [Blinkist: The Subtle Art of Not Giving A Fuck](https://www.blinkist.com/books/the-subtle-art-of-not-giving-a-f-star-ck-en?r=1&st=subtle)
+
+![blink](https://images.blinkist.com/images/books/592933bbb238e10007b6b0a5/3_4/470.jpg)
+
 ## Focus on What is Important 
 
 What’s in it for me? Learn to focus on the important things in life – and screw
@@ -28,7 +53,7 @@ that’s right for you**.
 
 What’s your ultimate goal, the achievement you want written on your headstone?
 
-Unfortunately, if you want to get anywhere in life, **you’ll have to struggle**.
+> Unfortunately, if you want to get anywhere in life, you’ll have to struggle.
 
 Achieving your goals will require hard work and plenty of perseverance; it’s
 guaranteed that there will be setbacks and hardships on the way.
@@ -40,7 +65,6 @@ Since struggle is unavoidable, you have to find something worth struggling for.
 
 You have to identify what you really enjoy doing. 
 
-
 There is no point looking for an easy life, one without adversity. 
 
 Be ruthless and stop chasing the things in life that don’t make you happy.
@@ -50,7 +74,8 @@ else.
 
 ## Suffering & Metallica
 
-Suffering can lead to great things, but if you don’t have the right values, you’ll never be happy.
+Suffering can lead to great things, but if you don’t have the right values,
+you’ll never be happy.
 
 In 1983, Mustaine was thrown out of his band when they were right on the cusp
 of fame. Seething with anger at the rejection, Mustaine became determined to
@@ -114,7 +139,9 @@ Take honesty. Honesty is a great value to live by because you can control it
 (only you can decide to be truthful or not); it's based in reality; and,
 because it provides truthful feedback to others, it's helpful.
 
-Some other values that fulfill these three criteria are creativity, generosity and humility.
+Some other values that fulfill these three criteria are creativity, generosity
+and humility.
+
 ## Responsibility vs Compulsion 
 
 Sometimes we feel like victims, but positive change only happens when you
@@ -130,8 +157,7 @@ Feeling compelled to do something robs it of its joy.
 
 We often flee when our identity is threatened, but Buddhism can help.
 
-**Manson’s Law of Avoidance** – the tendency to flee anything that threatens
-our identity.
+> **Manson’s Law of Avoidance** – the tendency to flee anything that threatens our identity.
 
 For example, many amateur artists and writers refuse to publicize or sell their
 work. They’re terrified that, should they show their art or writing, no one
@@ -169,8 +195,8 @@ Romeo and Juliet is perhaps the most famous love story in the world. And yet
 it’s hardly a happy one; it’s a rather chaotic story, involving murder, exile
 and blood feuds and it ends with both lovers committing suicide.
 
-Studies have shown that passionate, romantic relationships
-have a stimulating effect on the brain similar to that of cocaine. 
+Studies have shown that passionate, romantic relationships have a stimulating
+effect on the brain similar to that of cocaine. 
 
 Romantic love can be either unhealthy or healthy depending on whether it
 fulfills specific criteria. 
@@ -226,23 +252,3 @@ If you want to pursue a happy life, focus on the things you enjoy, be it the
 joyful struggle or a healthy relationship. Everything else is a pointless
 distraction.
 
-## Final summary
-
-We try to do too much in life and this leads to stress and unhappiness. Each of
-us needs to learn to stop “giving a fuck” about the things that are causing us
-pain. Choose what it is you really want to care about, and develop a more
-constructive approach to work, love and life itself.
-
-Actionable advice: Forget FOMO and learn to say no.
-
-If you want to focus only on the things that really matter to you, it is
-vitally important to say “no!” to everything else. FOMO – the fear of missing
-out – keeps us stressed, but the truth is, we’ll miss out on things no matter
-what. You can’t have the perfect career, lots of family time and countless
-hours to spend surfing waves on a sunny beach. It’s more important to miss out
-on the right things.
-
-So pick what’s important to you, and ignore the rest. Be totally ruthless with
-this. For example, follow the path set by CEO multimillionaire Mohamed
-El-Erian, who resigned from his lucrative job so that he could spend more time
-with his young daughter.
