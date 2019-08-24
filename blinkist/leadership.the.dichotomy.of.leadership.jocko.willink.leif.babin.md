@@ -1,13 +1,13 @@
 # The Dichotomy of Leadership by Jocko Willink & Leif Babin
 
->The Dichotomy of Leadership (2018) chronicles the extraordinary experiences of
->two ex-Navy SEAL commanders. While stationed in Baghdad and Ramadi during the
->Iraq War, Jocko Willink and Leif Babin collected experiences which helped them
->become effective leaders. After returning to civilian life, they realized
->these leadership skills were equally effective in the business world. They
->figured out that, in both combat and non-combat contexts, you can only
->overcome the dichotomies of leadership and effectively run an organization by
->finding a sense of balance between opposing forces.
+The Dichotomy of Leadership (2018) chronicles the extraordinary experiences of
+two ex-Navy SEAL commanders. While stationed in Baghdad and Ramadi during the
+Iraq War, Jocko Willink and Leif Babin collected experiences which helped them
+become effective leaders. After returning to civilian life, they realized these
+leadership skills were equally effective in the business world. They figured
+out that, in both combat and non-combat contexts, you can only overcome the
+dichotomies of leadership and effectively run an organization by finding a
+sense of balance between opposing forces.
 
 ##  Actionable advice:
 
