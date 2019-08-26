@@ -9,8 +9,9 @@ what we can do to minimize the risks to our health. The best place to start,
 Jason Fung argues, is to clear up common misconceptions about the causes of
 obesity, beginning with the old saw that all dietary fats are to blame. That
 means taking a closer look at the latest evidence and addressing the true
-culprit: insulin resistance. ![The Obesity
-Code](https://images.blinkist.com/images/books/5ca332946cee070007a59377/1_1/470.jpg)
+culprit: insulin resistance. 
+
+![The Obesity Code](https://images.blinkist.com/images/books/5ca332946cee070007a59377/1_1/470.jpg)
 
 ## Final summary
 

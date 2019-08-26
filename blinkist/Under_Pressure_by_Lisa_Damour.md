@@ -1,8 +1,8 @@
-![Under Pressure](https://images.blinkist.com/images/books/5ca337916cee070007a59384/1_1/470.jpg)
 # Under Pressure
 *Lisa Damour*
 
 >Under Pressure (2019) explores the particular challenges that school-aged girls face throughout their education, at home and in society at large. Drawing on her wealth of experience as a clinical psychologist, Lisa Damour explains how parents, teachers and mentors can help girls overcome the stress and anxiety that disproportionately affects young women.
+![Under Pressure](https://images.blinkist.com/images/books/5ca337916cee070007a59384/1_1/470.jpg)
 
 
 # What’s in it for me? Welcome to girl world.
