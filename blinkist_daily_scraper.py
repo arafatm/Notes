@@ -43,7 +43,7 @@ article = get_element_from_request(f'https://www.blinkist.com{cta}', 'article', 
 
 # Convert to markdown, add source and dump to a file
 print("convert markdown")
-output = f'![{title}]({img_url})\n# {title}\n*{author}*\n\n>{description}\n\n{tomd.convert(str(article).strip())}\n\nSource: [{title} by {author}](https://www.blinkist.com{cta})'
+output = f'![{title}]({img_url})\n# {title}\n*{author}*\n\n>{description}\n\n{tomd.convert(str(article).strip())}\n\nSource: [Blinkist - {title} by {author}](https://www.blinkist.com{cta})'
 
 commitMessage = f'b: {title}'
 
