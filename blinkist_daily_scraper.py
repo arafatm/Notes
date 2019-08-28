@@ -51,7 +51,7 @@ output = output + f'![{title}]({img_url})\n\n'
 output = output + f'{description}\n\n'
 output = output + f'{tomd.convert(str(article).strip())}'
 
-commitMessage = f'b: {title}'
+commitMessage = f'Blinkist Daily'
 
 print("writing " + bookfile)
 with open(bookfile, "w", encoding="utf8") as text_file:
