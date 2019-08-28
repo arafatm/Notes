@@ -1,8 +1,8 @@
-![Siege](https://images.blinkist.com/images/books/5d34c0cf6cee07000859bcf9/3_4/470.jpg)
-# Siege
-*Michael Wolff*
+# Siege by Michael Wolff
 
->Source: [Blinkist - Siege by Michael Wolff](https://www.blinkist.com/en/nc/daily/reader/siege-en)
+>Source: [https://www.blinkist.com/en/nc/daily/reader/siege-en](https://www.blinkist.com/en/nc/daily/reader/siege-en)
+
+![Siege](https://images.blinkist.com/images/books/5d34c0cf6cee07000859bcf9/3_4/470.jpg)
 
  (2019) gives a detailed account of Donald Trump’s presidency between 2017 and early 2019, portraying a White House that always seems to be on the brink of collapse. In a blow-by-blow description of the seismic events of Trump’s second and third years in office, Michael Wolff evokes an administration under siege.
 
