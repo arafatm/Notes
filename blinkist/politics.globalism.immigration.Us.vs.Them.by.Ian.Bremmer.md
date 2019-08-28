@@ -1,37 +1,24 @@
->There have been losers with Globalism. But it's also about culture and
->nationality
+# Us vs. Them by Ian Bremmer
 
->Even in China protests are rising caused by economic, environmental and
->political concerns driven by globalization
-
->States with higher inequality were more likely to have higher levels of hate
->crime.
-
->Industrial jobs are getting automated with no funds for reeducation for
->displaced workers
-
->In the US, for example, visa programs already allow rich foreigners easier
->access to green cards if they invest in real estate.
-
->It’s not hard to dislike populists like Trump. But he didn’t create the us vs.
->them world that made his election possible. Many people in America, Europe and
->the developing world want change. And they feel that political and economic
->elites do not understand the real impacts of globalism. If we don’t take these
->people seriously, there are major problems ahead for society and for politics.
+Source: [https://www.blinkist.com/books/reader/us-vs-them-en/](https://www.blinkist.com/books/reader/us-vs-them-en/)
 
 ![Us vs. Them](https://images.blinkist.com/images/books/5b671934b238e100078c2ed4/1_1/470.jpg)
 
+Us vs. Them (2018) explores how globalism has created both winners and
+losers and explains how the losers are now looking to set things right. In
+countries from the United States to China, from Venezuela to Turkey, unhappy
+citizens are making new demands of their governments, and populist politicians
+are promising easy answers. Us vs. Them offers a lucid take on the forces
+disrupting societies around the world and suggests potential solutions for the
+future.
 
-# Us vs. Them
-*Ian Bremmer*
+# Final summary
 
->Us vs. Them (2018) explores how globalism has created both winners and
->losers and explains how the losers are now looking to set things right. In
->countries from the United States to China, from Venezuela to Turkey, unhappy
->citizens are making new demands of their governments, and populist politicians
->are promising easy answers. Us vs. Them offers a lucid take on the forces
->disrupting societies around the world and suggests potential solutions for the
->future.
+It’s not hard to dislike populists like Trump. But he didn’t create the us vs.
+them world that made his election possible. Many people in America, Europe and
+the developing world want change. And they feel that political and economic
+elites do not understand the real impacts of globalism. If we don’t take these
+people seriously, there are major problems ahead for society and for politics.
 
 # What’s in it for me? Understand how our world is becoming more divided.
 
@@ -54,7 +41,6 @@ In these blinks, you’ll learn
 - why immigration is driving populist politics;
 - how robots will increase inequality between – and within – nations; and
 - why governments need to rethink tax and education.
-
 
 # Globalism has created economic winners and losers and an “us vs. them”
 mentality.
@@ -440,30 +426,11 @@ European populists may all be angry – and they often have good reasons to be.
 The process of reinventing the social contract may not be easy. But in the long
 run, it’s a better approach than building more walls.
 
-# Final summary
 
-The key message in these blinks:
-
-    It’s not hard to dislike populists like Trump. But he didn’t create the us
-    vs. them world that made his election possible. Many people in America,
-    Europe and the developing world want change. And they feel that political
-    and economic elites do not understand the real impacts of globalism. If we
-    don’t take these people seriously, there are major problems ahead for
-    society and for politics.
-
-**Got feedback?**
-
-We’d sure love to hear what you think about our content! Just drop an email to
-remember@blinkist.com with the title of this book as the subject line and share
-your thoughts!
-
-**Suggested** **further** **reading:*****Age of Anger *****by Pankaj Mishra**
+## Suggested further reading:Age of Anger by Pankaj Mishra
 
 *Age of Anger *(2017) examines the world and the upheaval it’s undergoing.
 These blinks look back to earlier societies and dissect the origins of our
 current travails. They also pay close attention to the philosophical teachings
 of the Enlightenment, which still influence Western thought today.
 
-
-Source: [Us vs. Them by Ian
-Bremmer](https://www.blinkist.com/en/nc/daily/reader/us-vs-them-en/)
