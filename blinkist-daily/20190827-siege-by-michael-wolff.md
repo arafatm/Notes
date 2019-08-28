@@ -2,7 +2,9 @@
 # Siege
 *Michael Wolff*
 
-> (2019) gives a detailed account of Donald Trump’s presidency between 2017 and early 2019, portraying a White House that always seems to be on the brink of collapse. In a blow-by-blow description of the seismic events of Trump’s second and third years in office, Michael Wolff evokes an administration under siege.
+>Source: [Blinkist - Siege by Michael Wolff](https://www.blinkist.com/en/nc/daily/reader/siege-en)
+
+ (2019) gives a detailed account of Donald Trump’s presidency between 2017 and early 2019, portraying a White House that always seems to be on the brink of collapse. In a blow-by-blow description of the seismic events of Trump’s second and third years in office, Michael Wolff evokes an administration under siege.
 
 
 # What’s in it for me? Get the lowdown on the Trump presidency from behind the scenes. 
@@ -188,6 +190,3 @@ We’d sure love to hear what you think about our content! Just drop an email to
 As we’ve seen, Trump’s White House is an administration under siege. It faces an assault on its legitimacy from within and without, and is threatened by Trump’s own unpredictable temperament. But how did it reach this state?
 
 To find out, check out the blinks to **Fire and Fury**, from the author of **Siege**. In this earlier work, Michael Wolff tracks Trump’s first days in office, with fly-on-the-wall accounts drawn from over 200 conversations with senior staff. Here you’ll read how an unprepared, incompetent administration set into motion all of the chaotic events that followed.
-
-
-Source: [Siege by Michael Wolff](https://www.blinkist.com/en/nc/daily/reader/siege-en)
