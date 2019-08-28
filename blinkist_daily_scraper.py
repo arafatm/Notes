@@ -27,6 +27,8 @@ title = container.find('h3', 'daily-book__headline').string.strip()
 author = container.find('div', 'daily-book__author').string.strip()[3:]
 description = container.find('div', 'book-tabs__content-inner').p.contents[1]
 cta = container.find('a', 'cta')['href']
+burl = f'/books/' + re.sub("/en/nc/daily/reader/", "", cta) 
+print(burl)
 img_url = container.find('img')['src']
 
 date = datetime.now().strftime('%Y%m%d')
@@ -43,7 +45,11 @@ article = get_element_from_request(f'https://www.blinkist.com{cta}', 'article', 
 
 # Convert to markdown, add source and dump to a file
 print("convert markdown")
-output = f'![{title}]({img_url})\n# {title}\n*{author}*\n\n>{description}\n\n{tomd.convert(str(article).strip())}\n\nSource: [Blinkist - {title} by {author}](https://www.blinkist.com{cta})'
+output = f'# {title} by {author}\n\n'
+output = output + f'Source: [https://www.blinkist.com{burl}](https://www.blinkist.com{burl})\n\n'
+output = output + f'![{title}]({img_url})\n\n'
+output = output + f'{description}\n\n'
+output = output + f'{tomd.convert(str(article).strip())}'
 
 commitMessage = f'b: {title}'
 
