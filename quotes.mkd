@@ -190,3 +190,4 @@ buffer blocks, and breakout blocks -- The 12 Week Year
 > A strategy for thinking clearly: Rather than trying to be right, assume you are wrong and try to be less wrong. -- James Clear
 > Life is not a dress rehearsal, this is probably it. Make it count. -- Sam Altman
 > 🔥🧠 Tip: Never worry in your head. If you must worry, do it on pape, literally transcribe your worries. Constrain your worry to the speed of writing and you’ll rob it of 90% of its power. -- @ndwignall  
+> It is your responsibility as the feedback receiver, whether you accept or reject it, to at least consider the feedback and be thoughtful about it. -- Fearless Feedback
