@@ -2,6 +2,8 @@
 
 *by Michael Bungay Stanier*
 
+[blinkist](https://github.com/arafatm/blinkist/blob/master/mba/The.Coaching.Habit.By.Michael.Bungay.Stanier.md)
+
 ## Quick Summary
 
 - Ask One Question at a Time
