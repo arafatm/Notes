@@ -1,7 +1,7 @@
 # Thinking in Bets 
 *Annie Duke*
 
-https://sivers.org/book/ThinkingInBets
+Source: https://sivers.org/book/ThinkingInBets
 
 Amazing point: Would your belief in something stand up to the question, “Wanna
 bet?” If you had to gamble significant money on that belief, would you still
@@ -13,12 +13,14 @@ belief. Now objective accuracy wins instead of argument.
 
 A bet is a decision about an uncertain future.
 
-> Two things determine how your life turns out: the quality of your decisions, and luck. Recognize the difference between the two.
+> Two things determine how your life turns out: the quality of your decisions,
+> and luck. Recognize the difference between the two.
 
 “Resulting” = when you equate the quality of a decision with the quality of its
 outcome.  A bad result does not mean a bad decision.
 
-> Hindsight bias is the tendency, after an outcome is known, to see the outcome as having been inevitable.
+> Hindsight bias is the tendency, after an outcome is known, to see the outcome
+> as having been inevitable.
 
 When a decision doesn’t work out, don't treat that result as if it were an
 inevitable consequence rather than a probabilistic one. Don't focus only on the
@@ -29,9 +31,11 @@ of asking yourself what is the other person going to think I mean to do.  The
 decisions you make in your life - in business, saving and spending, health and
 lifestyle choices, raising your children, and relationships - are “real games”.
 
-Life is not like chess. Chess contains no hidden information and very little luck.
+Life is not like chess. Chess contains no hidden information and very little
+luck.
 
-> Life is more like poker. You could make the smartest, most careful decision and still have it blow up in your face.
+> Life is more like poker. You could make the smartest, most careful decision
+> and still have it blow up in your face.
 
 You have to learn from the results of your decisions.
 
@@ -39,7 +43,8 @@ You have to learn from the results of your decisions.
 
 It is a prelude to every great decision.
 
-> A great decision is the result of a good process - not that it has a great outcome.
+> A great decision is the result of a good process - not that it has a great
+> outcome.
 
 Good decision-makers try to figure out how unsure they are, making their best
 guess at the chances that different outcomes will occur.
@@ -148,9 +153,11 @@ contribute without having to confront you by saying or implying, “You’re
 wrong.” Expressing uncertainty signals to your listeners that this needs
 further vetting.
 
-> Experience can be an effective teacher, but only some students listen to their teachers.
+> Experience can be an effective teacher, but only some students listen to
+> their teachers.
 
-> Experience is not what happens to a man; it is what a man does with what happens to him.
+> Experience is not what happens to a man; it is what a man does with what
+> happens to him.
 
 Identify when the outcomes of your decisions have something to teach you and
 what that lesson might be.
@@ -185,7 +192,8 @@ watching others is just as fraught with bias.
 If someone you view as a peer is winning, you feel like you’re losing by
 comparison. You benchmark yourself to them.
 
-> To change a habit, you must keep the old cue, and deliver the old reward, but insert a new routine.
+> To change a habit, you must keep the old cue, and deliver the old reward, but
+> insert a new routine.
 
 Treating outcome fielding as a bet can accomplish the mindset shift necessary
 to reshape habit.  We wouldn’t reflexively field bad outcomes as all luck or
@@ -199,7 +207,8 @@ self-serving bias. We are more likely to explore the opposite side of an
 argument more often and more seriously - and that will move you closer to the
 truth.
 
-> Agree to be open-minded to those who disagree eith you, give credit where it’s due, and take responsibility where it’s appropriate,
+> Agree to be open-minded to those who disagree eith you, give credit where
+> it’s due, and take responsibility where it’s appropriate,
 
 Other people can spot your errors better than you can.
 
@@ -214,7 +223,8 @@ about the future to more accurately represent the world.  Betting is a form of
 accountability to accuracy.
 
 I started moaning to him about my bad luck in losing a big hand. He said,
-> “There’s not much purpose in a poker story if the point is about something you had no control over, like bad luck.”
+> “There’s not much purpose in a poker story if the point is about something
+> you had no control over, like bad luck.”
 
 Where the challenge of a bet is always looming, evidence that might contradict
 a belief you hold is no longer viewed through as hurtful a frame. Rather, it is
@@ -223,16 +233,23 @@ viewed as helpful because it can improve your chances of making a better bet.
 To view yourself in a more realistic way, you need different perspectives.
 - Why might my belief not be true?
 - What other evidence might be out there bearing on my belief?
-- Are there similar areas I can look toward to gauge whether similar beliefs to mine are true?
-- What sources of information could I have missed or minimized on the way to reaching my belief?
-- What are the reasons someone else could have a different belief, what’s their support, and why might they be right instead of me?
-- What other perspectives are there as to why things turned out the way they did?
+- Are there similar areas I can look toward to gauge whether similar beliefs to
+  mine are true?
+- What sources of information could I have missed or minimized on the way to
+  reaching my belief?
+- What are the reasons someone else could have a different belief, what’s their
+  support, and why might they be right instead of me?
+- What other perspectives are there as to why things turned out the way they
+  did?
 
-> People are more willing to offer their opinion when the goal is to win a bet rather than get along with people in a room.
+> People are more willing to offer their opinion when the goal is to win a bet
+> rather than get along with people in a room.
 
-> Telling someone how a story ends encourages them to be resulters, to interpret the details to fit that outcome.
+> Telling someone how a story ends encourages them to be resulters, to
+> interpret the details to fit that outcome.
 
-> Skepticism is about approaching the world by asking why things might not be true rather than why they are true.
+> Skepticism is about approaching the world by asking why things might not be
+> true rather than why they are true.
 
 Thinking in bets embodies skepticism by encouraging you to examine what you do
 and don’t know and what your level of confidence is in your beliefs and
@@ -262,7 +279,8 @@ your best guess at the probability of each of those futures occurring.
 You’re already making a prediction about the future every time you make a
 decision, so you’re better off if you make that explicit.
 
-> Imagine yourself looking back from the destination and figure how you got there.  Remembering the future is a better way to plan for it.
+> Imagine yourself looking back from the destination and figure how you got
+> there.  Remembering the future is a better way to plan for it.
 
 Your decision-making improves when you can more vividly imagine the future,
 free of the distortions of the present.
@@ -270,7 +288,8 @@ free of the distortions of the present.
 > Negative visualization makes you more likely to achieve your goals.
 - Imagine obstacles in the way of reaching your goals.
 - Start a premortem by imagining why you failed to reach your goal.
-- Then imagine why. All those reasons why you didn’t achieve your goal help you anticipate potential obstacles and improve your likelihood of succeeding.
+- Then imagine why. All those reasons why you didn’t achieve your goal help you
+  anticipate potential obstacles and improve your likelihood of succeeding.
 
 The likelihood of positive and negative futures must add up to 100%.  When you
 see how much negative space there really is, you shrink down the positive space
