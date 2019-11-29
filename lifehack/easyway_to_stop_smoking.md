@@ -1653,7 +1653,7 @@ happiness, freedom...
 
 **1. Make the solemn vow now and mean it.**
 
-2**. Smoke that final cigarette consciously, inhale the filth deeply into your
+**2. Smoke that final cigarette consciously, inhale the filth deeply into your
 lungs and ask yourself where the pleasure is.**
 
 **3. When you put it out, do so not with a feeling of: ‘I must never smoke
@@ -1666,7 +1666,7 @@ you looking to be fed.**
 
 A slight physical craving for nicotine... When the feeling comes, respond with "**YIPPEE, I'M A NON-SMOKER!**"
 
-The body cannot crave nicotine. Only the brain can crave. 
+The body cannot crave nicotine. **Only the brain can crave**. 
 
 So when that slight feeling comes, respond by saying to yourself, “YIPPEE, I’M
 A NON-SMOKER!” and focus on all of the wonderful gifts you are giving yourself 
@@ -1719,8 +1719,11 @@ YOU ARE ALREADY A HAPPY NON-SMOKER!
 
 ## CHAPTER 41 A FINAL WARNING
 
-be warned: smokers who find it easy to stop can sometimes be prone to relapse,
-because they think it will be easy to quit again. DO NOT FALL INTO THIS TRAP?
+Be warned: smokers who find it easy to stop can sometimes be **prone to
+relapse**, because they think it will be easy to quit again. 
+
+DO NOT FALL INTO THIS TRAP!!!
+
 No matter how long you have been a non-smoker or how confident you are that you
 could never get hooked; if you smoke again you will instantly become
 re-addicted.
@@ -1731,7 +1734,7 @@ mess around with, and this is one of them.
 
 ## CHAPTER 42 OVER TWENTY YEARS OF FEEDBACK
 
-this attitude is beginning to change and today some of our most enthusiastic
+This attitude is beginning to change and today some of our most enthusiastic
 supporters are frontline medical professionals who themselves work with
 smokers.
 
@@ -1739,21 +1742,26 @@ smokers.
 
 ‘I know you feel like that at the moment, but how will you feel six months on?’
 
-US office on 1 866 666 4299.
-
 If you do begin to feel uncomfortable, slow your breathing down and take a
 couple of nice, big, deep breaths. Focus on the key thoughts: 
-- there is nothing to ‘give up’ apart from a life of fear, misery and slavery; 
-- every smoker is envious of you as a non-smoker, because every smoker would
-  rather be a non-smoker; 
-- that the little monster is dead or already dying. 
+- **there is nothing to ‘give up’ apart from a life of fear, misery and
+  slavery** 
+- **every smoker is envious of you** as a non-smoker, because every smoker
+  would rather be a non-smoker; 
+- that the **little monster is dead** or already dying. 
 
 If you go back to smoking you are guaranteeing a future of feeling panicky and
 miserable. Is that how you want to go through the rest of your life? No one can
-stop time. Every second that passes, the fear recedes. Enjoy your inevitable
-victory. If you want to shout, scream or cry then do so. These are all
-perfectly natural ways to relieve tension. Remember—you are not feeling this
-way because you stopped smoking, but because you started in the first place.
+stop time. 
+
+Every second that passes, the fear recedes. Enjoy your inevitable victory. 
+
+If you want to shout, scream or cry then do so. These are all perfectly natural
+ways to relieve tension. 
+
+Remember you are not feeling this way because you stopped smoking, but because
+you started in the first place.
+
 You cannot and will not fail because your life and your future depend on your
 success.
 
@@ -1770,31 +1778,43 @@ When those smokers see you so happy they’ll think you’re Superman. And, in
 truth, you’ll feel a bit like him!
 
 The Checklist If you follow these simple instructions, you cannot fail. 
-1. Make a solemn vow that you will never, ever, smoke, chew, suck or otherwise
-   consume anything that contains nicotine, and stick to that vow. 
-2. Get this clear in your mind: there is absolutely nothing to give up. By that
-   I don’t mean that you will be better off as a non-smoker (you’ve known that
-   your entire smoking life); nor do I mean that the pleasure or benefit from
-   smoking is not worth the expense and risk. What I mean is that there is
-   absolutely no benefit to smoking whatsoever. It is like banging your head
-   against a wall because it feels a bit better when you stop. 
-3. There is no such thing as a confirmed smoker. You are just one of the
-   millions who fell for this subtle trap. Like millions of ex-smokers who once
-   thought they couldn’t escape, you have escaped. 
-4. If you were to weigh up the pros and cons of smoking, the conclusion would
-   always be the same—to be a non-smoker and happy about it. Having made what
-   you know to be the correct decision, don’t ever make yourself miserable by
-   doubting it. 
-5. Don’t try not to think about smoking or worry that you are thinking about it
-   too much. But whenever you do think about it—whether it’s today, tomorrow or
-   the rest of your life—think, ‘YIPPEE! I’M A NON-SMOKER!’ 
-6. DO NOT use any form of substitute. 
-7. DO NOT carry or keep any smoking materials. 
-8. DO NOT avoid other smokers. 
-9. DO NOT change your lifestyle in any way purely because you’ve stopped
-   smoking. If you follow the above instructions, you will soon experience the
-   moment of revelation. But: 
-10. Don’t wait for that moment to come. Just get on with your life. Enjoy the highs and cope with the lows. The moment will come, and when it does, it’s a moment of pure joy.
+
+1 **Make a solemn vow** that you will never, ever, smoke, chew, suck or
+otherwise consume anything that contains nicotine, and stick to that vow. 
+
+2 Get this clear in your mind: **there is absolutely nothing to give up**. By
+that I don’t mean that you will be better off as a non-smoker (you’ve known
+that your entire smoking life); nor do I mean that the pleasure or benefit from
+smoking is not worth the expense and risk. What I mean is that there is
+absolutely no benefit to smoking whatsoever. It is like banging your head
+against a wall because it feels a bit better when you stop. 
+
+3 There is **no such thing as a confirmed smoker**. You are just one of the
+millions who fell for this subtle trap. Like millions of ex-smokers who once
+thought they couldn’t escape, you have escaped. 
+
+4 If you were to weigh up the pros and cons of smoking, the conclusion would
+always be the same, **to be a non-smoker and happy about it**. Having made what
+you know to be the correct decision, don’t ever make yourself miserable by
+doubting it. 
+
+5 **Don’t try not to think about smoking or worry that you are** thinking about
+it too much. But whenever you do think about it—whether it’s today, tomorrow or
+the rest of your life—think, ‘YIPPEE! I’M A NON-SMOKER!’ 
+
+6 **DO NOT use any form of substitute.** 
+
+7 **DO NOT carry or keep any smoking materials.** 
+
+8 **DO NOT avoid other smokers.** 
+
+9 **DO NOT change your lifestyle in any way** purely because you’ve stopped
+smoking. If you follow the above instructions, you will soon experience the
+moment of revelation. But: 
+
+10 **Don’t wait for that moment to come. Just get on with your life.** Enjoy
+the highs and cope with the lows. The moment will come, and when it does, it’s
+a moment of pure joy.
 
 **Tobacco is the only legal product that if used precisely as the manufacturer
 intended, kills you**.
@@ -1818,4 +1838,5 @@ do enjoy being a non-smoker.
 
 **6. If you have any difficulties contact your nearest Allen Carr’s EASYWAY center.** 
 
+US office on 1 866 666 4299.
 
