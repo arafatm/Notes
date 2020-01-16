@@ -5,6 +5,7 @@ Tech
 - [ ] [ Data Analysis: A Practical Introduction for Absolute Beginners](https://www.classcentral.com/course/edx-data-analysis-a-practical-introduction-for-absolute-beginners-12635)
 - [ ] [ Ethical Hacking](https://www.classcentral.com/course/swayam-ethical-hacking-14045)
 - [ ] [ Fundamentals of Statistics](https://www.classcentral.com/course/edx-fundamentals-of-statistics-11482)
+- [ ] [Blockchain demo](https://andersbrownworth.com/blockchain/?__s=fythg5kcwyinfk5pjm3q)
 
 Entrepreneurship
 - [ ] [ Successful Negotiation: Essential Strategies and Skills](https://www.classcentral.com/course/successful-negotiation-16936)
