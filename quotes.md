@@ -196,3 +196,4 @@ buffer blocks, and breakout blocks -- The 12 Week Year
 > Beyond that, there is no magic formula for getting started, I promise. It merely requires that you participate in your world, that you pay attention to what interests you, that you follow the thrills they produce, and that you’re never afraid to go deep on them, to obsess over them, to dig through the bottom of the rabbit hole if necessary, and to find that great idea which has been waiting there for you all along. -- Adam Savage
 > Punctuate your day with moments of mindfulness 
 > 1. Breathe in for four seconds. 2. Hold air in your lungs for four seconds. 3. Exhale for four seconds. 4. Hold your breath, lungs emptied, for four seconds. -- Box Breathing
+> Drawing Makes Us Better Humans
