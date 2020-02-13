@@ -1,4 +1,1 @@
-Blinks https://github.com/arafatm/blinkist
-
-Currently reading
-- 
+find . -type f | shuf -n 1
