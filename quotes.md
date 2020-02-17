@@ -106,51 +106,51 @@
 > The more he studied Buffett, the less he thought Buffett could be copied; indeed, the lesson of Buffett was: To succeed in a spectacular fashion you had to be spectacularly unusual. -- The Big Short - Michael Lewis
 > He who receives an idea from me, receives instruction himself without lessening mine; as he who lights his taper at mine, receives light without darkening me. -- Thomas Jefferson
 > Accept your past without regrets. Handle your present with confidence. Face your future without fear. -- Hell Divers - Nicholas Sansbury Smith
-> "The first principle is that you must not fool yourself and you are the easiest person to fool." -- RICHARD FEYNMAN -- Ego Is The Enemy
-> "If you start believing in your greatness, it is the death of your creativity." -- Marina Abromovic  -- Ego Is The Enemy
+> "The first principle is that you must not fool yourself and you are the easiest person to fool." -- Richard Feynman - Ego Is The Enemy
+> "If you start believing in your greatness, it is the death of your creativity." -- Marina Abromovic  - Ego Is The Enemy
 > help us be: **Humble** in our aspirations. **Gracious** in our success. -- Ego Is The Enemy
 > **Ego is stolen. Confidence is earned.** -- Ego Is The Enemy
-> "no adornment so becomes you as modesty, justice, and self-control; for these are the virtues by which, as all men are agreed, the character of the young is held in restraint." -- Isocrates -- Ego Is The Enemy
-> "Abhor flatterers as you would deceivers; for both, if trusted, injure those who trust them." -- Isocrates -- Ego Is The Enemy
-> "Be affable in your relations with those who approach you, and never haughty; for the pride of the arrogant even slaves can hardly endure" -- Isocrates -- Ego Is The Enemy
-> "Be slow in deliberation, but be prompt to carry out your resolves" -- Isocrates -- Ego Is The Enemy
-> "Best thing which we have in ourselves is good judgment." -- Isocrates -- Ego Is The Enemy
+> "no adornment so becomes you as modesty, justice, and self-control; for these are the virtues by which, as all men are agreed, the character of the young is held in restraint." -- Isocrates - Ego Is The Enemy
+> "Abhor flatterers as you would deceivers; for both, if trusted, injure those who trust them." -- Isocrates - Ego Is The Enemy
+> "Be affable in your relations with those who approach you, and never haughty; for the pride of the arrogant even slaves can hardly endure" -- Isocrates - Ego Is The Enemy
+> "Be slow in deliberation, but be prompt to carry out your resolves" -- Isocrates - Ego Is The Enemy
+> "Best thing which we have in ourselves is good judgment." -- Isocrates - Ego Is The Enemy
 > "Constantly train your intellect, for the greatest thing in the smallest -- Ego Is The Enemy
-> "This above all: to thine own self be true, And it must follow, as the night the day, Thou canst not then be false to any man. Farewell. My blessing season this in thee!" -- Shakespeare, Polonius to his son Laertes -- Ego Is The Enemy
-> "Talent is only the starting point." -- Irving Berlin -- Ego Is The Enemy
-> "Those who know do not speak. Those who speak do not know." -- LAO TZU -- Ego Is The Enemy
-> "Tiger, one day you will come to a fork in the road, and you're going to have to make a decision about which direction you want to go. If you go that way you can be somebody. You will have to make compromises and you will have to turn your back on your friends. But you will be a member of the club and you will get promoted and you will get good assignments. Or you can go that way and you can do something something for your country and for your Air Force and for yourself. If you decide you want to do something, you may not get promoted and you may not get the good assignments and you certainly will not be a favorite of your superiors. But you won't have to compromise yourself. You will be true to your friends and to yourself. And your work might make a difference. To be somebody or to do something. In life there is often a roll call. That's when you will have to make a decision." -- Forty-Second Boyd (fighter pilot) -- Ego Is The Enemy
+> "This above all: to thine own self be true, And it must follow, as the night the day, Thou canst not then be false to any man. Farewell. My blessing season this in thee!" -- Shakespeare, Polonius to his son Laertes - Ego Is The Enemy
+> "Talent is only the starting point." -- Irving Berlin - Ego Is The Enemy
+> "Those who know do not speak. Those who speak do not know." -- LAO TZU - Ego Is The Enemy
+> "Tiger, one day you will come to a fork in the road, and you're going to have to make a decision about which direction you want to go. If you go that way you can be somebody. You will have to make compromises and you will have to turn your back on your friends. But you will be a member of the club and you will get promoted and you will get good assignments. Or you can go that way and you can do something something for your country and for your Air Force and for yourself. If you decide you want to do something, you may not get promoted and you may not get the good assignments and you certainly will not be a favorite of your superiors. But you won't have to compromise yourself. You will be true to your friends and to yourself. And your work might make a difference. To be somebody or to do something. In life there is often a roll call. That's when you will have to make a decision." -- Forty-Second Boyd (fighter pilot) - Ego Is The Enemy
 > An education can't be "hacked"; there are no shortcuts besides **hacking it every single day**. If you don't, they drop you.  -- Ego Is The Enemy
-> "It is impossible to learn that which one thinks one already knows" -- Epictetus  -- Ego Is The Enemy
+> "It is impossible to learn that which one thinks one already knows" -- Epictetus  - Ego Is The Enemy
 > Purpose is about pursuing something outside yourself as opposed to pleasuring yourself (passion) -- Ego Is The Enemy
 > It'd be far better if you were intimidated by what lies ahead humbled by its magnitude and determined to see it through regardless. Leave passion for the amateurs. -- Ego Is The Enemy
 > **Make other people look good and you will do well**. Keep your head down, they say, and serve your boss. -- Ego Is The Enemy
 > When someone doesn't reckon you with the seriousness that you'd like, the impulse is to correct them.  Instead, you must do nothing. Take it. **Eat it** until you're sick. Endure it.  Quietly brush it off and **work harder**. Play the game. -- Ego Is The Enemy
 > **There's no one to perform for**. There is just work to be done and lessons to be learned, in all that is around us. -- Ego Is The Enemy
-> "A proud man is always looking down on things and people; and, of course, as long as you are looking down, you cannot see something that is above you." -- C. S. LEWIS -- Ego Is The Enemy
+> "A proud man is always looking down on things and people; and, of course, as long as you are looking down, you cannot see something that is above you." -- C. S. LEWIS - Ego Is The Enemy
 > Don't boast. There's nothing in it for you. -- Ego Is The Enemy
-> "You can't build a reputation on what you're going to do" -- Henry Ford -- Ego Is The Enemy
+> "You can't build a reputation on what you're going to do" -- Henry Ford - Ego Is The Enemy
 > Is it ten thousand hours or twenty thousand hours to mastery? The answer is that it doesn't matter. **There is no end zone**. -- Ego Is The Enemy
 > **Make it so you don't have to fake it** -- Ego Is The Enemy
 > Pick up a book on a topic you know next to nothing about. Put yourself in rooms where you're the least knowledgeable person. Change your mind. Change your surroundings. -- Ego Is The Enemy
 > Paul Graham says to have "frighteningly ambitious" ideas but, "The way to do really big things seems to be to start with deceptively small things." -- Ego Is The Enemy
 > **Ego needs honors in order to be validated**. Confidence on the other hand, is able to wait and focus on the task at hand regardless of external recognition. -- Ego Is The Enemy
 > "You're becoming who you are going to be and so you might as well not be an -- Ego Is The Enemy
-> "What matters to an active man is to do the right thing; whether the right thing comes to pass should not bother him." -- GOETHE -- Ego Is The Enemy
+> "What matters to an active man is to do the right thing; whether the right thing comes to pass should not bother him." -- GOETHE - Ego Is The Enemy
 > You will be unappreciated. You will be sabotaged. You will experience surprising failures. Your expectations will not be met. You will lose. You will fail. -- Ego Is The Enemy
-> "A team, like men, must be brought to its knees before it can rise again." -- Vince Lombardi -- Ego Is The Enemy
+> "A team, like men, must be brought to its knees before it can rise again." -- Vince Lombardi - Ego Is The Enemy
 > In the end, the only way you can appreciate your progress is to **stand on the edge of the hole you dug for yourself**, look down inside it, and smile fondly at the bloody claw prints that marked your journey up the walls. -- Ego Is The Enemy
-> "He who fears death will never do anything worthy of a living man" -- Seneca -- Ego Is The Enemy
-> "They cannot degrade Frederick Douglass. The soul that is within me no man can degrade. I am not the one that is being degraded on account of this treatment, but those who are inflicting it upon me." -- Frederick Douglas -- Ego Is The Enemy
-> "People learn from their failures. Seldom do they learn anything from success." -- Harold Geneen -- Ego Is The Enemy
-> "See much, study much, suffer much, that is the path to wisdom." -- old Celtic saying -- Ego Is The Enemy
-> "Every day the dust comes back. Every day we must sweep." -- Daniele Bolelli -- Ego Is The Enemy
+> "He who fears death will never do anything worthy of a living man" -- Seneca - Ego Is The Enemy
+> "They cannot degrade Frederick Douglass. The soul that is within me no man can degrade. I am not the one that is being degraded on account of this treatment, but those who are inflicting it upon me." -- Frederick Douglas - Ego Is The Enemy
+> "People learn from their failures. Seldom do they learn anything from success." -- Harold Geneen - Ego Is The Enemy
+> "See much, study much, suffer much, that is the path to wisdom." -- old Celtic saying - Ego Is The Enemy
+> "Every day the dust comes back. Every day we must sweep." -- Daniele Bolelli - Ego Is The Enemy
 > **But for the grace of God go I. But for the grace of God, that could be any of us** -- Ego Is The Enemy
 > I don't start counting until it starts to hurt -- Mohammad Ali, when asked how many situps he does
 > Arnold Schwarzenegger motivation -- https://www.youtube.com/watch?v=eWJVvNptHZ4
 > When you have a Plan B, you're taking energy away from Plan A -- Arnold Schwarzenegger
 > Don't be afraid of failing because there's nothing wrong with failing -- Arnold Schwarzenegger
-> It is amateurs who have one big bright beautiful idea that they can never abandon. Professionals know that they have to produce theory after theory before they are likely to hit the jackpot. ― Francis Crick
+> It is amateurs who have one big bright beautiful idea that they can never abandon. Professionals know that they have to produce theory after theory before they are likely to hit the jackpot. -- Francis Crick
 > Try again, fail again , better -- Upton Sinclair
 > The last thing we need is spectacle without substance -- Cornell West
 > Sincerity is my only credential -- Malcolm X
