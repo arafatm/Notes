@@ -14,8 +14,7 @@ open-ended and unstructured the meeting can be.
 A very good overview of how to position the 1:1 meeting for success. This
 article focuses on the **GROW** framework for structuring the meeting: 
 
-- [ ] [1-1 Meeting Questions and
-Agenda](https://status.net/templates/one-on-one-meeting-template/)
+- [ ] [1-1 Meeting Questions and Agenda](https://status.net/templates/one-on-one-meeting-template/)
 
 An excellent overview of what a 1-1 meeting is, why it's valuable, and how to
 structure them for success. Also includes an agenda template (in MS Word .doc
@@ -23,8 +22,7 @@ and .docx format) with more than a dozen suggested open-ended questions to
 stimulate conversation. This is a good place to start if you're building a
 process for 1-1 meetings.
 
-- [ ] [The 4 questions you should stop asking during your one-on-one
-meetings](https://m.signalvnoise.com/the-4-questions-you-should-stop-asking-during-your-one-on-one-meetings-ed7431da11aa)
+- [ ] [The 4 questions you should stop asking during your one-on-one meetings](https://m.signalvnoise.com/the-4-questions-you-should-stop-asking-during-your-one-on-one-meetings-ed7431da11aa)
 
 You’re probably already asking at least one of them – but it’s never too late
 to stop.
@@ -46,17 +44,14 @@ tens of thousands of companies that make our…
 
 This section contains links to career ladders and position expectations for
 technical staff. Not sure what a career ladder is or why your organization
-should have one? The [Wikipedia
-page](https://en.wikipedia.org/wiki/Career_ladder)
+should have one? The [Wikipedia page](https://en.wikipedia.org/wiki/Career_ladder)
 
-- [ ] [CTO vs VP Engineering: What's the Difference? - Ivy Exec
-Blog](https://www.ivyexec.com/executive-insights/2015/cto-versus-vp-engineering-whats-the-difference)
+- [ ] [CTO vs VP Engineering: What's the Difference? - Ivy Exec Blog](https://www.ivyexec.com/executive-insights/2015/cto-versus-vp-engineering-whats-the-difference)
 
 For a startup, a big question is determining which hire to make? CTO vs VP of
 Engineering? Learn the role for each in this article.
 
-- [ ] [Engineering Ladders at
-Meetup](https://medium.com/making-meetup/engineering-ladders-at-meetup-caacbea4916e)
+- [ ] [Engineering Ladders at Meetup](https://medium.com/making-meetup/engineering-ladders-at-meetup-caacbea4916e)
 
 Clear Expectations is one of the three pillars of management at Meetup. In my
 role as a fractional VP of Engineering, I was ecstatic to help Meetup’s HR team
@@ -69,28 +64,24 @@ Technical, Execution, Collaboration &amp; Communication, Influence, and
 Maturity. Searchable and filterable. A fantastic resource and highly
 recommended.
 
-- [ ] [Sharing Our Engineering
-Ladder](http://dresscode.renttherunway.com/blog/ladder)
+- [ ] [Sharing Our Engineering Ladder](http://dresscode.renttherunway.com/blog/ladder)
 
 I gave a talk last year at the NYC CTO summit on how and why to introduce
 structure into an engineering organization (slides available here ). I am a fan
 of structure and the clarity that it can provide an organization, despite its
 potential downsides. I'm not going to talk about the WHY very much
 
-- [ ] [Engineering
-Manager](https://github.com/ex-ttmers/values-and-expectations/blob/master/engineering_manager.md)
+- [ ] [Engineering Manager](https://github.com/ex-ttmers/values-and-expectations/blob/master/engineering_manager.md)
 
 Expectations for an Engineering Manager at Think Through Math. Note that some
 expectations are industry-specific.
 
-- [ ] [Senior Software
-Engineer](https://github.com/ex-ttmers/values-and-expectations/blob/master/senior_software_engineer.md)
+- [ ] [Senior Software Engineer](https://github.com/ex-ttmers/values-and-expectations/blob/master/senior_software_engineer.md)
 
 Expectations for a Senior Software Engineer at Think Through Math. Note that
 some expectations are industry-specific.
 
-- [ ] [Software
-Engineer](https://github.com/ex-ttmers/values-and-expectations/blob/master/software_engineer.md)
+- [ ] [Software Engineer](https://github.com/ex-ttmers/values-and-expectations/blob/master/software_engineer.md)
 
 Expectations for a Software Engineer at Think Through Math. Note that some
 expectations are industry-specific.
@@ -102,8 +93,7 @@ component of your organizational strategy. It also includes examples of
 organizations that are having success with D&amp;I initiatives or are doing a
 good job of being transparent about their progress and their goals.
 
-- [ ] [How Slack Got Ahead in
-Diversity](https://www.theatlantic.com/technology/archive/2018/04/how-slack-got-ahead-in-diversity/558806/)
+- [ ] [How Slack Got Ahead in Diversity](https://www.theatlantic.com/technology/archive/2018/04/how-slack-got-ahead-in-diversity/558806/)
 
 Slack released a [diversity report in
 2017](https://slackhq.com/diversity-at-slack-8dea4aaff7f1)
@@ -120,8 +110,7 @@ stressful](https://www.tinypulse.com/blog/difference-in-perception-between-gener
 But your team needs feedback and guidance on their performance. And whether we
 like to admit it or not, everyone likes being thanked for their work.
 
-- [ ] [Effective Phrases for Performance
-Appraisals](https://www.amazon.com/Effective-Phrases-Performance-Appraisals-Evaluations/dp/1882423135/)
+- [ ] [Effective Phrases for Performance Appraisals](https://www.amazon.com/Effective-Phrases-Performance-Appraisals-Evaluations/dp/1882423135/)
 
 The U.S. military does a 
 
@@ -133,8 +122,7 @@ Skills, Quality, Professionalism, and Dealing With Stress.
 If you work for a larger organization this is a good book to expense and share
 among the management team.
 
-- [ ] [Free Employee Performance Review
-Templates](https://www.smartsheet.com/free-employee-performance-review-templates)
+- [ ] [Free Employee Performance Review Templates](https://www.smartsheet.com/free-employee-performance-review-templates)
 
 Several templates in Microsoft Word and Excel formats that might help you in
 establishing or improving your performance review process. Notably they also
@@ -154,8 +142,7 @@ take more effort to implement in your organization. Also I highly recommend
 getting HR involved here so you don't accidentally create a discriminatory
 process.
 
-- [ ] [Why we use homework to recruit
-engineers](https://adhocteam.us/2018/02/26/why-we-use-homework-to-recruit-engineers/)
+- [ ] [Why we use homework to recruit engineers](https://adhocteam.us/2018/02/26/why-we-use-homework-to-recruit-engineers/)
 
 A blog post about how Ad Hoc uses take-home evaluations to evaluate technical
 skills, since they are a remote-first company so they don't do in-person
@@ -188,24 +175,20 @@ This is a model that's been used with interview scenarios but to my knowledge
 it's not been applied to the interview itself. This model would work especially
 well for a remote position.
 
-There's an accompanying [slide
-deck](https://www.beautiful.ai/deck/-LBBNBKF5JwsC5q8VSrv/So-what-do-you-do-in-your-spare-time)
+There's an accompanying [slide deck](https://www.beautiful.ai/deck/-LBBNBKF5JwsC5q8VSrv/So-what-do-you-do-in-your-spare-time)
 
-- [ ] [Improving Our Engineering Interview
-Process](https://engineering.foursquare.com/improving-our-engineering-interview-process-106173ba25a9)
+- [ ] [Improving Our Engineering Interview Process](https://engineering.foursquare.com/improving-our-engineering-interview-process-106173ba25a9)
 
 An article describing Foursquare's interview process after they switched to a
 take-home exercise. The article includes some information on their rubric and
 some lessons learned.
 
-- [ ] [How To Find and Hire Your First Engineer: For Early-Stage Startups -
-atrium](https://www.atrium.co/blog/hire-first-engineer/)
+- [ ] [How To Find and Hire Your First Engineer: For Early-Stage Startups - atrium](https://www.atrium.co/blog/hire-first-engineer/)
 
 Hiring your first engineer at a startup is incredibly hard. As a founder,
 you’re already stretched dangerously thin on time.…Read On
 
-- [ ] [Hiring Without
-Whiteboards](https://github.com/poteto/hiring-without-whiteboards)
+- [ ] [Hiring Without Whiteboards](https://github.com/poteto/hiring-without-whiteboards)
 
 As the title implies, this is actually just the front end for an Airtable DB of
 companies that have pledged to interview without whiteboard coding exercises or
@@ -216,14 +199,12 @@ From the README:
 It's also worth reviewing the short list of
 - [ ] [recommendations](https://github.com/poteto/hiring-without-whiteboards/blob/master/RECOMMENDATIONS.md)
 
-- [ ] [How to Recruit and Hire When You Need to Move
-Fast](https://medium.com/s/story/how-to-recruit-and-hire-when-you-need-to-move-fast-2d5f21fab5bc)
+- [ ] [How to Recruit and Hire When You Need to Move Fast](https://medium.com/s/story/how-to-recruit-and-hire-when-you-need-to-move-fast-2d5f21fab5bc)
 
 As you scale from hiring 10 people a year to 10 people a week, a small number
 of processes can go a long way
 
-- [ ] [A better way to interview software
-engineers](https://fulcrum.lever.co/a-better-way-to-interview-software-engineers-fa9b5d2b5316)
+- [ ] [A better way to interview software engineers](https://fulcrum.lever.co/a-better-way-to-interview-software-engineers-fa9b5d2b5316)
 
 An interview process that Lever is trying out that includes a mock code review
 as its core method for identifying developer skill. Lever provides the
@@ -232,12 +213,10 @@ feedback on how to improve it.
 
 The candidate's feedback is then evaluated in three areas:
 
-- [ ] [A Walkthrough Guide to Finding an Engineering Job at
-Slack](https://slack.engineering/a-walkthrough-guide-to-finding-an-engineering-job-at-slack-dc07dd7b0144)
+- [ ] [A Walkthrough Guide to Finding an Engineering Job at Slack](https://slack.engineering/a-walkthrough-guide-to-finding-an-engineering-job-at-slack-dc07dd7b0144)
 
 Slack has received a lot of praise for its growth trajectory and specifically
-for the [diversity of its technical
-team](https://www.theatlantic.com/technology/archive/2018/04/how-slack-got-ahead-in-diversity/558806/)
+for the [diversity of its technical team](https://www.theatlantic.com/technology/archive/2018/04/how-slack-got-ahead-in-diversity/558806/)
 
 ## Interview Question Banks
 
@@ -245,21 +224,18 @@ This section contains links to questions you can use to develop technical
 questions for candidates, either to ask in an interview or for candidates to
 fill out as part of an application.
 
-- [ ] [10 Interview Questions Every JavaScript Developer Should
-Know](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
+- [ ] [10 Interview Questions Every JavaScript Developer Should Know](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
 a list of questions and ideal responses for interviewing JavaScript developers.
 The questions are fairly broad but the author includes both 'Good to hear' and
 'Red flags' for candidate responses.
 
-- [ ] [Continuum Analytics interview
-questions](https://github.com/ContinuumIO/interview-questions)
+- [ ] [Continuum Analytics interview questions](https://github.com/ContinuumIO/interview-questions)
 
 A list of software-developer-specific interview questions, meant to be answered
 before an interview (as part of the resume submission).
 
-- [ ] [Front-end developer interview
-questions](https://h5bp.github.io/Front-end-Developer-Interview-Questions/)
+- [ ] [Front-end developer interview questions](https://h5bp.github.io/Front-end-Developer-Interview-Questions/)
 
 An extremely in-depth and well-curated list of interview questions mainly for
 front-end web developers. Covers HTML, CSS, JS, coding, and 'fun' categories.
@@ -268,21 +244,18 @@ Note that because of its popularity, people have taken the time to develop and
 - [ ] [post](https://github.com/yangshun/front-end-interview-handbook)
 - [ ] [answers](https://github.com/utatti/Front-end-Developer-Interview-Questions-And-Answers/tree/master/answers)
 
-- [ ] [Hire a Top Performer Every Time with These Interview
-Questions](http://firstround.com/review/hire-a-top-performer-every-time-with-these-interview-questions/)
+- [ ] [Hire a Top Performer Every Time with These Interview Questions](http://firstround.com/review/hire-a-top-performer-every-time-with-these-interview-questions/)
 
 Koru CEO Kristen Hamilton helps hundreds of people hire and get hired every
 year. These are the traits she knows translate into excellent performance on
 the job.
 
-- [ ] [iOS developer interview
-questions](https://github.com/dashvlas/awesome-ios-interview)
+- [ ] [iOS developer interview questions](https://github.com/dashvlas/awesome-ios-interview)
 
 iOS developer interview questions. Unfortunately the content is only available
 as [an app](http://appstore.com/awesomeinterview)
 
-- [ ] [Senior Web Developer interview
-questions](https://resources.workable.com/senior-web-developer-interview-questions)
+- [ ] [Senior Web Developer interview questions](https://resources.workable.com/senior-web-developer-interview-questions)
 
 An overview of what distinguishes a senior developer from a developer, and a
 list of questions in the following categories: Operational and Situational
@@ -297,8 +270,7 @@ interview scenarios can be controversial because they take a lot of a
 candidate's time and can discriminate against candidates who have
 responsibilities that limit their availability to work off-hours.
 
-- [ ] [A Voight-Kampff Test for Identifying Engineering
-Managers](https://hackernoon.com/a-voight-kampff-test-for-identifying-engineering-managers-bb8512c70857)
+- [ ] [A Voight-Kampff Test for Identifying Engineering Managers](https://hackernoon.com/a-voight-kampff-test-for-identifying-engineering-managers-bb8512c70857)
 
 When I joined Reddit in late 2016, I was faced with a unique challenge:
 tripling the size of the engineering organization within a year. At the time
@@ -311,31 +283,27 @@ exercises included in total, targeted at different hiring roles; front-end
 developer, software engineer/full-stack, back-end developer, DevOps/SRE, UX
 Designer, and Engineering Lead.
 
-- [ ] [Algorithm
-Questions](https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms)
+- [ ] [Algorithm Questions](https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms)
 
 This was written primarily from the candidate's point of view but many of these
 questions could be used as simple coding exercises. They focus on specific data
 structures and programming concepts so they're probably not appropriate for
 experienced candidates. Some examples:
 
-- [ ] [Learning Registry Developer
-Test](https://github.com/learningtapestry/learning-registry-developer-test)
+- [ ] [Learning Registry Developer Test](https://github.com/learningtapestry/learning-registry-developer-test)
 
 A back-end developer test that's designed around having the candidate write a
 wrapper for an existing API, and present a couple of methods to allow users to
 pull and filter the data. Originally designed for Ruby/Rails but could be
 adapted to .NET, Java or any server-side language.
 
-- [ ] [Simple Interview
-Exercises](https://medium.com/@rodbegbie/find-open-restaurants-an-engineering-take-home-test-dissected-1ada20282ceb)
+- [ ] [Simple Interview Exercises](https://medium.com/@rodbegbie/find-open-restaurants-an-engineering-take-home-test-dissected-1ada20282ceb)
 
 An article and post-natum on the author's experience with a take-home interview
 test. It includes a summary of the actual test as well as the author's thoughts
 on what went well about the process and what he would have changed.
 
-- [ ] [Hiring Assignment for Product
-Managers](https://www.slideshare.net/EugeneLevin/test-36020392)
+- [ ] [Hiring Assignment for Product Managers](https://www.slideshare.net/EugeneLevin/test-36020392)
 
 A 27-slide presentation describing a hiring assignment for Uber product manager
 candidates. It centers around the question, data shows that there are more drop
@@ -346,8 +314,7 @@ This is a detailed case study that's very specific to Uber but could be used
 for inspiration. Note that the slide deck also includes the author's
 submission.
 
-- [ ] [Product Manager Case
-Interview](http://www.venturegrit.com/what-everybody-ought-to-know-about-the-product-manager-case-interview/)
+- [ ] [Product Manager Case Interview](http://www.venturegrit.com/what-everybody-ought-to-know-about-the-product-manager-case-interview/)
 
 An article on screening product managers. It has a pretty good case interview
 scenario included although it's not specific. This is probably not enough for
@@ -355,16 +322,12 @@ you to use to write a Product Manager interview scenario by itself, but it will
 definitely help inform your thinking, and there are very few open resources in
 this area.
 
-- [ ] [Simple Interview
-Exercises](https://github.com/volunteermatch/interview-exercises/tree/master/java)
+- [ ] [Simple Interview Exercises](https://github.com/volunteermatch/interview-exercises/tree/master/java)
 
 A few very simple interview exercises, written in java. Examples include
-building a [basic
-calculator](https://github.com/volunteermatch/interview-exercises/tree/master/java/calculator)
-- [ ] [search-engine friendly
-URLs](https://github.com/volunteermatch/interview-exercises/tree/master/java/friendlyurl)
-- [ ] [simple
-hashmap](https://github.com/volunteermatch/interview-exercises/tree/master/java/simplehashmap)
+building a [basic calculator](https://github.com/volunteermatch/interview-exercises/tree/master/java/calculator)
+- [ ] [search-engine friendly URLs](https://github.com/volunteermatch/interview-exercises/tree/master/java/friendlyurl)
+- [ ] [simple hashmap](https://github.com/volunteermatch/interview-exercises/tree/master/java/simplehashmap)
 
 These would be good for using with a more junior developer or for someone you
 are considering whose only development experience is at a coding bootcamp.
@@ -375,8 +338,7 @@ This section contains links to job descriptions for various technical roles. We
 don't include links to posts on job boards because those aren't guaranteed to
 be accessible beyond the duration of the post.
 
-- [ ] [Various Technical Job Description
-Templates](https://enlist.io/resources/job-description-templates/information-technology)
+- [ ] [Various Technical Job Description Templates](https://enlist.io/resources/job-description-templates/information-technology)
 
 Job description templates for a wide variety of technical roles. Each
 description has a basic description of the role, a bulleted list of
@@ -426,14 +388,12 @@ aspire to manage one day, articles in this section might help. Because this is
 more of a strategic topic, these tools may not be as easy to put in to
 practice, but they're still worth the read.
 
-- [ ] [Advice from experienced leaders on managing
-up](https://getlighthouse.com/blog/managing-up-advice-experienced-leaders/)
+- [ ] [Advice from experienced leaders on managing up](https://getlighthouse.com/blog/managing-up-advice-experienced-leaders/)
 
 Advice and contributions from experienced management consultants on the process
 of managing one's manager.
 
-- [ ] [The Art of Managing
-Up](http://uthscsa.edu/gme/documents/TheArtofManagingUp.pdf)
+- [ ] [The Art of Managing Up](http://uthscsa.edu/gme/documents/TheArtofManagingUp.pdf)
 
 An overview of what managing up means in an organization, with a handful of
 guidelines for how to be successful: communicate, no surprises, provide
@@ -451,8 +411,7 @@ There are not many tools for it because it itself is a tool, but if you are
 looking for a way to set goals and objectives for your team, OKR is a great
 place to start.
 
-- [ ] [OKR report spreadsheet template by
-Weekdone](https://docs.google.com/spreadsheets/d/1DGOSjkW70bYsgtubVoEYNi65cS4U9po4GGUTpfhEVOk)
+- [ ] [OKR report spreadsheet template by Weekdone](https://docs.google.com/spreadsheets/d/1DGOSjkW70bYsgtubVoEYNi65cS4U9po4GGUTpfhEVOk)
 
 An OKR template implemented in Google Sheets. Make a copy and customize as you
 see fit. It's also worth reading the [accompanying
@@ -467,8 +426,7 @@ your quest to become better as a leader and manager.
 These aren't necessarily things you can put in to practice right away, but
 they're definitely worth your time.
 
-- [ ] [The Manager's
-Path](https://smile.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/)
+- [ ] [The Manager's Path](https://smile.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/)
 
 It's 2018, but did you know you can still learn things from reading books? If
 you're making the transition from individual contributor to manager or looking
@@ -483,8 +441,7 @@ software-focused leaders. It's been around since 2012! One email a week, and
 definitely worth your subscription.
 
  
-- [ ] [The Servant - A Simple Story About the True Essence of
-Leadership](https://smile.amazon.com/Servant-Simple-Story-Essence-Leadership-ebook/dp/B001AL662O/) 
+- [ ] [The Servant - A Simple Story About the True Essence of Leadership](https://smile.amazon.com/Servant-Simple-Story-Essence-Leadership-ebook/dp/B001AL662O/) 
 
 The Servant: A Simple Story About the True Essence of Leadership - Kindle
 edition by James C. Hunter. Download it once and read it on your Kindle device,
