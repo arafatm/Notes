@@ -242,3 +242,6 @@
 > Apophenia: We impose our imaginations on arrangements of data, seeing patterns where no such patterns exist. -- https://threadreaderapp.com/thread/1225561131122597896.html
 > Narrative Fallacy: When we see a sequence of facts we interpret them as a story by threading them together into an imagined chain of cause & effect. If a drug addict commits suicide we assume the drug habit led to the suicide, even if it didn’t. -- https://threadreaderapp.com/thread/1225561131122597896.html
 > Pareidolia: For aeons predators stalked us in undergrowth & shadow. In such times survival favored the paranoid—those who could discern a wolf from the vaguest of outlines. This paranoia preserved our species, but cursed us with pareidolia, so we now see wolves even in the skies. -- https://threadreaderapp.com/thread/1225561131122597896.html
+> Observing without evaluation is the highest form of intelligence. -- Indian philosopher J Krishnamurti, Nonviolent Communication
+> Instead of saying “I feel a bit down”, use sharper adjectives and clarify the reasons why -- Nonviolent Communication
+> Ask yourself “Why am I angry?” rather than “Who am I angry with?”  -- Nonviolent Communication
