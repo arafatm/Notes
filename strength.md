@@ -1,5 +1,23 @@
 # Lifting Log
 
+## 2020-03-28 Lower Body At Home 
+
+- 4x25 40# KB Deadlift
+- 4x10 Blue (thick) band goodmorning
+- 4x8 Goblet Squat slow 4s down, 4s up
+
+## 2020-04-02 Upper Body
+
+4x25
+- Dip
+- Shoulder retract/opp
+- pushup
+
+main
+- 5x10 pushup into iron cross
+
+# Archive
+
 ## 2019.05.06 lower heavy
 
 1x415 squat
