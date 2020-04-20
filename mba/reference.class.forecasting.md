@@ -137,7 +137,7 @@ HM Treasury recommended that these adjustments be **based on data from past
 projects or similar projects elsewhere**, and adjusted for the unique
 characteristics of the project at hand.
 
-![Forecast Transportation](forecasting_transportation.png)
+![Forecast Transportation](forecasting.png)
 - The uplifts refer to cost overrun calculated in constant prices.
 - The lower the acceptable risk for cost overrun, the higher the uplift.
 - For instance, with a willingness to accept a 50% risk for cost overrun in a
