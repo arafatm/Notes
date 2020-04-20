@@ -1,10 +1,10 @@
 [Source](https://app.getpocket.com/read/2806779161)
 
-> My digital life in a nutshell: I discover relevant content I don’t have time
-> to consume, I find time and become overwhelmed with my scattered backlog, I
-> wish the content were in a different format, and then I’m unable to find
-> something again once I’ve consumed it. Not retaining enough is a valid
-> problem but we’ll tackle that one later.
+My digital life in a nutshell: I discover relevant content I don’t have time to
+consume, I find time and become overwhelmed with my scattered backlog, I wish
+the content were in a different format, and then I’m unable to find something
+again once I’ve consumed it. Not retaining enough is a valid
+problem but we’ll tackle that one later.
 
 # Digital Tools I Wish Existed
 
@@ -21,12 +21,9 @@ and sharing digital content**. During the past few years I’ve noticed:
 
 * The more seamless the acquisition & ingestion, the more engaged I am with the
   content
-
 * Insights are just as likely to be found in a 400-page book as in a 40-minute
   podcast
-
 * Notes and their subsequent review are essential for long-term retention
-
 * Recommendations from other humans are as good, if not better, than
   algorithmic suggestions
     
